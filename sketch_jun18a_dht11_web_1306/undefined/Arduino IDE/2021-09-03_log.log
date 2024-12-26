@@ -1,0 +1,1600 @@
+2021-09-03 15:18:22 Using browser-only version of superagent in non-browser environment
+2021-09-03 15:18:22 Configuring to accept webviews on '^.+\.webview\..+$' hostname.
+2021-09-03 15:18:22 root WARN please install @theia/electron@1.12.0-next.1a1d7afc as a runtime dependency
+2021-09-03 15:18:22 root INFO Configuration directory URI: 'file:///home/brace/.theia'
+2021-09-03 15:18:22 root INFO Theia app listening on http://localhost:36639.
+2021-09-03 15:18:22 root WARN The local plugin referenced by local-dir:/home/brace/.arduinoIDE/plugins does not exist.
+2021-09-03 15:18:22 root WARN The local plugin referenced by local-dir:/home/brace/.arduinoIDE/extensions does not exist.
+2021-09-03 15:18:22 root WARN The local plugin referenced by local-dir:/home/brace/.arduinoProIDE/plugins does not exist.
+2021-09-03 15:18:22 root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2021-09-03 15:18:22 root INFO Resolved "cortex-debug" to a VS Code extension "cortex-debug@0.3.10" with engines:
+2021-09-03 15:18:22 root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2021-09-03 15:18:22 root INFO Resolved "vscode-arduino-tools" to a VS Code extension "vscode-arduino-tools@0.0.1-beta.1" with engines:
+2021-09-03 15:18:22 root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2021-09-03 15:18:22 root INFO Resolved "vscode-builtin-cpp" to a VS Code extension "cpp@1.52.1" with engines:
+2021-09-03 15:18:22 root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2021-09-03 15:18:22 root INFO Resolved "vscode-builtin-json" to a VS Code extension "json@1.46.1" with engines:
+2021-09-03 15:18:22 root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2021-09-03 15:18:22 root INFO Resolved "vscode-builtin-json-language-features" to a VS Code extension "json-language-features@1.46.1" with engines:
+2021-09-03 15:18:22 root INFO Deploying backend plugin "cortex-debug@0.3.10" from "/home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/plugins/cortex-debug/extension/dist/extension"
+2021-09-03 15:18:22 root INFO Deploying backend plugin "vscode-arduino-tools@0.0.1-beta.1" from "/home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/plugins/vscode-arduino-tools/extension/dist/bundle"
+2021-09-03 15:18:22 root INFO Deploying backend plugin "cpp@1.52.1" from "/home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/plugins/vscode-builtin-cpp/extension"
+2021-09-03 15:18:22 root INFO Deploying backend plugin "json@1.46.1" from "/home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/plugins/vscode-builtin-json/extension"
+2021-09-03 15:18:22 root INFO Deploying backend plugin "json-language-features@1.46.1" from "/home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/plugins/vscode-builtin-json-language-features/extension/client/dist/jsonMain"
+2021-09-03 15:18:22 root INFO Deploy plugins list took: 45.3 ms
+2021-09-03 15:18:22 root WARN Backend ConfigServiceImpl.onStart is slow, took: 82.9 ms
+2021-09-03 15:18:22 daemon INFO Starting daemon from /home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/node_modules/arduino-ide-extension/build/arduino-cli...
+2021-09-03 15:18:22 daemon INFO Using config file: /home/brace/.arduinoIDE/arduino-cli.yaml
+2021-09-03 15:18:22 daemon INFO arduino-cli version 0.18.3
+2021-09-03 15:18:22 daemon INFO Setting up Prometheus metrics on :9090/metrics
+2021-09-03 15:18:22 daemon INFO Starting daemon on TCP address 127.0.0.1:50051
+2021-09-03 15:18:22 daemon INFO Daemon is now listening on 127.0.0.1:50051...
+2021-09-03 15:18:22 daemon INFO Daemon is running.
+2021-09-03 15:18:24 daemon INFO Checking signature [index: /home/brace/.arduino15/package_index.json, signaturefile: /home/brace/.arduino15/package_index.json.sig, trusted: true]
+2021-09-03 15:18:24 daemon INFO Checking if CLI is Bundled into the IDE
+2021-09-03 15:18:24 daemon INFO Loading hardware from: /home/brace/.arduino15/packages
+2021-09-03 15:18:24 daemon INFO Loading package arduino from: /home/brace/.arduino15/packages/arduino/hardware
+2021-09-03 15:18:24 daemon INFO Loaded platform [platform: {ID:"arduino:avr",Installed:"1.8.3",Latest:"1.8.3",Name:"Arduino AVR Boards"}]
+2021-09-03 15:18:24 daemon INFO Checking existence of 'tools' path: /home/brace/.arduino15/packages/arduino/tools
+2021-09-03 15:18:24 daemon INFO Loading tools from dir: /home/brace/.arduino15/packages/arduino/tools
+2021-09-03 15:18:24 daemon INFO Loaded tool [tool: Version: 1.3.0 Systems: [OS: i686-linux-gnu, OS: x86_64-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: i386-apple-darwin11, OS: i686-mingw32]]
+2021-09-03 15:18:24 daemon INFO Loaded tool [tool: Version: 7.3.0-atmel3.6.1-arduino7 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin14, OS: i686-mingw32, OS: i686-linux-gnu, OS: x86_64-linux-gnu]]
+2021-09-03 15:18:24 daemon INFO Loaded tool [tool: Version: 6.3.0-arduino17 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin12, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2021-09-03 15:18:24 daemon INFO Loading package builtin from: /home/brace/.arduino15/packages/builtin
+2021-09-03 15:18:24 daemon INFO Checking existence of 'tools' path: /home/brace/.arduino15/packages/builtin/tools
+2021-09-03 15:18:24 daemon INFO Loading tools from dir: /home/brace/.arduino15/packages/builtin/tools
+2021-09-03 15:18:24 daemon INFO Loaded tool [tool: Version: 5.8-arduino11]
+2021-09-03 15:18:24 daemon INFO Loaded tool [tool: Version: 1.2.1]
+2021-09-03 15:18:24 daemon INFO Loading package esp32 from: /home/brace/.arduino15/packages/esp32/hardware
+2021-09-03 15:18:24 root INFO Git askpass helper is listening on http://127.0.0.1:44399.
+2021-09-03 15:18:24 daemon INFO Loaded platform [platform: {ID:"esp32:esp32",Installed:"1.0.6",Latest:"1.0.6",Name:"ESP32 Arduino"}]
+2021-09-03 15:18:24 daemon INFO Checking existence of 'tools' path: /home/brace/.arduino15/packages/esp32/tools
+2021-09-03 15:18:24 daemon INFO Loading tools from dir: /home/brace/.arduino15/packages/esp32/tools
+2021-09-03 15:18:24 daemon INFO Loaded tool [tool: Version: 3.0.0]
+2021-09-03 15:18:24 daemon INFO Loaded tool [tool: Version: 0.2.3]
+2021-09-03 15:18:24 daemon INFO Loaded tool [tool: Version: 1.22.0-97-gc752ad5-5.2.0]
+2021-09-03 15:18:24 daemon INFO Adding libraries dir [dir: /home/brace/Arduino/libraries, location: user]
+2021-09-03 15:18:24 daemon INFO Adding libraries dir [dir: /home/brace/.arduino15/packages/arduino/hardware/avr/1.8.3/libraries, location: platform]
+2021-09-03 15:18:24 daemon INFO Adding libraries dir [dir: /home/brace/.arduino15/packages/esp32/hardware/esp32/1.0.6/libraries, location: platform]
+2021-09-03 15:18:24 root INFO Using Git [2.25.1] from the PATH. (/usr/bin/git)
+2021-09-03 15:18:24 root WARN Frontend CommonFrontendContribution.configure is slow, took: 143.8 ms
+2021-09-03 15:18:24 root WARN Failed to resolve module: @types/body-parser
+2021-09-03 15:18:24 root WARN Failed to resolve module: @types/cookie
+2021-09-03 15:18:24 root WARN Failed to resolve module: @types/express
+2021-09-03 15:18:24 root WARN Failed to resolve module: @types/fs-extra
+2021-09-03 15:18:24 root WARN Failed to resolve module: @types/lodash.debounce
+2021-09-03 15:18:24 root WARN Failed to resolve module: @types/lodash.throttle
+2021-09-03 15:18:24 root WARN Failed to resolve module: @types/react
+2021-09-03 15:18:24 root WARN Failed to resolve module: @types/react-dom
+2021-09-03 15:18:24 root WARN Failed to resolve module: @types/react-virtualized
+2021-09-03 15:18:24 root WARN Failed to resolve module: @types/route-parser
+2021-09-03 15:18:24 root WARN Failed to resolve module: @types/safer-buffer
+2021-09-03 15:18:24 root WARN Failed to resolve module: @types/ws
+2021-09-03 15:18:24 root WARN Failed to resolve module: @types/yargs
+2021-09-03 15:18:24 root WARN Failed to resolve module: @theia/monaco
+2021-09-03 15:18:24 root WARN Failed to resolve module: @theia/editor
+2021-09-03 15:18:24 root WARN Failed to resolve module: @types/rimraf
+2021-09-03 15:18:24 root WARN Failed to resolve module: @types/tar-fs
+2021-09-03 15:18:24 root WARN Failed to resolve module: @types/uuid
+2021-09-03 15:18:24 root WARN Failed to resolve module: @theia/navigator
+2021-09-03 15:18:24 root WARN Failed to resolve module: @types/p-queue
+2021-09-03 15:18:24 root WARN Failed to resolve module: @theia/preferences
+2021-09-03 15:18:24 root WARN Failed to resolve module: @theia/electron
+2021-09-03 15:18:24 root WARN Failed to resolve module: @theia/keymaps
+2021-09-03 15:18:24 root WARN Failed to resolve module: @theia/messages
+2021-09-03 15:18:24 root WARN Failed to resolve module: @types/diff
+2021-09-03 15:18:24 root WARN Failed to resolve module: @types/dompurify
+2021-09-03 15:18:24 root WARN Failed to resolve module: @types/mime
+2021-09-03 15:18:24 root WARN Failed to resolve module: @types/request
+2021-09-03 15:18:24 root WARN Failed to resolve module: @types/atob
+2021-09-03 15:18:24 root WARN Failed to resolve module: @types/auth0-js
+2021-09-03 15:18:24 root WARN Failed to resolve module: @types/btoa
+2021-09-03 15:18:24 root WARN Failed to resolve module: @types/dateformat
+2021-09-03 15:18:24 root WARN Failed to resolve module: @types/deepmerge
+2021-09-03 15:18:24 root WARN Failed to resolve module: @types/glob
+2021-09-03 15:18:24 root WARN Failed to resolve module: @types/google-protobuf
+2021-09-03 15:18:24 root WARN Failed to resolve module: @types/js-yaml
+2021-09-03 15:18:24 root WARN Failed to resolve module: @types/keytar
+2021-09-03 15:18:24 root WARN Failed to resolve module: @types/ncp
+2021-09-03 15:18:24 root WARN Failed to resolve module: @types/node-fetch
+2021-09-03 15:18:24 root WARN Failed to resolve module: @types/ps-tree
+2021-09-03 15:18:24 root WARN Failed to resolve module: @types/react-select
+2021-09-03 15:18:24 root WARN Failed to resolve module: @types/react-tabs
+2021-09-03 15:18:24 root WARN Failed to resolve module: @types/sinon
+2021-09-03 15:18:24 root WARN Failed to resolve module: @types/temp
+2021-09-03 15:18:24 root WARN Failed to resolve module: @types/which
+2021-09-03 15:18:24 root WARN Failed to resolve module: temp
+2021-09-03 15:18:24 daemon INFO URL: https://downloads.arduino.cc/packages/package_index.json
+2021-09-03 15:18:24 daemon INFO Updating index [url: https://downloads.arduino.cc/packages/package_index.json]
+2021-09-03 15:18:25 root INFO Updating index: package_index.json completed.
+2021-09-03 15:18:25 root INFO Updating index: package_index.json.sig completed.
+2021-09-03 15:18:25 daemon INFO Checking signature [error: opening signature file: open /tmp/458895959.sig: no such file or directory, index: /tmp/458895959, signaturefile: /tmp/458895959.sig]
+2021-09-03 15:18:25 daemon INFO Checking signature [index: /home/brace/.arduino15/package_index.json, signaturefile: /home/brace/.arduino15/package_index.json.sig, trusted: true]
+2021-09-03 15:18:25 daemon INFO Loading hardware from: /home/brace/.arduino15/packages
+2021-09-03 15:18:25 daemon INFO Loading package arduino from: /home/brace/.arduino15/packages/arduino/hardware
+2021-09-03 15:18:25 daemon INFO Loaded platform [platform: {ID:"arduino:avr",Installed:"1.8.3",Latest:"1.8.3",Name:"Arduino AVR Boards"}]
+2021-09-03 15:18:25 daemon INFO Checking existence of 'tools' path: /home/brace/.arduino15/packages/arduino/tools
+2021-09-03 15:18:25 daemon INFO Loading tools from dir: /home/brace/.arduino15/packages/arduino/tools
+2021-09-03 15:18:25 daemon INFO Loaded tool [tool: Version: 1.3.0 Systems: [OS: i686-linux-gnu, OS: x86_64-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: i386-apple-darwin11, OS: i686-mingw32]]
+2021-09-03 15:18:25 daemon INFO Loaded tool [tool: Version: 7.3.0-atmel3.6.1-arduino7 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin14, OS: i686-mingw32, OS: i686-linux-gnu, OS: x86_64-linux-gnu]]
+2021-09-03 15:18:25 daemon INFO Loaded tool [tool: Version: 6.3.0-arduino17 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin12, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2021-09-03 15:18:25 daemon INFO Loading package builtin from: /home/brace/.arduino15/packages/builtin
+2021-09-03 15:18:25 daemon INFO Checking existence of 'tools' path: /home/brace/.arduino15/packages/builtin/tools
+2021-09-03 15:18:25 daemon INFO Loading tools from dir: /home/brace/.arduino15/packages/builtin/tools
+2021-09-03 15:18:25 daemon INFO Loaded tool [tool: Version: 5.8-arduino11]
+2021-09-03 15:18:25 daemon INFO Loaded tool [tool: Version: 1.2.1]
+2021-09-03 15:18:25 daemon INFO Loading package esp32 from: /home/brace/.arduino15/packages/esp32/hardware
+2021-09-03 15:18:25 daemon INFO Loaded platform [platform: {ID:"esp32:esp32",Installed:"1.0.6",Latest:"1.0.6",Name:"ESP32 Arduino"}]
+2021-09-03 15:18:25 daemon INFO Checking existence of 'tools' path: /home/brace/.arduino15/packages/esp32/tools
+2021-09-03 15:18:25 daemon INFO Loading tools from dir: /home/brace/.arduino15/packages/esp32/tools
+2021-09-03 15:18:25 daemon INFO Loaded tool [tool: Version: 3.0.0]
+2021-09-03 15:18:25 daemon INFO Loaded tool [tool: Version: 0.2.3]
+2021-09-03 15:18:25 daemon INFO Loaded tool [tool: Version: 1.22.0-97-gc752ad5-5.2.0]
+2021-09-03 15:18:25 daemon INFO Adding libraries dir [dir: /home/brace/Arduino/libraries, location: user]
+2021-09-03 15:18:25 daemon INFO Adding libraries dir [dir: /home/brace/.arduino15/packages/esp32/hardware/esp32/1.0.6/libraries, location: platform]
+2021-09-03 15:18:25 daemon INFO Adding libraries dir [dir: /home/brace/.arduino15/packages/arduino/hardware/avr/1.8.3/libraries, location: platform]
+2021-09-03 15:18:25 daemon INFO Updating libraries index
+2021-09-03 15:18:26 root INFO Updating index: library_index.json completed.
+2021-09-03 15:18:26 daemon INFO Checking signature [index: /home/brace/.arduino15/package_index.json, signaturefile: /home/brace/.arduino15/package_index.json.sig, trusted: true]
+2021-09-03 15:18:26 daemon INFO Loading hardware from: /home/brace/.arduino15/packages
+2021-09-03 15:18:26 daemon INFO Loading package arduino from: /home/brace/.arduino15/packages/arduino/hardware
+2021-09-03 15:18:26 daemon INFO Loaded platform [platform: {ID:"arduino:avr",Installed:"1.8.3",Latest:"1.8.3",Name:"Arduino AVR Boards"}]
+2021-09-03 15:18:26 daemon INFO Checking existence of 'tools' path: /home/brace/.arduino15/packages/arduino/tools
+2021-09-03 15:18:26 daemon INFO Loading tools from dir: /home/brace/.arduino15/packages/arduino/tools
+2021-09-03 15:18:26 daemon INFO Loaded tool [tool: Version: 1.3.0 Systems: [OS: i686-linux-gnu, OS: x86_64-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: i386-apple-darwin11, OS: i686-mingw32]]
+2021-09-03 15:18:26 daemon INFO Loaded tool [tool: Version: 7.3.0-atmel3.6.1-arduino7 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin14, OS: i686-mingw32, OS: i686-linux-gnu, OS: x86_64-linux-gnu]]
+2021-09-03 15:18:26 daemon INFO Loaded tool [tool: Version: 6.3.0-arduino17 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin12, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2021-09-03 15:18:26 daemon INFO Loading package builtin from: /home/brace/.arduino15/packages/builtin
+2021-09-03 15:18:26 daemon INFO Checking existence of 'tools' path: /home/brace/.arduino15/packages/builtin/tools
+2021-09-03 15:18:26 daemon INFO Loading tools from dir: /home/brace/.arduino15/packages/builtin/tools
+2021-09-03 15:18:26 daemon INFO Loaded tool [tool: Version: 5.8-arduino11]
+2021-09-03 15:18:26 daemon INFO Loaded tool [tool: Version: 1.2.1]
+2021-09-03 15:18:26 daemon INFO Loading package esp32 from: /home/brace/.arduino15/packages/esp32/hardware
+2021-09-03 15:18:26 daemon INFO Loaded platform [platform: {ID:"esp32:esp32",Installed:"1.0.6",Latest:"1.0.6",Name:"ESP32 Arduino"}]
+2021-09-03 15:18:26 daemon INFO Checking existence of 'tools' path: /home/brace/.arduino15/packages/esp32/tools
+2021-09-03 15:18:26 daemon INFO Loading tools from dir: /home/brace/.arduino15/packages/esp32/tools
+2021-09-03 15:18:26 daemon INFO Loaded tool [tool: Version: 3.0.0]
+2021-09-03 15:18:26 daemon INFO Loaded tool [tool: Version: 0.2.3]
+2021-09-03 15:18:26 daemon INFO Loaded tool [tool: Version: 1.22.0-97-gc752ad5-5.2.0]
+2021-09-03 15:18:26 daemon INFO Adding libraries dir [dir: /home/brace/Arduino/libraries, location: user]
+2021-09-03 15:18:26 daemon INFO Adding libraries dir [dir: /home/brace/.arduino15/packages/arduino/hardware/avr/1.8.3/libraries, location: platform]
+2021-09-03 15:18:26 daemon INFO Adding libraries dir [dir: /home/brace/.arduino15/packages/esp32/hardware/esp32/1.0.6/libraries, location: platform]
+2021-09-03 15:18:26 root WARN Frontend EditorNavigationContribution.onStart is slow, took: 2008.6 ms
+2021-09-03 15:18:26 root INFO Changed application state from 'init' to 'started_contributions'.
+2021-09-03 15:18:26 root INFO Changed application state from 'started_contributions' to 'attached_shell'.
+2021-09-03 15:18:26 root INFO >>> Restoring the layout state...
+2021-09-03 15:18:26 root INFO [hosted-plugin: 421396] PLUGIN_HOST(421396) starting instance
+2021-09-03 15:18:27 root INFO Attached boards and available ports changed:
+2021-09-03 15:18:27 root INFO  - New port is available on /dev/ttyUSB0
+2021-09-03 15:18:27 root INFO ------------------------------------------
+2021-09-03 15:18:27 root INFO [a012f356-1146-4e7a-a304-2229b81c978e] Sync of 5 plugins took: 532.6 ms
+2021-09-03 15:18:28 root INFO <<< The layout has been successfully restored.
+2021-09-03 15:18:28 root INFO Changed application state from 'attached_shell' to 'initialized_layout'.
+2021-09-03 15:18:28 root INFO [a012f356-1146-4e7a-a304-2229b81c978e][marus25.cortex-debug]: Loaded contributions.
+2021-09-03 15:18:28 root INFO [a012f356-1146-4e7a-a304-2229b81c978e][arduino.vscode-arduino-tools]: Loaded contributions.
+2021-09-03 15:18:28 root INFO [a012f356-1146-4e7a-a304-2229b81c978e][vscode.cpp]: Loaded contributions.
+2021-09-03 15:18:28 root INFO [a012f356-1146-4e7a-a304-2229b81c978e][vscode.json]: Loaded contributions.
+2021-09-03 15:18:28 root INFO [a012f356-1146-4e7a-a304-2229b81c978e][vscode.json-language-features]: Loaded contributions.
+2021-09-03 15:18:28 root INFO [a012f356-1146-4e7a-a304-2229b81c978e] Load contributions of 5 plugins took: 100.8 ms
+2021-09-03 15:18:28 root WARN Frontend PluginViewRegistry.onDidInitializeLayout is slow, took: 101.8 ms
+2021-09-03 15:18:28 root WARN 'cpp' language is remapped from 'source.cpp.embedded.macro' to 'source.cpp' scope
+2021-09-03 15:18:28 root WARN a registered grammar configuration for 'cpp' language is overridden
+2021-09-03 15:18:29 root INFO Changed application state from 'initialized_layout' to 'ready'.
+2021-09-03 15:18:29 root INFO [hosted-plugin: 421396] PLUGIN_HOST(421396): PluginManagerExtImpl/init()
+2021-09-03 15:18:29 root INFO [hosted-plugin: 421396] PLUGIN_HOST(421396): initializing(cortex-debug@0.3.10 with /home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init.js)
+2021-09-03 15:18:29 root INFO [hosted-plugin: 421396] Debugger contribution has been registered: cortex-debug
+2021-09-03 15:18:29 root INFO [hosted-plugin: 421396] PLUGIN_HOST(421396): initializing(vscode-arduino-tools@0.0.1-beta.1 with /home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init.js)
+2021-09-03 15:18:29 root INFO [hosted-plugin: 421396] PLUGIN_HOST(421396): initializing(cpp@1.52.1 with /home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init.js)
+2021-09-03 15:18:29 root INFO [hosted-plugin: 421396] PLUGIN_HOST(421396): initializing(json@1.46.1 with /home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init.js)
+2021-09-03 15:18:29 root INFO [hosted-plugin: 421396] PLUGIN_HOST(421396): initializing(json-language-features@1.46.1 with /home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init.js)
+2021-09-03 15:18:29 root INFO [hosted-plugin: 421396] PLUGIN_HOST(421396): PluginManagerExtImpl/loadPlugin(/home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/plugins/vscode-builtin-json-language-features/extension/client/dist/jsonMain)
+2021-09-03 15:18:29 root INFO [hosted-plugin: 421396] PLUGIN_HOST(421396): PluginManagerExtImpl/loadPlugin(/home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/plugins/vscode-arduino-tools/extension/dist/bundle)
+2021-09-03 15:18:29 root INFO [a012f356-1146-4e7a-a304-2229b81c978e][marus25.cortex-debug]: Started plugin.
+2021-09-03 15:18:29 root INFO [a012f356-1146-4e7a-a304-2229b81c978e][arduino.vscode-arduino-tools]: Started plugin.
+2021-09-03 15:18:29 root INFO [a012f356-1146-4e7a-a304-2229b81c978e][vscode.cpp]: Started plugin.
+2021-09-03 15:18:29 root INFO [a012f356-1146-4e7a-a304-2229b81c978e][vscode.json]: Started plugin.
+2021-09-03 15:18:29 root INFO [a012f356-1146-4e7a-a304-2229b81c978e][vscode.json-language-features]: Started plugin.
+2021-09-03 15:18:29 root INFO [a012f356-1146-4e7a-a304-2229b81c978e] Start of 5 plugins took: 1238.3 ms
+2021-09-03 15:23:46 root WARN Frontend CommonFrontendContribution.configure is slow, took: 101.4 ms
+2021-09-03 15:23:46 root WARN Frontend EditorNavigationContribution.onStart is slow, took: 224.6 ms
+2021-09-03 15:23:46 root INFO Board config changed: 
+2021-09-03 15:23:46 root INFO Changed application state from 'init' to 'started_contributions'.
+2021-09-03 15:23:46 root INFO Changed application state from 'started_contributions' to 'attached_shell'.
+2021-09-03 15:23:46 root INFO >>> Restoring the layout state...
+2021-09-03 15:23:46 root INFO <<< Nothing to restore.
+2021-09-03 15:23:46 root INFO [hosted-plugin: 421699] PLUGIN_HOST(421699) starting instance
+2021-09-03 15:23:47 root INFO [6182728c-0e1b-49e0-a5f5-6d838d0c3685] Sync of 5 plugins took: 570.3 ms
+2021-09-03 15:23:47 root INFO Changed application state from 'attached_shell' to 'initialized_layout'.
+2021-09-03 15:23:47 root INFO [6182728c-0e1b-49e0-a5f5-6d838d0c3685][marus25.cortex-debug]: Loaded contributions.
+2021-09-03 15:23:47 root INFO [6182728c-0e1b-49e0-a5f5-6d838d0c3685][arduino.vscode-arduino-tools]: Loaded contributions.
+2021-09-03 15:23:47 root INFO [6182728c-0e1b-49e0-a5f5-6d838d0c3685][vscode.cpp]: Loaded contributions.
+2021-09-03 15:23:47 root INFO [6182728c-0e1b-49e0-a5f5-6d838d0c3685][vscode.json]: Loaded contributions.
+2021-09-03 15:23:47 root INFO [6182728c-0e1b-49e0-a5f5-6d838d0c3685][vscode.json-language-features]: Loaded contributions.
+2021-09-03 15:23:47 root INFO [6182728c-0e1b-49e0-a5f5-6d838d0c3685] Load contributions of 5 plugins took: 36.7 ms
+2021-09-03 15:23:47 root WARN 'cpp' language is remapped from 'source.cpp.embedded.macro' to 'source.cpp' scope
+2021-09-03 15:23:47 root WARN a registered grammar configuration for 'cpp' language is overridden
+2021-09-03 15:23:48 root INFO Changed application state from 'initialized_layout' to 'ready'.
+2021-09-03 15:23:49 root INFO [hosted-plugin: 421699] PLUGIN_HOST(421699): PluginManagerExtImpl/init()
+2021-09-03 15:23:49 root INFO [hosted-plugin: 421699] PLUGIN_HOST(421699): initializing(cortex-debug@0.3.10 with /home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init.js)
+2021-09-03 15:23:49 root INFO [hosted-plugin: 421699] Debugger contribution has been registered: cortex-debug
+2021-09-03 15:23:49 root INFO [hosted-plugin: 421699] PLUGIN_HOST(421699): initializing(vscode-arduino-tools@0.0.1-beta.1 with /home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init.js)
+2021-09-03 15:23:49 root INFO [hosted-plugin: 421699] PLUGIN_HOST(421699): initializing(cpp@1.52.1 with /home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init.js)
+2021-09-03 15:23:49 root INFO [hosted-plugin: 421699] PLUGIN_HOST(421699): initializing(json@1.46.1 with /home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init.js)
+2021-09-03 15:23:49 root INFO [hosted-plugin: 421699] PLUGIN_HOST(421699): initializing(json-language-features@1.46.1 with /home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init.js)
+2021-09-03 15:23:49 root INFO [hosted-plugin: 421699] PLUGIN_HOST(421699): PluginManagerExtImpl/loadPlugin(/home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/plugins/vscode-builtin-json-language-features/extension/client/dist/jsonMain)
+2021-09-03 15:23:49 root INFO [6182728c-0e1b-49e0-a5f5-6d838d0c3685][marus25.cortex-debug]: Started plugin.
+2021-09-03 15:23:49 root INFO [6182728c-0e1b-49e0-a5f5-6d838d0c3685][arduino.vscode-arduino-tools]: Started plugin.
+2021-09-03 15:23:49 root INFO [6182728c-0e1b-49e0-a5f5-6d838d0c3685][vscode.cpp]: Started plugin.
+2021-09-03 15:23:49 root INFO [6182728c-0e1b-49e0-a5f5-6d838d0c3685][vscode.json]: Started plugin.
+2021-09-03 15:23:49 root INFO [6182728c-0e1b-49e0-a5f5-6d838d0c3685][vscode.json-language-features]: Started plugin.
+2021-09-03 15:23:49 root INFO [6182728c-0e1b-49e0-a5f5-6d838d0c3685] Start of 5 plugins took: 2295.8 ms
+2021-09-03 15:24:37 root INFO Board config changed: 
+2021-09-03 15:25:10 root INFO Board config changed: 
+2021-09-03 15:25:10 root INFO Starting language server: esp32:esp32:fm-devkit
+2021-09-03 15:25:10 root INFO [hosted-plugin: 421699] PLUGIN_HOST(421699): PluginManagerExtImpl/loadPlugin(/home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/plugins/vscode-arduino-tools/extension/dist/bundle)
+2021-09-03 15:25:19 daemon INFO inventory.Store.ConfigFileUsed() /home/brace/.arduino15/inventory.yaml
+2021-09-03 15:25:19 daemon INFO inventory.Store.ConfigFileUsed() /home/brace/.arduino15/inventory.yaml
+2021-09-03 15:25:19 daemon INFO Searching tools required for board esp32:esp32:fm-devkit
+2021-09-03 15:25:19 daemon INFO Adding libraries dir [dir: /home/brace/Projects/robots/mbot/arduino-1.8.15/libraries, location: ide]
+2021-09-03 15:25:19 daemon INFO Adding libraries dir [dir: /home/brace/.arduino15/packages/esp32/hardware/esp32/1.0.6/libraries, location: platform]
+2021-09-03 15:25:19 daemon INFO Adding libraries dir [dir: /home/brace/Arduino/libraries, location: user]
+2021-09-03 15:25:20 daemon INFO Resolving include SPI.h for arch esp32
+2021-09-03 15:25:20 daemon INFO   found better lib [lib: SPI, prio: 5E8]
+2021-09-03 15:25:20 daemon INFO Resolving include DHT.h for arch esp32
+2021-09-03 15:25:20 daemon INFO   found better lib [lib: DHT_sensor_library, prio: 517]
+2021-09-03 15:25:20 daemon INFO Resolving include Wire.h for arch esp32
+2021-09-03 15:25:20 daemon INFO   found better lib [lib: Wire, prio: 5E8]
+2021-09-03 15:25:20 daemon INFO Resolving include WiFi.h for arch esp32
+2021-09-03 15:25:20 daemon INFO   found better lib [lib: WiFi, prio: 5DC]
+2021-09-03 15:25:20 daemon INFO   found better lib [lib: WiFi, prio: 5E8]
+2021-09-03 15:25:21 daemon INFO Resolving include Adafruit_GFX.h for arch esp32
+2021-09-03 15:25:21 daemon INFO   found better lib [lib: Adafruit_GFX_Library, prio: 517]
+2021-09-03 15:25:21 daemon INFO Resolving include Adafruit_I2CDevice.h for arch esp32
+2021-09-03 15:25:21 daemon INFO   found better lib [lib: Adafruit_BusIO, prio: 3EB]
+2021-09-03 15:25:21 daemon INFO Resolving include SSD1306.h for arch esp32
+2021-09-03 15:25:21 daemon INFO   found better lib [lib: ESP8266_and_ESP32_OLED_driver_for_SSD1306_displays, prio: 459]
+2021-09-03 15:25:22 daemon INFO Resolving include Adafruit_Sensor.h for arch esp32
+2021-09-03 15:25:22 daemon INFO   found better lib [lib: Adafruit_Unified_Sensor, prio: 3EB]
+2021-09-03 15:25:45 monitor-service INFO >>> Disposing monitor service...
+2021-09-03 15:25:45 monitor-service INFO <<< Disposed monitor service.
+2021-09-03 15:25:50 daemon INFO inventory.Store.ConfigFileUsed() /home/brace/.arduino15/inventory.yaml
+2021-09-03 15:25:50 daemon INFO inventory.Store.ConfigFileUsed() /home/brace/.arduino15/inventory.yaml
+2021-09-03 15:25:50 daemon INFO Searching tools required for board esp32:esp32:fm-devkit
+2021-09-03 15:25:50 daemon INFO Adding libraries dir [dir: /home/brace/Projects/robots/mbot/arduino-1.8.15/libraries, location: ide]
+2021-09-03 15:25:50 daemon INFO Adding libraries dir [dir: /home/brace/.arduino15/packages/esp32/hardware/esp32/1.0.6/libraries, location: platform]
+2021-09-03 15:25:50 daemon INFO Adding libraries dir [dir: /home/brace/Arduino/libraries, location: user]
+2021-09-03 15:25:51 daemon INFO Resolving include SPI.h for arch esp32
+2021-09-03 15:25:51 daemon INFO   found better lib [lib: SPI, prio: 5E8]
+2021-09-03 15:25:51 daemon INFO Resolving include DHT.h for arch esp32
+2021-09-03 15:25:51 daemon INFO   found better lib [lib: DHT_sensor_library, prio: 517]
+2021-09-03 15:25:51 daemon INFO Resolving include Wire.h for arch esp32
+2021-09-03 15:25:51 daemon INFO   found better lib [lib: Wire, prio: 5E8]
+2021-09-03 15:25:51 daemon INFO Resolving include WiFi.h for arch esp32
+2021-09-03 15:25:51 daemon INFO   found better lib [lib: WiFi, prio: 5DC]
+2021-09-03 15:25:51 daemon INFO   found better lib [lib: WiFi, prio: 5E8]
+2021-09-03 15:25:51 daemon INFO Resolving include Adafruit_GFX.h for arch esp32
+2021-09-03 15:25:51 daemon INFO   found better lib [lib: Adafruit_GFX_Library, prio: 517]
+2021-09-03 15:25:51 daemon INFO Resolving include Adafruit_I2CDevice.h for arch esp32
+2021-09-03 15:25:51 daemon INFO   found better lib [lib: Adafruit_BusIO, prio: 3EB]
+2021-09-03 15:25:52 daemon INFO Resolving include SSD1306.h for arch esp32
+2021-09-03 15:25:52 daemon INFO   found better lib [lib: ESP8266_and_ESP32_OLED_driver_for_SSD1306_displays, prio: 459]
+2021-09-03 15:25:52 daemon INFO Resolving include Adafruit_Sensor.h for arch esp32
+2021-09-03 15:25:52 daemon INFO   found better lib [lib: Adafruit_Unified_Sensor, prio: 3EB]
+2021-09-03 15:25:55 monitor-service INFO >>> Creating serial monitor connection for ESP32 FM DevKit [esp32:esp32:fm-devkit] on port /dev/ttyUSB0...
+2021-09-03 15:25:55 monitor-service INFO <<< Serial monitor connection created for ESP32 FM DevKit on port /dev/ttyUSB0.
+2021-09-03 15:25:55 root INFO >>> Creating serial monitor connection for ESP32 FM DevKit [esp32:esp32:fm-devkit] on port /dev/ttyUSB0...
+2021-09-03 15:25:55 root INFO <<< Serial monitor connection created for ESP32 FM DevKit on port /dev/ttyUSB0.
+2021-09-03 15:25:55 daemon INFO Searching tools required for board esp32:esp32:fm-devkit
+2021-09-03 15:25:55 daemon INFO Tool required for upload [tool: Version: 0.2.3]
+2021-09-03 15:25:55 daemon INFO Tool required for upload [tool: Version: 1.22.0-97-gc752ad5-5.2.0]
+2021-09-03 15:25:55 daemon INFO Tool required for upload [tool: Version: 6.3.0-arduino17 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin12, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2021-09-03 15:25:55 daemon INFO Tool required for upload [tool: Version: 1.3.0 Systems: [OS: i686-linux-gnu, OS: x86_64-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: i386-apple-darwin11, OS: i686-mingw32]]
+2021-09-03 15:25:55 daemon INFO Tool required for upload [tool: Version: 7.3.0-atmel3.6.1-arduino7 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin14, OS: i686-mingw32, OS: i686-linux-gnu, OS: x86_64-linux-gnu]]
+2021-09-03 15:25:56 daemon INFO Tool required for upload [tool: Version: 5.8-arduino11]
+2021-09-03 15:25:56 daemon INFO Tool required for upload [tool: Version: 1.2.1 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2021-09-03 15:25:56 daemon INFO Tool required for upload [tool: Version: 3.0.0]
+2021-09-03 15:25:56 root ERROR Request upload failed with error: 2 UNKNOWN: a programmer is required to upload for this board
+2021-09-03 15:26:52 root INFO Board config changed: 
+2021-09-03 15:26:52 monitor-service INFO >>> Disposing monitor connection...
+2021-09-03 15:26:52 monitor-service INFO <<< Disposed monitor connection for ESP32 FM DevKit on port /dev/ttyUSB0.
+2021-09-03 15:26:52 root INFO >>> Disposing existing monitor connection...
+2021-09-03 15:26:52 monitor-service INFO >>> Creating serial monitor connection for ESP32 Wrover Module [esp32:esp32:esp32wrover] on port /dev/ttyUSB0...
+2021-09-03 15:26:52 monitor-service INFO <<< Serial monitor connection created for ESP32 Wrover Module on port /dev/ttyUSB0.
+2021-09-03 15:26:52 root INFO <<< Disposed connection. Was: ESP32 FM DevKit [esp32:esp32:fm-devkit] /dev/ttyUSB0
+2021-09-03 15:26:52 root INFO >>> Creating serial monitor connection for ESP32 Wrover Module [esp32:esp32:esp32wrover] on port /dev/ttyUSB0...
+2021-09-03 15:26:52 root INFO <<< Serial monitor connection created for ESP32 Wrover Module on port /dev/ttyUSB0.
+2021-09-03 15:26:52 root INFO Starting language server: esp32:esp32:esp32wrover
+2021-09-03 15:26:57 monitor-service INFO >>> Disposing monitor connection...
+2021-09-03 15:26:57 monitor-service INFO <<< Disposed monitor connection for ESP32 Wrover Module on port /dev/ttyUSB0.
+2021-09-03 15:26:57 root INFO >>> Disposing existing monitor connection...
+2021-09-03 15:26:57 root INFO <<< Disposed connection. Was: ESP32 Wrover Module [esp32:esp32:esp32wrover] /dev/ttyUSB0
+2021-09-03 15:26:57 daemon INFO inventory.Store.ConfigFileUsed() /home/brace/.arduino15/inventory.yaml
+2021-09-03 15:26:57 daemon INFO inventory.Store.ConfigFileUsed() /home/brace/.arduino15/inventory.yaml
+2021-09-03 15:26:57 daemon INFO Searching tools required for board esp32:esp32:esp32wrover
+2021-09-03 15:26:57 daemon INFO Adding libraries dir [dir: /home/brace/Projects/robots/mbot/arduino-1.8.15/libraries, location: ide]
+2021-09-03 15:26:57 daemon INFO Adding libraries dir [dir: /home/brace/.arduino15/packages/esp32/hardware/esp32/1.0.6/libraries, location: platform]
+2021-09-03 15:26:57 daemon INFO Adding libraries dir [dir: /home/brace/Arduino/libraries, location: user]
+2021-09-03 15:26:57 daemon INFO Resolving include SPI.h for arch esp32
+2021-09-03 15:26:57 daemon INFO   found better lib [lib: SPI, prio: 5E8]
+2021-09-03 15:26:58 daemon INFO Resolving include DHT.h for arch esp32
+2021-09-03 15:26:58 daemon INFO   found better lib [lib: DHT_sensor_library, prio: 517]
+2021-09-03 15:26:58 daemon INFO Resolving include Wire.h for arch esp32
+2021-09-03 15:26:58 daemon INFO   found better lib [lib: Wire, prio: 5E8]
+2021-09-03 15:26:58 daemon INFO Resolving include WiFi.h for arch esp32
+2021-09-03 15:26:58 daemon INFO   found better lib [lib: WiFi, prio: 5DC]
+2021-09-03 15:26:58 daemon INFO   found better lib [lib: WiFi, prio: 5E8]
+2021-09-03 15:26:58 daemon INFO Resolving include Adafruit_GFX.h for arch esp32
+2021-09-03 15:26:58 daemon INFO   found better lib [lib: Adafruit_GFX_Library, prio: 517]
+2021-09-03 15:26:58 daemon INFO Resolving include Adafruit_I2CDevice.h for arch esp32
+2021-09-03 15:26:58 daemon INFO   found better lib [lib: Adafruit_BusIO, prio: 3EB]
+2021-09-03 15:26:59 daemon INFO Resolving include SSD1306.h for arch esp32
+2021-09-03 15:26:59 daemon INFO   found better lib [lib: ESP8266_and_ESP32_OLED_driver_for_SSD1306_displays, prio: 459]
+2021-09-03 15:26:59 daemon INFO Resolving include Adafruit_Sensor.h for arch esp32
+2021-09-03 15:26:59 daemon INFO   found better lib [lib: Adafruit_Unified_Sensor, prio: 3EB]
+2021-09-03 15:27:23 daemon INFO Searching tools required for board esp32:esp32:esp32wrover
+2021-09-03 15:27:23 daemon INFO Tool required for upload [tool: Version: 7.3.0-atmel3.6.1-arduino7 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin14, OS: i686-mingw32, OS: i686-linux-gnu, OS: x86_64-linux-gnu]]
+2021-09-03 15:27:23 daemon INFO Tool required for upload [tool: Version: 1.2.1 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2021-09-03 15:27:23 daemon INFO Tool required for upload [tool: Version: 5.8-arduino11]
+2021-09-03 15:27:23 daemon INFO Tool required for upload [tool: Version: 3.0.0]
+2021-09-03 15:27:23 daemon INFO Tool required for upload [tool: Version: 0.2.3]
+2021-09-03 15:27:23 daemon INFO Tool required for upload [tool: Version: 1.22.0-97-gc752ad5-5.2.0]
+2021-09-03 15:27:23 daemon INFO Tool required for upload [tool: Version: 6.3.0-arduino17 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin12, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2021-09-03 15:27:23 daemon INFO Tool required for upload [tool: Version: 1.3.0 Systems: [OS: i686-linux-gnu, OS: x86_64-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: i386-apple-darwin11, OS: i686-mingw32]]
+2021-09-03 15:27:44 monitor-service INFO >>> Creating serial monitor connection for ESP32 Wrover Module [esp32:esp32:esp32wrover] on port /dev/ttyUSB0...
+2021-09-03 15:27:44 monitor-service INFO <<< Serial monitor connection created for ESP32 Wrover Module on port /dev/ttyUSB0.
+2021-09-03 15:27:44 root INFO >>> Creating serial monitor connection for ESP32 Wrover Module [esp32:esp32:esp32wrover] on port /dev/ttyUSB0...
+2021-09-03 15:27:44 root INFO <<< Serial monitor connection created for ESP32 Wrover Module on port /dev/ttyUSB0.
+2021-09-03 15:34:35 monitor-service INFO >>> Disposing monitor connection...
+2021-09-03 15:34:35 monitor-service INFO <<< Disposed monitor connection for ESP32 Wrover Module on port /dev/ttyUSB0.
+2021-09-03 15:34:35 root INFO >>> Disposing existing monitor connection...
+2021-09-03 15:34:35 root INFO <<< Disposed connection. Was: ESP32 Wrover Module [esp32:esp32:esp32wrover] /dev/ttyUSB0
+2021-09-03 15:34:35 daemon INFO inventory.Store.ConfigFileUsed() /home/brace/.arduino15/inventory.yaml
+2021-09-03 15:34:35 daemon INFO inventory.Store.ConfigFileUsed() /home/brace/.arduino15/inventory.yaml
+2021-09-03 15:34:35 daemon INFO Searching tools required for board esp32:esp32:esp32wrover
+2021-09-03 15:34:35 daemon INFO Adding libraries dir [dir: /home/brace/Projects/robots/mbot/arduino-1.8.15/libraries, location: ide]
+2021-09-03 15:34:35 daemon INFO Adding libraries dir [dir: /home/brace/.arduino15/packages/esp32/hardware/esp32/1.0.6/libraries, location: platform]
+2021-09-03 15:34:35 daemon INFO Adding libraries dir [dir: /home/brace/Arduino/libraries, location: user]
+2021-09-03 15:34:35 daemon INFO Resolving include SPI.h for arch esp32
+2021-09-03 15:34:35 daemon INFO   found better lib [lib: SPI, prio: 5E8]
+2021-09-03 15:34:35 daemon INFO Resolving include DHT.h for arch esp32
+2021-09-03 15:34:35 daemon INFO   found better lib [lib: DHT_sensor_library, prio: 517]
+2021-09-03 15:34:35 daemon INFO Resolving include Wire.h for arch esp32
+2021-09-03 15:34:35 daemon INFO   found better lib [lib: Wire, prio: 5E8]
+2021-09-03 15:34:35 daemon INFO Resolving include WiFi.h for arch esp32
+2021-09-03 15:34:35 daemon INFO   found better lib [lib: WiFi, prio: 5DC]
+2021-09-03 15:34:35 daemon INFO   found better lib [lib: WiFi, prio: 5E8]
+2021-09-03 15:34:35 daemon INFO Resolving include Adafruit_GFX.h for arch esp32
+2021-09-03 15:34:35 daemon INFO   found better lib [lib: Adafruit_GFX_Library, prio: 517]
+2021-09-03 15:34:36 daemon INFO Resolving include Adafruit_I2CDevice.h for arch esp32
+2021-09-03 15:34:36 daemon INFO   found better lib [lib: Adafruit_BusIO, prio: 3EB]
+2021-09-03 15:34:36 daemon INFO Resolving include SSD1306.h for arch esp32
+2021-09-03 15:34:36 daemon INFO   found better lib [lib: ESP8266_and_ESP32_OLED_driver_for_SSD1306_displays, prio: 459]
+2021-09-03 15:34:36 daemon INFO Resolving include Adafruit_Sensor.h for arch esp32
+2021-09-03 15:34:36 daemon INFO   found better lib [lib: Adafruit_Unified_Sensor, prio: 3EB]
+2021-09-03 15:34:40 daemon INFO Searching tools required for board esp32:esp32:esp32wrover
+2021-09-03 15:34:40 daemon INFO Tool required for upload [tool: Version: 5.8-arduino11]
+2021-09-03 15:34:40 daemon INFO Tool required for upload [tool: Version: 1.2.1 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2021-09-03 15:34:40 daemon INFO Tool required for upload [tool: Version: 0.2.3]
+2021-09-03 15:34:40 daemon INFO Tool required for upload [tool: Version: 1.22.0-97-gc752ad5-5.2.0]
+2021-09-03 15:34:40 daemon INFO Tool required for upload [tool: Version: 3.0.0]
+2021-09-03 15:34:40 daemon INFO Tool required for upload [tool: Version: 1.3.0 Systems: [OS: i686-linux-gnu, OS: x86_64-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: i386-apple-darwin11, OS: i686-mingw32]]
+2021-09-03 15:34:40 daemon INFO Tool required for upload [tool: Version: 6.3.0-arduino17 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin12, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2021-09-03 15:34:40 daemon INFO Tool required for upload [tool: Version: 7.3.0-atmel3.6.1-arduino7 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin14, OS: i686-mingw32, OS: i686-linux-gnu, OS: x86_64-linux-gnu]]
+2021-09-03 15:35:02 monitor-service INFO >>> Creating serial monitor connection for ESP32 Wrover Module [esp32:esp32:esp32wrover] on port /dev/ttyUSB0...
+2021-09-03 15:35:02 monitor-service INFO <<< Serial monitor connection created for ESP32 Wrover Module on port /dev/ttyUSB0.
+2021-09-03 15:35:02 root INFO >>> Creating serial monitor connection for ESP32 Wrover Module [esp32:esp32:esp32wrover] on port /dev/ttyUSB0...
+2021-09-03 15:35:02 root INFO <<< Serial monitor connection created for ESP32 Wrover Module on port /dev/ttyUSB0.
+2021-09-03 15:37:40 monitor-service INFO >>> Disposing monitor connection...
+2021-09-03 15:37:40 monitor-service INFO <<< Disposed monitor connection for ESP32 Wrover Module on port /dev/ttyUSB0.
+2021-09-03 15:37:40 root INFO >>> Disposing existing monitor connection...
+2021-09-03 15:37:40 root INFO <<< Disposed connection. Was: ESP32 Wrover Module [esp32:esp32:esp32wrover] /dev/ttyUSB0
+2021-09-03 15:37:40 daemon INFO inventory.Store.ConfigFileUsed() /home/brace/.arduino15/inventory.yaml
+2021-09-03 15:37:40 daemon INFO inventory.Store.ConfigFileUsed() /home/brace/.arduino15/inventory.yaml
+2021-09-03 15:37:40 daemon INFO Searching tools required for board esp32:esp32:esp32wrover
+2021-09-03 15:37:40 daemon INFO Adding libraries dir [dir: /home/brace/Projects/robots/mbot/arduino-1.8.15/libraries, location: ide]
+2021-09-03 15:37:40 daemon INFO Adding libraries dir [dir: /home/brace/.arduino15/packages/esp32/hardware/esp32/1.0.6/libraries, location: platform]
+2021-09-03 15:37:40 daemon INFO Adding libraries dir [dir: /home/brace/Arduino/libraries, location: user]
+2021-09-03 15:37:41 daemon INFO Resolving include SPI.h for arch esp32
+2021-09-03 15:37:41 daemon INFO   found better lib [lib: SPI, prio: 5E8]
+2021-09-03 15:37:41 daemon INFO Resolving include DHT.h for arch esp32
+2021-09-03 15:37:41 daemon INFO   found better lib [lib: DHT_sensor_library, prio: 517]
+2021-09-03 15:37:41 daemon INFO Resolving include Wire.h for arch esp32
+2021-09-03 15:37:41 daemon INFO   found better lib [lib: Wire, prio: 5E8]
+2021-09-03 15:37:41 daemon INFO Resolving include WiFi.h for arch esp32
+2021-09-03 15:37:41 daemon INFO   found better lib [lib: WiFi, prio: 5DC]
+2021-09-03 15:37:41 daemon INFO   found better lib [lib: WiFi, prio: 5E8]
+2021-09-03 15:37:41 daemon INFO Resolving include Adafruit_GFX.h for arch esp32
+2021-09-03 15:37:41 daemon INFO   found better lib [lib: Adafruit_GFX_Library, prio: 517]
+2021-09-03 15:37:41 daemon INFO Resolving include Adafruit_I2CDevice.h for arch esp32
+2021-09-03 15:37:41 daemon INFO   found better lib [lib: Adafruit_BusIO, prio: 3EB]
+2021-09-03 15:37:42 daemon INFO Resolving include SSD1306.h for arch esp32
+2021-09-03 15:37:42 daemon INFO   found better lib [lib: ESP8266_and_ESP32_OLED_driver_for_SSD1306_displays, prio: 459]
+2021-09-03 15:37:42 daemon INFO Resolving include Adafruit_Sensor.h for arch esp32
+2021-09-03 15:37:42 daemon INFO   found better lib [lib: Adafruit_Unified_Sensor, prio: 3EB]
+2021-09-03 15:37:46 daemon INFO Searching tools required for board esp32:esp32:esp32wrover
+2021-09-03 15:37:46 daemon INFO Tool required for upload [tool: Version: 1.2.1 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2021-09-03 15:37:46 daemon INFO Tool required for upload [tool: Version: 3.0.0]
+2021-09-03 15:37:46 daemon INFO Tool required for upload [tool: Version: 0.2.3]
+2021-09-03 15:37:46 daemon INFO Tool required for upload [tool: Version: 1.22.0-97-gc752ad5-5.2.0]
+2021-09-03 15:37:46 daemon INFO Tool required for upload [tool: Version: 6.3.0-arduino17 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin12, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2021-09-03 15:37:46 daemon INFO Tool required for upload [tool: Version: 1.3.0 Systems: [OS: i686-linux-gnu, OS: x86_64-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: i386-apple-darwin11, OS: i686-mingw32]]
+2021-09-03 15:37:46 daemon INFO Tool required for upload [tool: Version: 7.3.0-atmel3.6.1-arduino7 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin14, OS: i686-mingw32, OS: i686-linux-gnu, OS: x86_64-linux-gnu]]
+2021-09-03 15:37:46 daemon INFO Tool required for upload [tool: Version: 5.8-arduino11]
+2021-09-03 15:38:02 root ERROR Request upload failed with error: 2 UNKNOWN: uploading error: uploading error: exit status 2
+2021-09-03 15:38:02 monitor-service INFO >>> Creating serial monitor connection for ESP32 Wrover Module [esp32:esp32:esp32wrover] on port /dev/ttyUSB0...
+2021-09-03 15:38:02 monitor-service INFO <<< Serial monitor connection created for ESP32 Wrover Module on port /dev/ttyUSB0.
+2021-09-03 15:38:02 root INFO >>> Creating serial monitor connection for ESP32 Wrover Module [esp32:esp32:esp32wrover] on port /dev/ttyUSB0...
+2021-09-03 15:38:02 root INFO <<< Serial monitor connection created for ESP32 Wrover Module on port /dev/ttyUSB0.
+2021-09-03 15:38:17 monitor-service INFO >>> Disposing monitor connection...
+2021-09-03 15:38:17 monitor-service INFO <<< Disposed monitor connection for ESP32 Wrover Module on port /dev/ttyUSB0.
+2021-09-03 15:38:17 root INFO >>> Disposing existing monitor connection...
+2021-09-03 15:38:17 root INFO <<< Disposed connection. Was: ESP32 Wrover Module [esp32:esp32:esp32wrover] /dev/ttyUSB0
+2021-09-03 15:38:17 daemon INFO inventory.Store.ConfigFileUsed() /home/brace/.arduino15/inventory.yaml
+2021-09-03 15:38:17 daemon INFO inventory.Store.ConfigFileUsed() /home/brace/.arduino15/inventory.yaml
+2021-09-03 15:38:17 daemon INFO Searching tools required for board esp32:esp32:esp32wrover
+2021-09-03 15:38:17 daemon INFO Adding libraries dir [dir: /home/brace/Projects/robots/mbot/arduino-1.8.15/libraries, location: ide]
+2021-09-03 15:38:17 daemon INFO Adding libraries dir [dir: /home/brace/.arduino15/packages/esp32/hardware/esp32/1.0.6/libraries, location: platform]
+2021-09-03 15:38:17 daemon INFO Adding libraries dir [dir: /home/brace/Arduino/libraries, location: user]
+2021-09-03 15:38:17 daemon INFO Resolving include SPI.h for arch esp32
+2021-09-03 15:38:17 daemon INFO   found better lib [lib: SPI, prio: 5E8]
+2021-09-03 15:38:17 daemon INFO Resolving include DHT.h for arch esp32
+2021-09-03 15:38:17 daemon INFO   found better lib [lib: DHT_sensor_library, prio: 517]
+2021-09-03 15:38:18 daemon INFO Resolving include Wire.h for arch esp32
+2021-09-03 15:38:18 daemon INFO   found better lib [lib: Wire, prio: 5E8]
+2021-09-03 15:38:18 daemon INFO Resolving include WiFi.h for arch esp32
+2021-09-03 15:38:18 daemon INFO   found better lib [lib: WiFi, prio: 5DC]
+2021-09-03 15:38:18 daemon INFO   found better lib [lib: WiFi, prio: 5E8]
+2021-09-03 15:38:18 daemon INFO Resolving include Adafruit_GFX.h for arch esp32
+2021-09-03 15:38:18 daemon INFO   found better lib [lib: Adafruit_GFX_Library, prio: 517]
+2021-09-03 15:38:18 daemon INFO Resolving include Adafruit_I2CDevice.h for arch esp32
+2021-09-03 15:38:18 daemon INFO   found better lib [lib: Adafruit_BusIO, prio: 3EB]
+2021-09-03 15:38:18 daemon INFO Resolving include SSD1306.h for arch esp32
+2021-09-03 15:38:18 daemon INFO   found better lib [lib: ESP8266_and_ESP32_OLED_driver_for_SSD1306_displays, prio: 459]
+2021-09-03 15:38:18 daemon INFO Resolving include Adafruit_Sensor.h for arch esp32
+2021-09-03 15:38:18 daemon INFO   found better lib [lib: Adafruit_Unified_Sensor, prio: 3EB]
+2021-09-03 15:38:22 daemon INFO Searching tools required for board esp32:esp32:esp32wrover
+2021-09-03 15:38:22 daemon INFO Tool required for upload [tool: Version: 7.3.0-atmel3.6.1-arduino7 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin14, OS: i686-mingw32, OS: i686-linux-gnu, OS: x86_64-linux-gnu]]
+2021-09-03 15:38:22 daemon INFO Tool required for upload [tool: Version: 6.3.0-arduino17 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin12, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2021-09-03 15:38:22 daemon INFO Tool required for upload [tool: Version: 1.3.0 Systems: [OS: i686-linux-gnu, OS: x86_64-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: i386-apple-darwin11, OS: i686-mingw32]]
+2021-09-03 15:38:22 daemon INFO Tool required for upload [tool: Version: 5.8-arduino11]
+2021-09-03 15:38:22 daemon INFO Tool required for upload [tool: Version: 1.2.1 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2021-09-03 15:38:22 daemon INFO Tool required for upload [tool: Version: 3.0.0]
+2021-09-03 15:38:22 daemon INFO Tool required for upload [tool: Version: 0.2.3]
+2021-09-03 15:38:22 daemon INFO Tool required for upload [tool: Version: 1.22.0-97-gc752ad5-5.2.0]
+2021-09-03 15:38:39 root ERROR Request upload failed with error: 2 UNKNOWN: uploading error: uploading error: exit status 2
+2021-09-03 15:38:39 monitor-service INFO >>> Creating serial monitor connection for ESP32 Wrover Module [esp32:esp32:esp32wrover] on port /dev/ttyUSB0...
+2021-09-03 15:38:39 monitor-service INFO <<< Serial monitor connection created for ESP32 Wrover Module on port /dev/ttyUSB0.
+2021-09-03 15:38:39 root INFO >>> Creating serial monitor connection for ESP32 Wrover Module [esp32:esp32:esp32wrover] on port /dev/ttyUSB0...
+2021-09-03 15:38:39 root INFO <<< Serial monitor connection created for ESP32 Wrover Module on port /dev/ttyUSB0.
+2021-09-03 15:38:45 root INFO Attached boards and available ports changed:
+2021-09-03 15:38:45 root INFO  - Port is no longer available on /dev/ttyUSB0
+2021-09-03 15:38:45 root INFO ------------------------------------------
+2021-09-03 15:38:45 root INFO Board config changed: 
+2021-09-03 15:38:46 root INFO Attached boards and available ports changed:
+2021-09-03 15:38:46 root INFO  - New port is available on /dev/ttyUSB1
+2021-09-03 15:38:46 root INFO ------------------------------------------
+2021-09-03 15:38:47 root INFO Attached boards and available ports changed:
+2021-09-03 15:38:47 root INFO  - Port is no longer available on /dev/ttyUSB1
+2021-09-03 15:38:47 root INFO ------------------------------------------
+2021-09-03 15:38:49 root INFO Attached boards and available ports changed:
+2021-09-03 15:38:49 root INFO  - New port is available on /dev/ttyUSB1
+2021-09-03 15:38:49 root INFO ------------------------------------------
+2021-09-03 15:38:59 root INFO Board config changed: 
+2021-09-03 15:38:59 monitor-service INFO >>> Disposing monitor connection...
+2021-09-03 15:38:59 monitor-service INFO <<< Disposed monitor connection for ESP32 Wrover Module on port /dev/ttyUSB0.
+2021-09-03 15:38:59 root INFO >>> Disposing existing monitor connection...
+2021-09-03 15:38:59 monitor-service INFO >>> Creating serial monitor connection for ESP32 Wrover Module [esp32:esp32:esp32wrover] on port /dev/ttyUSB1...
+2021-09-03 15:38:59 monitor-service INFO <<< Serial monitor connection created for ESP32 Wrover Module on port /dev/ttyUSB1.
+2021-09-03 15:38:59 root INFO <<< Disposed connection. Was: ESP32 Wrover Module [esp32:esp32:esp32wrover] /dev/ttyUSB0
+2021-09-03 15:38:59 root INFO >>> Creating serial monitor connection for ESP32 Wrover Module [esp32:esp32:esp32wrover] on port /dev/ttyUSB1...
+2021-09-03 15:38:59 root INFO <<< Serial monitor connection created for ESP32 Wrover Module on port /dev/ttyUSB1.
+2021-09-03 15:39:00 monitor-service INFO >>> Disposing monitor connection...
+2021-09-03 15:39:00 monitor-service INFO <<< Disposed monitor connection for ESP32 Wrover Module on port /dev/ttyUSB1.
+2021-09-03 15:39:00 root INFO >>> Disposing existing monitor connection...
+2021-09-03 15:39:00 root INFO <<< Disposed connection. Was: ESP32 Wrover Module [esp32:esp32:esp32wrover] /dev/ttyUSB1
+2021-09-03 15:39:00 daemon INFO inventory.Store.ConfigFileUsed() /home/brace/.arduino15/inventory.yaml
+2021-09-03 15:39:00 daemon INFO inventory.Store.ConfigFileUsed() /home/brace/.arduino15/inventory.yaml
+2021-09-03 15:39:00 daemon INFO Searching tools required for board esp32:esp32:esp32wrover
+2021-09-03 15:39:00 daemon INFO Adding libraries dir [dir: /home/brace/Projects/robots/mbot/arduino-1.8.15/libraries, location: ide]
+2021-09-03 15:39:00 daemon INFO Adding libraries dir [dir: /home/brace/.arduino15/packages/esp32/hardware/esp32/1.0.6/libraries, location: platform]
+2021-09-03 15:39:00 daemon INFO Adding libraries dir [dir: /home/brace/Arduino/libraries, location: user]
+2021-09-03 15:39:00 daemon INFO Resolving include SPI.h for arch esp32
+2021-09-03 15:39:00 daemon INFO   found better lib [lib: SPI, prio: 5E8]
+2021-09-03 15:39:01 daemon INFO Resolving include DHT.h for arch esp32
+2021-09-03 15:39:01 daemon INFO   found better lib [lib: DHT_sensor_library, prio: 517]
+2021-09-03 15:39:01 daemon INFO Resolving include Wire.h for arch esp32
+2021-09-03 15:39:01 daemon INFO   found better lib [lib: Wire, prio: 5E8]
+2021-09-03 15:39:01 daemon INFO Resolving include WiFi.h for arch esp32
+2021-09-03 15:39:01 daemon INFO   found better lib [lib: WiFi, prio: 5DC]
+2021-09-03 15:39:01 daemon INFO   found better lib [lib: WiFi, prio: 5E8]
+2021-09-03 15:39:01 daemon INFO Resolving include Adafruit_GFX.h for arch esp32
+2021-09-03 15:39:01 daemon INFO   found better lib [lib: Adafruit_GFX_Library, prio: 517]
+2021-09-03 15:39:01 daemon INFO Resolving include Adafruit_I2CDevice.h for arch esp32
+2021-09-03 15:39:01 daemon INFO   found better lib [lib: Adafruit_BusIO, prio: 3EB]
+2021-09-03 15:39:01 daemon INFO Resolving include SSD1306.h for arch esp32
+2021-09-03 15:39:01 daemon INFO   found better lib [lib: ESP8266_and_ESP32_OLED_driver_for_SSD1306_displays, prio: 459]
+2021-09-03 15:39:02 daemon INFO Resolving include Adafruit_Sensor.h for arch esp32
+2021-09-03 15:39:02 daemon INFO   found better lib [lib: Adafruit_Unified_Sensor, prio: 3EB]
+2021-09-03 15:39:05 daemon INFO Searching tools required for board esp32:esp32:esp32wrover
+2021-09-03 15:39:05 daemon INFO Tool required for upload [tool: Version: 3.0.0]
+2021-09-03 15:39:05 daemon INFO Tool required for upload [tool: Version: 6.3.0-arduino17 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin12, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2021-09-03 15:39:05 daemon INFO Tool required for upload [tool: Version: 1.3.0 Systems: [OS: i686-linux-gnu, OS: x86_64-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: i386-apple-darwin11, OS: i686-mingw32]]
+2021-09-03 15:39:05 daemon INFO Tool required for upload [tool: Version: 7.3.0-atmel3.6.1-arduino7 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin14, OS: i686-mingw32, OS: i686-linux-gnu, OS: x86_64-linux-gnu]]
+2021-09-03 15:39:05 daemon INFO Tool required for upload [tool: Version: 5.8-arduino11]
+2021-09-03 15:39:05 daemon INFO Tool required for upload [tool: Version: 1.2.1 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2021-09-03 15:39:05 daemon INFO Tool required for upload [tool: Version: 0.2.3]
+2021-09-03 15:39:05 daemon INFO Tool required for upload [tool: Version: 1.22.0-97-gc752ad5-5.2.0]
+2021-09-03 15:39:22 root ERROR Request upload failed with error: 2 UNKNOWN: uploading error: uploading error: exit status 2
+2021-09-03 15:39:22 monitor-service INFO >>> Creating serial monitor connection for ESP32 Wrover Module [esp32:esp32:esp32wrover] on port /dev/ttyUSB1...
+2021-09-03 15:39:22 monitor-service INFO <<< Serial monitor connection created for ESP32 Wrover Module on port /dev/ttyUSB1.
+2021-09-03 15:39:22 root INFO >>> Creating serial monitor connection for ESP32 Wrover Module [esp32:esp32:esp32wrover] on port /dev/ttyUSB1...
+2021-09-03 15:39:22 root INFO <<< Serial monitor connection created for ESP32 Wrover Module on port /dev/ttyUSB1.
+2021-09-03 15:40:40 daemon INFO inventory.Store.ConfigFileUsed() /home/brace/.arduino15/inventory.yaml
+2021-09-03 15:40:40 daemon INFO inventory.Store.ConfigFileUsed() /home/brace/.arduino15/inventory.yaml
+2021-09-03 15:40:40 daemon INFO Searching tools required for board esp32:esp32:esp32wrover
+2021-09-03 15:40:40 daemon INFO Adding libraries dir [dir: /home/brace/Projects/robots/mbot/arduino-1.8.15/libraries, location: ide]
+2021-09-03 15:40:40 daemon INFO Adding libraries dir [dir: /home/brace/.arduino15/packages/esp32/hardware/esp32/1.0.6/libraries, location: platform]
+2021-09-03 15:40:40 daemon INFO Adding libraries dir [dir: /home/brace/Arduino/libraries, location: user]
+2021-09-03 15:40:40 daemon INFO Resolving include SPI.h for arch esp32
+2021-09-03 15:40:40 daemon INFO   found better lib [lib: SPI, prio: 5E8]
+2021-09-03 15:40:40 daemon INFO Resolving include DHT.h for arch esp32
+2021-09-03 15:40:40 daemon INFO   found better lib [lib: DHT_sensor_library, prio: 517]
+2021-09-03 15:40:40 daemon INFO Resolving include Wire.h for arch esp32
+2021-09-03 15:40:40 daemon INFO   found better lib [lib: Wire, prio: 5E8]
+2021-09-03 15:40:40 daemon INFO Resolving include WiFi.h for arch esp32
+2021-09-03 15:40:40 daemon INFO   found better lib [lib: WiFi, prio: 5DC]
+2021-09-03 15:40:40 daemon INFO   found better lib [lib: WiFi, prio: 5E8]
+2021-09-03 15:40:41 daemon INFO Resolving include Adafruit_GFX.h for arch esp32
+2021-09-03 15:40:41 daemon INFO   found better lib [lib: Adafruit_GFX_Library, prio: 517]
+2021-09-03 15:40:41 daemon INFO Resolving include Adafruit_I2CDevice.h for arch esp32
+2021-09-03 15:40:41 daemon INFO   found better lib [lib: Adafruit_BusIO, prio: 3EB]
+2021-09-03 15:40:41 daemon INFO Resolving include SSD1306.h for arch esp32
+2021-09-03 15:40:41 daemon INFO   found better lib [lib: ESP8266_and_ESP32_OLED_driver_for_SSD1306_displays, prio: 459]
+2021-09-03 15:40:41 daemon INFO Resolving include Adafruit_Sensor.h for arch esp32
+2021-09-03 15:40:41 daemon INFO   found better lib [lib: Adafruit_Unified_Sensor, prio: 3EB]
+2021-09-03 15:41:05 monitor-service INFO >>> Disposing monitor connection...
+2021-09-03 15:41:05 monitor-service INFO <<< Disposed monitor connection for ESP32 Wrover Module on port /dev/ttyUSB1.
+2021-09-03 15:41:05 root INFO >>> Disposing existing monitor connection...
+2021-09-03 15:41:05 root INFO <<< Disposed connection. Was: ESP32 Wrover Module [esp32:esp32:esp32wrover] /dev/ttyUSB1
+2021-09-03 15:41:05 daemon INFO inventory.Store.ConfigFileUsed() /home/brace/.arduino15/inventory.yaml
+2021-09-03 15:41:05 daemon INFO inventory.Store.ConfigFileUsed() /home/brace/.arduino15/inventory.yaml
+2021-09-03 15:41:05 daemon INFO Searching tools required for board esp32:esp32:esp32wrover
+2021-09-03 15:41:05 daemon INFO Adding libraries dir [dir: /home/brace/Projects/robots/mbot/arduino-1.8.15/libraries, location: ide]
+2021-09-03 15:41:05 daemon INFO Adding libraries dir [dir: /home/brace/.arduino15/packages/esp32/hardware/esp32/1.0.6/libraries, location: platform]
+2021-09-03 15:41:05 daemon INFO Adding libraries dir [dir: /home/brace/Arduino/libraries, location: user]
+2021-09-03 15:41:05 daemon INFO Resolving include SPI.h for arch esp32
+2021-09-03 15:41:05 daemon INFO   found better lib [lib: SPI, prio: 5E8]
+2021-09-03 15:41:05 daemon INFO Resolving include DHT.h for arch esp32
+2021-09-03 15:41:05 daemon INFO   found better lib [lib: DHT_sensor_library, prio: 517]
+2021-09-03 15:41:05 daemon INFO Resolving include Wire.h for arch esp32
+2021-09-03 15:41:05 daemon INFO   found better lib [lib: Wire, prio: 5E8]
+2021-09-03 15:41:05 daemon INFO Resolving include WiFi.h for arch esp32
+2021-09-03 15:41:05 daemon INFO   found better lib [lib: WiFi, prio: 5DC]
+2021-09-03 15:41:05 daemon INFO   found better lib [lib: WiFi, prio: 5E8]
+2021-09-03 15:41:05 daemon INFO Resolving include Adafruit_GFX.h for arch esp32
+2021-09-03 15:41:05 daemon INFO   found better lib [lib: Adafruit_GFX_Library, prio: 517]
+2021-09-03 15:41:06 daemon INFO Resolving include Adafruit_I2CDevice.h for arch esp32
+2021-09-03 15:41:06 daemon INFO   found better lib [lib: Adafruit_BusIO, prio: 3EB]
+2021-09-03 15:41:06 daemon INFO Resolving include SSD1306.h for arch esp32
+2021-09-03 15:41:06 daemon INFO   found better lib [lib: ESP8266_and_ESP32_OLED_driver_for_SSD1306_displays, prio: 459]
+2021-09-03 15:41:06 daemon INFO Resolving include Adafruit_Sensor.h for arch esp32
+2021-09-03 15:41:06 daemon INFO   found better lib [lib: Adafruit_Unified_Sensor, prio: 3EB]
+2021-09-03 15:41:10 daemon INFO Searching tools required for board esp32:esp32:esp32wrover
+2021-09-03 15:41:10 daemon INFO Tool required for upload [tool: Version: 3.0.0]
+2021-09-03 15:41:10 daemon INFO Tool required for upload [tool: Version: 0.2.3]
+2021-09-03 15:41:10 daemon INFO Tool required for upload [tool: Version: 1.22.0-97-gc752ad5-5.2.0]
+2021-09-03 15:41:10 daemon INFO Tool required for upload [tool: Version: 6.3.0-arduino17 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin12, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2021-09-03 15:41:10 daemon INFO Tool required for upload [tool: Version: 1.3.0 Systems: [OS: i686-linux-gnu, OS: x86_64-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: i386-apple-darwin11, OS: i686-mingw32]]
+2021-09-03 15:41:10 daemon INFO Tool required for upload [tool: Version: 7.3.0-atmel3.6.1-arduino7 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin14, OS: i686-mingw32, OS: i686-linux-gnu, OS: x86_64-linux-gnu]]
+2021-09-03 15:41:10 daemon INFO Tool required for upload [tool: Version: 5.8-arduino11]
+2021-09-03 15:41:10 daemon INFO Tool required for upload [tool: Version: 1.2.1 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2021-09-03 15:41:35 monitor-service INFO >>> Creating serial monitor connection for ESP32 Wrover Module [esp32:esp32:esp32wrover] on port /dev/ttyUSB1...
+2021-09-03 15:41:35 monitor-service INFO <<< Serial monitor connection created for ESP32 Wrover Module on port /dev/ttyUSB1.
+2021-09-03 15:41:35 root INFO >>> Creating serial monitor connection for ESP32 Wrover Module [esp32:esp32:esp32wrover] on port /dev/ttyUSB1...
+2021-09-03 15:41:35 root INFO <<< Serial monitor connection created for ESP32 Wrover Module on port /dev/ttyUSB1.
+2021-09-03 15:43:47 root ERROR Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at file:///home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/lib/36.bundle.js:2339:68
+2021-09-03 15:43:51 root ERROR Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at file:///home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/lib/36.bundle.js:2339:68
+2021-09-03 15:43:53 root ERROR Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at file:///home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/lib/36.bundle.js:2339:68
+2021-09-03 15:44:06 root INFO Board config changed: 
+2021-09-03 15:44:06 monitor-service INFO >>> Disposing monitor connection...
+2021-09-03 15:44:06 monitor-service INFO <<< Disposed monitor connection for ESP32 Wrover Module on port /dev/ttyUSB1.
+2021-09-03 15:44:06 root INFO >>> Disposing existing monitor connection...
+2021-09-03 15:44:07 monitor-service INFO >>> Creating serial monitor connection for ESP32 Wrover Module [esp32:esp32:esp32wrover] on port /dev/ttyUSB1...
+2021-09-03 15:44:07 monitor-service INFO <<< Serial monitor connection created for ESP32 Wrover Module on port /dev/ttyUSB1.
+2021-09-03 15:44:07 root INFO <<< Disposed connection. Was: ESP32 Wrover Module [esp32:esp32:esp32wrover] /dev/ttyUSB1
+2021-09-03 15:44:07 root INFO >>> Creating serial monitor connection for ESP32 Wrover Module [esp32:esp32:esp32wrover] on port /dev/ttyUSB1...
+2021-09-03 15:44:07 root INFO <<< Serial monitor connection created for ESP32 Wrover Module on port /dev/ttyUSB1.
+2021-09-03 15:44:57 root INFO Board config changed: 
+2021-09-03 15:44:57 monitor-service INFO >>> Disposing monitor connection...
+2021-09-03 15:44:57 monitor-service INFO <<< Disposed monitor connection for ESP32 Wrover Module on port /dev/ttyUSB1.
+2021-09-03 15:44:57 root INFO >>> Disposing existing monitor connection...
+2021-09-03 15:44:57 monitor-service INFO >>> Creating serial monitor connection for Heltec WiFi Kit 32 [esp32:esp32:heltec_wifi_kit_32] on port /dev/ttyUSB1...
+2021-09-03 15:44:57 monitor-service INFO <<< Serial monitor connection created for Heltec WiFi Kit 32 on port /dev/ttyUSB1.
+2021-09-03 15:44:57 root INFO <<< Disposed connection. Was: ESP32 Wrover Module [esp32:esp32:esp32wrover] /dev/ttyUSB1
+2021-09-03 15:44:57 root INFO >>> Creating serial monitor connection for Heltec WiFi Kit 32 [esp32:esp32:heltec_wifi_kit_32] on port /dev/ttyUSB1...
+2021-09-03 15:44:57 root INFO <<< Serial monitor connection created for Heltec WiFi Kit 32 on port /dev/ttyUSB1.
+2021-09-03 15:44:57 root INFO Starting language server: esp32:esp32:heltec_wifi_kit_32
+2021-09-03 15:45:01 monitor-service INFO >>> Disposing monitor connection...
+2021-09-03 15:45:01 monitor-service INFO <<< Disposed monitor connection for Heltec WiFi Kit 32 on port /dev/ttyUSB1.
+2021-09-03 15:45:01 root INFO >>> Disposing existing monitor connection...
+2021-09-03 15:45:01 root INFO <<< Disposed connection. Was: Heltec WiFi Kit 32 [esp32:esp32:heltec_wifi_kit_32] /dev/ttyUSB1
+2021-09-03 15:45:01 daemon INFO inventory.Store.ConfigFileUsed() /home/brace/.arduino15/inventory.yaml
+2021-09-03 15:45:01 daemon INFO inventory.Store.ConfigFileUsed() /home/brace/.arduino15/inventory.yaml
+2021-09-03 15:45:01 daemon INFO Searching tools required for board esp32:esp32:heltec_wifi_kit_32
+2021-09-03 15:45:01 daemon INFO Adding libraries dir [dir: /home/brace/Projects/robots/mbot/arduino-1.8.15/libraries, location: ide]
+2021-09-03 15:45:01 daemon INFO Adding libraries dir [dir: /home/brace/.arduino15/packages/esp32/hardware/esp32/1.0.6/libraries, location: platform]
+2021-09-03 15:45:01 daemon INFO Adding libraries dir [dir: /home/brace/Arduino/libraries, location: user]
+2021-09-03 15:45:01 daemon INFO Resolving include SPI.h for arch esp32
+2021-09-03 15:45:01 daemon INFO   found better lib [lib: SPI, prio: 5E8]
+2021-09-03 15:45:01 daemon INFO Resolving include DHT.h for arch esp32
+2021-09-03 15:45:01 daemon INFO   found better lib [lib: DHT_sensor_library, prio: 517]
+2021-09-03 15:45:01 daemon INFO Resolving include Wire.h for arch esp32
+2021-09-03 15:45:01 daemon INFO   found better lib [lib: Wire, prio: 5E8]
+2021-09-03 15:45:01 daemon INFO Resolving include WiFi.h for arch esp32
+2021-09-03 15:45:01 daemon INFO   found better lib [lib: WiFi, prio: 5DC]
+2021-09-03 15:45:01 daemon INFO   found better lib [lib: WiFi, prio: 5E8]
+2021-09-03 15:45:01 daemon INFO Resolving include Adafruit_GFX.h for arch esp32
+2021-09-03 15:45:01 daemon INFO   found better lib [lib: Adafruit_GFX_Library, prio: 517]
+2021-09-03 15:45:01 daemon INFO Resolving include Adafruit_I2CDevice.h for arch esp32
+2021-09-03 15:45:01 daemon INFO   found better lib [lib: Adafruit_BusIO, prio: 3EB]
+2021-09-03 15:45:02 daemon INFO Resolving include SSD1306.h for arch esp32
+2021-09-03 15:45:02 daemon INFO   found better lib [lib: ESP8266_and_ESP32_OLED_driver_for_SSD1306_displays, prio: 459]
+2021-09-03 15:45:02 daemon INFO Resolving include Adafruit_Sensor.h for arch esp32
+2021-09-03 15:45:02 daemon INFO   found better lib [lib: Adafruit_Unified_Sensor, prio: 3EB]
+2021-09-03 15:45:27 daemon INFO Searching tools required for board esp32:esp32:heltec_wifi_kit_32
+2021-09-03 15:45:27 daemon INFO Tool required for upload [tool: Version: 0.2.3]
+2021-09-03 15:45:27 daemon INFO Tool required for upload [tool: Version: 1.22.0-97-gc752ad5-5.2.0]
+2021-09-03 15:45:27 daemon INFO Tool required for upload [tool: Version: 3.0.0]
+2021-09-03 15:45:27 daemon INFO Tool required for upload [tool: Version: 6.3.0-arduino17 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin12, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2021-09-03 15:45:27 daemon INFO Tool required for upload [tool: Version: 1.3.0 Systems: [OS: i686-linux-gnu, OS: x86_64-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: i386-apple-darwin11, OS: i686-mingw32]]
+2021-09-03 15:45:27 daemon INFO Tool required for upload [tool: Version: 7.3.0-atmel3.6.1-arduino7 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin14, OS: i686-mingw32, OS: i686-linux-gnu, OS: x86_64-linux-gnu]]
+2021-09-03 15:45:27 daemon INFO Tool required for upload [tool: Version: 5.8-arduino11]
+2021-09-03 15:45:27 daemon INFO Tool required for upload [tool: Version: 1.2.1 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2021-09-03 15:45:48 monitor-service INFO >>> Creating serial monitor connection for Heltec WiFi Kit 32 [esp32:esp32:heltec_wifi_kit_32] on port /dev/ttyUSB1...
+2021-09-03 15:45:48 monitor-service INFO <<< Serial monitor connection created for Heltec WiFi Kit 32 on port /dev/ttyUSB1.
+2021-09-03 15:45:48 root INFO >>> Creating serial monitor connection for Heltec WiFi Kit 32 [esp32:esp32:heltec_wifi_kit_32] on port /dev/ttyUSB1...
+2021-09-03 15:45:48 root INFO <<< Serial monitor connection created for Heltec WiFi Kit 32 on port /dev/ttyUSB1.
+2021-09-03 15:48:26 root WARN Frontend EditorNavigationContribution.onStart is slow, took: 222.5 ms
+2021-09-03 15:48:26 root INFO Board config changed: 
+2021-09-03 15:48:26 root INFO Board config changed: 
+2021-09-03 15:48:26 root INFO Changed application state from 'init' to 'started_contributions'.
+2021-09-03 15:48:26 root INFO Changed application state from 'started_contributions' to 'attached_shell'.
+2021-09-03 15:48:26 root INFO >>> Restoring the layout state...
+2021-09-03 15:48:26 root INFO <<< Nothing to restore.
+2021-09-03 15:48:26 root INFO [hosted-plugin: 423937] PLUGIN_HOST(423937) starting instance
+2021-09-03 15:48:26 root INFO Board config changed: 
+2021-09-03 15:48:27 root INFO [f27901df-d344-4547-811b-02d91eadf244] Sync of 5 plugins took: 683.3 ms
+2021-09-03 15:48:28 root INFO Changed application state from 'attached_shell' to 'initialized_layout'.
+2021-09-03 15:48:28 root INFO [f27901df-d344-4547-811b-02d91eadf244][marus25.cortex-debug]: Loaded contributions.
+2021-09-03 15:48:28 root INFO [f27901df-d344-4547-811b-02d91eadf244][arduino.vscode-arduino-tools]: Loaded contributions.
+2021-09-03 15:48:28 root INFO [f27901df-d344-4547-811b-02d91eadf244][vscode.cpp]: Loaded contributions.
+2021-09-03 15:48:28 root INFO [f27901df-d344-4547-811b-02d91eadf244][vscode.json]: Loaded contributions.
+2021-09-03 15:48:28 root INFO [f27901df-d344-4547-811b-02d91eadf244][vscode.json-language-features]: Loaded contributions.
+2021-09-03 15:48:28 root INFO [f27901df-d344-4547-811b-02d91eadf244] Load contributions of 5 plugins took: 36.8 ms
+2021-09-03 15:48:28 root WARN 'cpp' language is remapped from 'source.cpp.embedded.macro' to 'source.cpp' scope
+2021-09-03 15:48:28 root WARN a registered grammar configuration for 'cpp' language is overridden
+2021-09-03 15:48:28 root INFO Changed application state from 'initialized_layout' to 'ready'.
+2021-09-03 15:48:29 root INFO [hosted-plugin: 423937] PLUGIN_HOST(423937): PluginManagerExtImpl/init()
+2021-09-03 15:48:29 root INFO [hosted-plugin: 423937] PLUGIN_HOST(423937): initializing(cortex-debug@0.3.10 with /home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init.js)
+2021-09-03 15:48:29 root INFO [hosted-plugin: 423937] Debugger contribution has been registered: cortex-debug
+2021-09-03 15:48:29 root INFO [hosted-plugin: 423937] PLUGIN_HOST(423937): initializing(vscode-arduino-tools@0.0.1-beta.1 with /home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init.js)
+2021-09-03 15:48:29 root INFO [hosted-plugin: 423937] PLUGIN_HOST(423937): initializing(cpp@1.52.1 with /home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init.js)
+2021-09-03 15:48:29 root INFO [hosted-plugin: 423937] PLUGIN_HOST(423937): initializing(json@1.46.1 with /home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init.js)
+2021-09-03 15:48:29 root INFO [hosted-plugin: 423937] PLUGIN_HOST(423937): initializing(json-language-features@1.46.1 with /home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init.js)
+2021-09-03 15:48:29 root INFO [hosted-plugin: 423937] PLUGIN_HOST(423937): PluginManagerExtImpl/loadPlugin(/home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/plugins/vscode-builtin-json-language-features/extension/client/dist/jsonMain)
+2021-09-03 15:48:29 root INFO [f27901df-d344-4547-811b-02d91eadf244][marus25.cortex-debug]: Started plugin.
+2021-09-03 15:48:29 root INFO [f27901df-d344-4547-811b-02d91eadf244][arduino.vscode-arduino-tools]: Started plugin.
+2021-09-03 15:48:29 root INFO [f27901df-d344-4547-811b-02d91eadf244][vscode.cpp]: Started plugin.
+2021-09-03 15:48:29 root INFO [f27901df-d344-4547-811b-02d91eadf244][vscode.json]: Started plugin.
+2021-09-03 15:48:29 root INFO [f27901df-d344-4547-811b-02d91eadf244][vscode.json-language-features]: Started plugin.
+2021-09-03 15:48:29 root INFO [f27901df-d344-4547-811b-02d91eadf244] Start of 5 plugins took: 1839.2 ms
+2021-09-03 15:48:29 root INFO Starting language server: esp32:esp32:heltec_wifi_kit_32
+2021-09-03 15:48:29 root INFO [hosted-plugin: 423937] PLUGIN_HOST(423937): PluginManagerExtImpl/loadPlugin(/home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/plugins/vscode-arduino-tools/extension/dist/bundle)
+2021-09-03 15:50:25 root ERROR [hosted-plugin: 421699] arduino.vscode-arduino-tools - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code action.
+2021-09-03 15:51:42 monitor-service INFO >>> Disposing monitor connection...
+2021-09-03 15:51:42 monitor-service INFO <<< Disposed monitor connection for Heltec WiFi Kit 32 on port /dev/ttyUSB1.
+2021-09-03 15:51:42 root INFO >>> Disposing existing monitor connection...
+2021-09-03 15:51:42 root INFO <<< Disposed connection. Was: Heltec WiFi Kit 32 [esp32:esp32:heltec_wifi_kit_32] /dev/ttyUSB1
+2021-09-03 15:51:42 daemon INFO inventory.Store.ConfigFileUsed() /home/brace/.arduino15/inventory.yaml
+2021-09-03 15:51:42 daemon INFO inventory.Store.ConfigFileUsed() /home/brace/.arduino15/inventory.yaml
+2021-09-03 15:51:42 daemon INFO Searching tools required for board esp32:esp32:heltec_wifi_kit_32
+2021-09-03 15:51:42 daemon INFO Adding libraries dir [dir: /home/brace/Projects/robots/mbot/arduino-1.8.15/libraries, location: ide]
+2021-09-03 15:51:42 daemon INFO Adding libraries dir [dir: /home/brace/.arduino15/packages/esp32/hardware/esp32/1.0.6/libraries, location: platform]
+2021-09-03 15:51:42 daemon INFO Adding libraries dir [dir: /home/brace/Arduino/libraries, location: user]
+2021-09-03 15:51:42 daemon INFO Resolving include SPI.h for arch esp32
+2021-09-03 15:51:42 daemon INFO   found better lib [lib: SPI, prio: 5E8]
+2021-09-03 15:51:42 daemon INFO Resolving include DHT.h for arch esp32
+2021-09-03 15:51:42 daemon INFO   found better lib [lib: DHT_sensor_library, prio: 517]
+2021-09-03 15:51:43 daemon INFO Resolving include Wire.h for arch esp32
+2021-09-03 15:51:43 daemon INFO   found better lib [lib: Wire, prio: 5E8]
+2021-09-03 15:51:43 daemon INFO Resolving include WiFi.h for arch esp32
+2021-09-03 15:51:43 daemon INFO   found better lib [lib: WiFi, prio: 5DC]
+2021-09-03 15:51:43 daemon INFO   found better lib [lib: WiFi, prio: 5E8]
+2021-09-03 15:51:43 daemon INFO Resolving include Adafruit_GFX.h for arch esp32
+2021-09-03 15:51:43 daemon INFO   found better lib [lib: Adafruit_GFX_Library, prio: 517]
+2021-09-03 15:51:43 daemon INFO Resolving include Adafruit_I2CDevice.h for arch esp32
+2021-09-03 15:51:43 daemon INFO   found better lib [lib: Adafruit_BusIO, prio: 3EB]
+2021-09-03 15:51:43 daemon INFO Resolving include SSD1306.h for arch esp32
+2021-09-03 15:51:43 daemon INFO   found better lib [lib: ESP8266_and_ESP32_OLED_driver_for_SSD1306_displays, prio: 459]
+2021-09-03 15:51:43 daemon INFO Resolving include Adafruit_Sensor.h for arch esp32
+2021-09-03 15:51:43 daemon INFO   found better lib [lib: Adafruit_Unified_Sensor, prio: 3EB]
+2021-09-03 15:51:44 root ERROR Request upload failed with error: 2 UNKNOWN: exit status 1
+2021-09-03 15:51:44 monitor-service INFO >>> Creating serial monitor connection for Heltec WiFi Kit 32 [esp32:esp32:heltec_wifi_kit_32] on port /dev/ttyUSB1...
+2021-09-03 15:51:44 monitor-service INFO <<< Serial monitor connection created for Heltec WiFi Kit 32 on port /dev/ttyUSB1.
+2021-09-03 15:51:44 root INFO >>> Creating serial monitor connection for Heltec WiFi Kit 32 [esp32:esp32:heltec_wifi_kit_32] on port /dev/ttyUSB1...
+2021-09-03 15:51:44 root INFO <<< Serial monitor connection created for Heltec WiFi Kit 32 on port /dev/ttyUSB1.
+2021-09-03 15:52:38 monitor-service INFO >>> Disposing monitor connection...
+2021-09-03 15:52:38 monitor-service INFO <<< Disposed monitor connection for Heltec WiFi Kit 32 on port /dev/ttyUSB1.
+2021-09-03 15:52:38 root INFO >>> Disposing existing monitor connection...
+2021-09-03 15:52:38 root INFO <<< Disposed connection. Was: Heltec WiFi Kit 32 [esp32:esp32:heltec_wifi_kit_32] /dev/ttyUSB1
+2021-09-03 15:52:38 daemon INFO inventory.Store.ConfigFileUsed() /home/brace/.arduino15/inventory.yaml
+2021-09-03 15:52:38 daemon INFO inventory.Store.ConfigFileUsed() /home/brace/.arduino15/inventory.yaml
+2021-09-03 15:52:38 daemon INFO Searching tools required for board esp32:esp32:heltec_wifi_kit_32
+2021-09-03 15:52:38 daemon INFO Adding libraries dir [dir: /home/brace/Projects/robots/mbot/arduino-1.8.15/libraries, location: ide]
+2021-09-03 15:52:38 daemon INFO Adding libraries dir [dir: /home/brace/.arduino15/packages/esp32/hardware/esp32/1.0.6/libraries, location: platform]
+2021-09-03 15:52:38 daemon INFO Adding libraries dir [dir: /home/brace/Arduino/libraries, location: user]
+2021-09-03 15:52:38 daemon INFO Resolving include SPI.h for arch esp32
+2021-09-03 15:52:38 daemon INFO   found better lib [lib: SPI, prio: 5E8]
+2021-09-03 15:52:38 daemon INFO Resolving include DHT.h for arch esp32
+2021-09-03 15:52:38 daemon INFO   found better lib [lib: DHT_sensor_library, prio: 517]
+2021-09-03 15:52:38 daemon INFO Resolving include Wire.h for arch esp32
+2021-09-03 15:52:38 daemon INFO   found better lib [lib: Wire, prio: 5E8]
+2021-09-03 15:52:39 daemon INFO Resolving include WiFi.h for arch esp32
+2021-09-03 15:52:39 daemon INFO   found better lib [lib: WiFi, prio: 5DC]
+2021-09-03 15:52:39 daemon INFO   found better lib [lib: WiFi, prio: 5E8]
+2021-09-03 15:52:39 daemon INFO Resolving include Adafruit_GFX.h for arch esp32
+2021-09-03 15:52:39 daemon INFO   found better lib [lib: Adafruit_GFX_Library, prio: 517]
+2021-09-03 15:52:39 daemon INFO Resolving include Adafruit_I2CDevice.h for arch esp32
+2021-09-03 15:52:39 daemon INFO   found better lib [lib: Adafruit_BusIO, prio: 3EB]
+2021-09-03 15:52:39 daemon INFO Resolving include SSD1306.h for arch esp32
+2021-09-03 15:52:39 daemon INFO   found better lib [lib: ESP8266_and_ESP32_OLED_driver_for_SSD1306_displays, prio: 459]
+2021-09-03 15:52:39 daemon INFO Resolving include Adafruit_Sensor.h for arch esp32
+2021-09-03 15:52:39 daemon INFO   found better lib [lib: Adafruit_Unified_Sensor, prio: 3EB]
+2021-09-03 15:52:40 root ERROR Request upload failed with error: 2 UNKNOWN: exit status 1
+2021-09-03 15:52:40 monitor-service INFO >>> Creating serial monitor connection for Heltec WiFi Kit 32 [esp32:esp32:heltec_wifi_kit_32] on port /dev/ttyUSB1...
+2021-09-03 15:52:40 monitor-service INFO <<< Serial monitor connection created for Heltec WiFi Kit 32 on port /dev/ttyUSB1.
+2021-09-03 15:52:40 root INFO >>> Creating serial monitor connection for Heltec WiFi Kit 32 [esp32:esp32:heltec_wifi_kit_32] on port /dev/ttyUSB1...
+2021-09-03 15:52:40 root INFO <<< Serial monitor connection created for Heltec WiFi Kit 32 on port /dev/ttyUSB1.
+2021-09-03 15:53:46 root ERROR [hosted-plugin: 421699] arduino.vscode-arduino-tools - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code action.
+2021-09-03 15:53:54 monitor-service INFO >>> Disposing monitor connection...
+2021-09-03 15:53:54 monitor-service INFO <<< Disposed monitor connection for Heltec WiFi Kit 32 on port /dev/ttyUSB1.
+2021-09-03 15:53:54 root INFO >>> Disposing existing monitor connection...
+2021-09-03 15:53:54 root INFO <<< Disposed connection. Was: Heltec WiFi Kit 32 [esp32:esp32:heltec_wifi_kit_32] /dev/ttyUSB1
+2021-09-03 15:53:54 daemon INFO inventory.Store.ConfigFileUsed() /home/brace/.arduino15/inventory.yaml
+2021-09-03 15:53:54 daemon INFO inventory.Store.ConfigFileUsed() /home/brace/.arduino15/inventory.yaml
+2021-09-03 15:53:54 daemon INFO Searching tools required for board esp32:esp32:heltec_wifi_kit_32
+2021-09-03 15:53:54 daemon INFO Adding libraries dir [dir: /home/brace/Projects/robots/mbot/arduino-1.8.15/libraries, location: ide]
+2021-09-03 15:53:54 daemon INFO Adding libraries dir [dir: /home/brace/.arduino15/packages/esp32/hardware/esp32/1.0.6/libraries, location: platform]
+2021-09-03 15:53:54 daemon INFO Adding libraries dir [dir: /home/brace/Arduino/libraries, location: user]
+2021-09-03 15:53:54 daemon INFO Resolving include SPI.h for arch esp32
+2021-09-03 15:53:54 daemon INFO   found better lib [lib: SPI, prio: 5E8]
+2021-09-03 15:53:54 daemon INFO Resolving include DHT.h for arch esp32
+2021-09-03 15:53:54 daemon INFO   found better lib [lib: DHT_sensor_library, prio: 517]
+2021-09-03 15:53:54 daemon INFO Resolving include Wire.h for arch esp32
+2021-09-03 15:53:54 daemon INFO   found better lib [lib: Wire, prio: 5E8]
+2021-09-03 15:53:54 daemon INFO Resolving include WiFi.h for arch esp32
+2021-09-03 15:53:54 daemon INFO   found better lib [lib: WiFi, prio: 5DC]
+2021-09-03 15:53:54 daemon INFO   found better lib [lib: WiFi, prio: 5E8]
+2021-09-03 15:53:54 daemon INFO Resolving include Adafruit_GFX.h for arch esp32
+2021-09-03 15:53:54 daemon INFO   found better lib [lib: Adafruit_GFX_Library, prio: 517]
+2021-09-03 15:53:55 daemon INFO Resolving include Adafruit_I2CDevice.h for arch esp32
+2021-09-03 15:53:55 daemon INFO   found better lib [lib: Adafruit_BusIO, prio: 3EB]
+2021-09-03 15:53:55 daemon INFO Resolving include SSD1306.h for arch esp32
+2021-09-03 15:53:55 daemon INFO   found better lib [lib: ESP8266_and_ESP32_OLED_driver_for_SSD1306_displays, prio: 459]
+2021-09-03 15:53:55 daemon INFO Resolving include Adafruit_Sensor.h for arch esp32
+2021-09-03 15:53:55 daemon INFO   found better lib [lib: Adafruit_Unified_Sensor, prio: 3EB]
+2021-09-03 15:53:59 daemon INFO Searching tools required for board esp32:esp32:heltec_wifi_kit_32
+2021-09-03 15:53:59 daemon INFO Tool required for upload [tool: Version: 5.8-arduino11]
+2021-09-03 15:53:59 daemon INFO Tool required for upload [tool: Version: 1.2.1 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2021-09-03 15:53:59 daemon INFO Tool required for upload [tool: Version: 3.0.0]
+2021-09-03 15:53:59 daemon INFO Tool required for upload [tool: Version: 0.2.3]
+2021-09-03 15:53:59 daemon INFO Tool required for upload [tool: Version: 1.22.0-97-gc752ad5-5.2.0]
+2021-09-03 15:53:59 daemon INFO Tool required for upload [tool: Version: 7.3.0-atmel3.6.1-arduino7 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin14, OS: i686-mingw32, OS: i686-linux-gnu, OS: x86_64-linux-gnu]]
+2021-09-03 15:53:59 daemon INFO Tool required for upload [tool: Version: 6.3.0-arduino17 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin12, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2021-09-03 15:53:59 daemon INFO Tool required for upload [tool: Version: 1.3.0 Systems: [OS: i686-linux-gnu, OS: x86_64-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: i386-apple-darwin11, OS: i686-mingw32]]
+2021-09-03 15:54:20 monitor-service INFO >>> Creating serial monitor connection for Heltec WiFi Kit 32 [esp32:esp32:heltec_wifi_kit_32] on port /dev/ttyUSB1...
+2021-09-03 15:54:20 monitor-service INFO <<< Serial monitor connection created for Heltec WiFi Kit 32 on port /dev/ttyUSB1.
+2021-09-03 15:54:20 root INFO >>> Creating serial monitor connection for Heltec WiFi Kit 32 [esp32:esp32:heltec_wifi_kit_32] on port /dev/ttyUSB1...
+2021-09-03 15:54:20 root INFO <<< Serial monitor connection created for Heltec WiFi Kit 32 on port /dev/ttyUSB1.
+2021-09-03 15:54:43 root INFO Attached boards and available ports changed:
+2021-09-03 15:54:43 root INFO  - Port is no longer available on /dev/ttyUSB1
+2021-09-03 15:54:43 root INFO ------------------------------------------
+2021-09-03 15:54:43 root INFO Attached boards and available ports changed:
+2021-09-03 15:54:43 root INFO Board config changed: 
+2021-09-03 15:54:43 root INFO  - Port is no longer available on /dev/ttyUSB1
+2021-09-03 15:54:43 root INFO ------------------------------------------
+2021-09-03 15:54:43 root INFO Board config changed: 
+2021-09-03 16:00:20 root INFO Board config changed: 
+2021-09-03 16:00:20 monitor-service INFO >>> Disposing monitor connection...
+2021-09-03 16:00:20 monitor-service INFO <<< Disposed monitor connection for Heltec WiFi Kit 32 on port /dev/ttyUSB1.
+2021-09-03 16:00:20 root INFO >>> Disposing existing monitor connection...
+2021-09-03 16:00:20 monitor-service INFO >>> Creating serial monitor connection for ESP32 Dev Module [esp32:esp32:esp32] on port /dev/ttyS4...
+2021-09-03 16:00:20 monitor-service INFO <<< Serial monitor connection created for ESP32 Dev Module on port /dev/ttyS4.
+2021-09-03 16:00:20 root INFO <<< Disposed connection. Was: Heltec WiFi Kit 32 [esp32:esp32:heltec_wifi_kit_32] /dev/ttyUSB1
+2021-09-03 16:00:20 root INFO >>> Creating serial monitor connection for ESP32 Dev Module [esp32:esp32:esp32] on port /dev/ttyS4...
+2021-09-03 16:00:20 root INFO <<< Serial monitor connection created for ESP32 Dev Module on port /dev/ttyS4.
+2021-09-03 16:00:20 root INFO Starting language server: esp32:esp32:esp32
+2021-09-03 16:00:26 monitor-service INFO >>> Disposing monitor connection...
+2021-09-03 16:00:26 monitor-service INFO <<< Disposed monitor connection for ESP32 Dev Module on port /dev/ttyS4.
+2021-09-03 16:00:26 root INFO >>> Disposing existing monitor connection...
+2021-09-03 16:00:26 root INFO <<< Disposed connection. Was: ESP32 Dev Module [esp32:esp32:esp32] /dev/ttyS4
+2021-09-03 16:00:26 daemon INFO inventory.Store.ConfigFileUsed() /home/brace/.arduino15/inventory.yaml
+2021-09-03 16:00:26 daemon INFO inventory.Store.ConfigFileUsed() /home/brace/.arduino15/inventory.yaml
+2021-09-03 16:00:26 daemon INFO Searching tools required for board esp32:esp32:esp32
+2021-09-03 16:00:26 daemon INFO Adding libraries dir [dir: /home/brace/Projects/robots/mbot/arduino-1.8.15/libraries, location: ide]
+2021-09-03 16:00:26 daemon INFO Adding libraries dir [dir: /home/brace/.arduino15/packages/esp32/hardware/esp32/1.0.6/libraries, location: platform]
+2021-09-03 16:00:26 daemon INFO Adding libraries dir [dir: /home/brace/Arduino/libraries, location: user]
+2021-09-03 16:00:27 daemon INFO Resolving include SPI.h for arch esp32
+2021-09-03 16:00:27 daemon INFO   found better lib [lib: SPI, prio: 5E8]
+2021-09-03 16:00:27 daemon INFO Resolving include DHT.h for arch esp32
+2021-09-03 16:00:27 daemon INFO   found better lib [lib: DHT_sensor_library, prio: 517]
+2021-09-03 16:00:27 daemon INFO Resolving include Wire.h for arch esp32
+2021-09-03 16:00:27 daemon INFO   found better lib [lib: Wire, prio: 5E8]
+2021-09-03 16:00:27 daemon INFO Resolving include WiFi.h for arch esp32
+2021-09-03 16:00:27 daemon INFO   found better lib [lib: WiFi, prio: 5DC]
+2021-09-03 16:00:27 daemon INFO   found better lib [lib: WiFi, prio: 5E8]
+2021-09-03 16:00:28 daemon INFO Resolving include Adafruit_GFX.h for arch esp32
+2021-09-03 16:00:28 daemon INFO   found better lib [lib: Adafruit_GFX_Library, prio: 517]
+2021-09-03 16:00:28 daemon INFO Resolving include Adafruit_I2CDevice.h for arch esp32
+2021-09-03 16:00:28 daemon INFO   found better lib [lib: Adafruit_BusIO, prio: 3EB]
+2021-09-03 16:00:28 daemon INFO Resolving include SSD1306.h for arch esp32
+2021-09-03 16:00:28 daemon INFO   found better lib [lib: ESP8266_and_ESP32_OLED_driver_for_SSD1306_displays, prio: 459]
+2021-09-03 16:00:29 daemon INFO Resolving include Adafruit_Sensor.h for arch esp32
+2021-09-03 16:00:29 daemon INFO   found better lib [lib: Adafruit_Unified_Sensor, prio: 3EB]
+2021-09-03 16:00:43 root INFO Attached boards and available ports changed:
+2021-09-03 16:00:43 root INFO  - New port is available on /dev/ttyUSB2
+2021-09-03 16:00:43 root INFO ------------------------------------------
+2021-09-03 16:00:43 root INFO Attached boards and available ports changed:
+2021-09-03 16:00:43 root INFO  - New port is available on /dev/ttyUSB2
+2021-09-03 16:00:43 root INFO ------------------------------------------
+2021-09-03 16:00:44 daemon INFO Searching tools required for board esp32:esp32:esp32
+2021-09-03 16:00:44 daemon INFO Tool required for upload [tool: Version: 5.8-arduino11]
+2021-09-03 16:00:44 daemon INFO Tool required for upload [tool: Version: 1.2.1 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2021-09-03 16:00:44 daemon INFO Tool required for upload [tool: Version: 3.0.0]
+2021-09-03 16:00:44 daemon INFO Tool required for upload [tool: Version: 0.2.3]
+2021-09-03 16:00:44 daemon INFO Tool required for upload [tool: Version: 1.22.0-97-gc752ad5-5.2.0]
+2021-09-03 16:00:44 daemon INFO Tool required for upload [tool: Version: 7.3.0-atmel3.6.1-arduino7 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin14, OS: i686-mingw32, OS: i686-linux-gnu, OS: x86_64-linux-gnu]]
+2021-09-03 16:00:44 daemon INFO Tool required for upload [tool: Version: 1.3.0 Systems: [OS: i686-linux-gnu, OS: x86_64-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: i386-apple-darwin11, OS: i686-mingw32]]
+2021-09-03 16:00:44 daemon INFO Tool required for upload [tool: Version: 6.3.0-arduino17 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin12, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2021-09-03 16:00:54 root INFO Board config changed: 
+2021-09-03 16:01:18 root ERROR Request upload failed with error: 2 UNKNOWN: uploading error: uploading error: exit status 2
+2021-09-03 16:01:18 monitor-service INFO >>> Creating serial monitor connection for ESP32 Dev Module [esp32:esp32:esp32] on port /dev/ttyUSB2...
+2021-09-03 16:01:18 monitor-service INFO <<< Serial monitor connection created for ESP32 Dev Module on port /dev/ttyUSB2.
+2021-09-03 16:01:18 root INFO >>> Creating serial monitor connection for ESP32 Dev Module [esp32:esp32:esp32] on port /dev/ttyUSB2...
+2021-09-03 16:01:18 root INFO <<< Serial monitor connection created for ESP32 Dev Module on port /dev/ttyUSB2.
+2021-09-03 16:01:21 monitor-service INFO >>> Disposing monitor connection...
+2021-09-03 16:01:21 monitor-service INFO <<< Disposed monitor connection for ESP32 Dev Module on port /dev/ttyUSB2.
+2021-09-03 16:01:21 root INFO >>> Disposing existing monitor connection...
+2021-09-03 16:01:21 root INFO <<< Disposed connection. Was: ESP32 Dev Module [esp32:esp32:esp32] /dev/ttyUSB2
+2021-09-03 16:01:21 daemon INFO inventory.Store.ConfigFileUsed() /home/brace/.arduino15/inventory.yaml
+2021-09-03 16:01:21 daemon INFO inventory.Store.ConfigFileUsed() /home/brace/.arduino15/inventory.yaml
+2021-09-03 16:01:21 daemon INFO Searching tools required for board esp32:esp32:esp32
+2021-09-03 16:01:21 daemon INFO Adding libraries dir [dir: /home/brace/Projects/robots/mbot/arduino-1.8.15/libraries, location: ide]
+2021-09-03 16:01:21 daemon INFO Adding libraries dir [dir: /home/brace/.arduino15/packages/esp32/hardware/esp32/1.0.6/libraries, location: platform]
+2021-09-03 16:01:21 daemon INFO Adding libraries dir [dir: /home/brace/Arduino/libraries, location: user]
+2021-09-03 16:01:21 daemon INFO Resolving include SPI.h for arch esp32
+2021-09-03 16:01:21 daemon INFO   found better lib [lib: SPI, prio: 5E8]
+2021-09-03 16:01:21 daemon INFO Resolving include DHT.h for arch esp32
+2021-09-03 16:01:21 daemon INFO   found better lib [lib: DHT_sensor_library, prio: 517]
+2021-09-03 16:01:22 daemon INFO Resolving include Wire.h for arch esp32
+2021-09-03 16:01:22 daemon INFO   found better lib [lib: Wire, prio: 5E8]
+2021-09-03 16:01:22 daemon INFO Resolving include WiFi.h for arch esp32
+2021-09-03 16:01:22 daemon INFO   found better lib [lib: WiFi, prio: 5DC]
+2021-09-03 16:01:22 daemon INFO   found better lib [lib: WiFi, prio: 5E8]
+2021-09-03 16:01:22 daemon INFO Resolving include Adafruit_GFX.h for arch esp32
+2021-09-03 16:01:22 daemon INFO   found better lib [lib: Adafruit_GFX_Library, prio: 517]
+2021-09-03 16:01:22 daemon INFO Resolving include Adafruit_I2CDevice.h for arch esp32
+2021-09-03 16:01:22 daemon INFO   found better lib [lib: Adafruit_BusIO, prio: 3EB]
+2021-09-03 16:01:22 daemon INFO Resolving include SSD1306.h for arch esp32
+2021-09-03 16:01:22 daemon INFO   found better lib [lib: ESP8266_and_ESP32_OLED_driver_for_SSD1306_displays, prio: 459]
+2021-09-03 16:01:22 daemon INFO Resolving include Adafruit_Sensor.h for arch esp32
+2021-09-03 16:01:22 daemon INFO   found better lib [lib: Adafruit_Unified_Sensor, prio: 3EB]
+2021-09-03 16:01:26 daemon INFO Searching tools required for board esp32:esp32:esp32
+2021-09-03 16:01:26 daemon INFO Tool required for upload [tool: Version: 1.2.1 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2021-09-03 16:01:26 daemon INFO Tool required for upload [tool: Version: 3.0.0]
+2021-09-03 16:01:26 daemon INFO Tool required for upload [tool: Version: 0.2.3]
+2021-09-03 16:01:26 daemon INFO Tool required for upload [tool: Version: 1.22.0-97-gc752ad5-5.2.0]
+2021-09-03 16:01:26 daemon INFO Tool required for upload [tool: Version: 6.3.0-arduino17 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin12, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2021-09-03 16:01:26 daemon INFO Tool required for upload [tool: Version: 1.3.0 Systems: [OS: i686-linux-gnu, OS: x86_64-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: i386-apple-darwin11, OS: i686-mingw32]]
+2021-09-03 16:01:26 daemon INFO Tool required for upload [tool: Version: 7.3.0-atmel3.6.1-arduino7 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin14, OS: i686-mingw32, OS: i686-linux-gnu, OS: x86_64-linux-gnu]]
+2021-09-03 16:01:26 daemon INFO Tool required for upload [tool: Version: 5.8-arduino11]
+2021-09-03 16:01:45 monitor-service INFO >>> Creating serial monitor connection for ESP32 Dev Module [esp32:esp32:esp32] on port /dev/ttyUSB2...
+2021-09-03 16:01:45 monitor-service INFO <<< Serial monitor connection created for ESP32 Dev Module on port /dev/ttyUSB2.
+2021-09-03 16:01:45 root INFO >>> Creating serial monitor connection for ESP32 Dev Module [esp32:esp32:esp32] on port /dev/ttyUSB2...
+2021-09-03 16:01:45 root INFO <<< Serial monitor connection created for ESP32 Dev Module on port /dev/ttyUSB2.
+2021-09-03 16:02:08 root INFO Board config changed: 
+2021-09-03 16:02:08 monitor-service INFO >>> Disposing monitor connection...
+2021-09-03 16:02:08 monitor-service INFO <<< Disposed monitor connection for ESP32 Dev Module on port /dev/ttyUSB2.
+2021-09-03 16:02:08 root INFO >>> Disposing existing monitor connection...
+2021-09-03 16:02:08 monitor-service INFO >>> Creating serial monitor connection for ESP32 Dev Module [esp32:esp32:esp32] on port /dev/ttyUSB2...
+2021-09-03 16:02:08 monitor-service INFO <<< Serial monitor connection created for ESP32 Dev Module on port /dev/ttyUSB2.
+2021-09-03 16:02:08 root INFO <<< Disposed connection. Was: ESP32 Dev Module [esp32:esp32:esp32] /dev/ttyUSB2
+2021-09-03 16:02:08 root INFO >>> Creating serial monitor connection for ESP32 Dev Module [esp32:esp32:esp32] on port /dev/ttyUSB2...
+2021-09-03 16:02:08 root INFO <<< Serial monitor connection created for ESP32 Dev Module on port /dev/ttyUSB2.
+2021-09-03 16:02:31 root INFO Board config changed: 
+2021-09-03 16:02:31 monitor-service INFO >>> Disposing monitor connection...
+2021-09-03 16:02:31 monitor-service INFO <<< Disposed monitor connection for ESP32 Dev Module on port /dev/ttyUSB2.
+2021-09-03 16:02:31 root INFO >>> Disposing existing monitor connection...
+2021-09-03 16:02:31 monitor-service INFO >>> Creating serial monitor connection for ESP32 Wrover Module [esp32:esp32:esp32wrover] on port /dev/ttyUSB2...
+2021-09-03 16:02:31 monitor-service INFO <<< Serial monitor connection created for ESP32 Wrover Module on port /dev/ttyUSB2.
+2021-09-03 16:02:31 root INFO <<< Disposed connection. Was: ESP32 Dev Module [esp32:esp32:esp32] /dev/ttyUSB2
+2021-09-03 16:02:31 root INFO >>> Creating serial monitor connection for ESP32 Wrover Module [esp32:esp32:esp32wrover] on port /dev/ttyUSB2...
+2021-09-03 16:02:31 root INFO Starting language server: esp32:esp32:esp32wrover
+2021-09-03 16:02:31 root INFO <<< Serial monitor connection created for ESP32 Wrover Module on port /dev/ttyUSB2.
+2021-09-03 16:02:39 monitor-service INFO >>> Disposing monitor connection...
+2021-09-03 16:02:39 monitor-service INFO <<< Disposed monitor connection for ESP32 Wrover Module on port /dev/ttyUSB2.
+2021-09-03 16:02:39 root INFO >>> Disposing existing monitor connection...
+2021-09-03 16:02:39 root INFO <<< Disposed connection. Was: ESP32 Wrover Module [esp32:esp32:esp32wrover] /dev/ttyUSB2
+2021-09-03 16:02:39 daemon INFO inventory.Store.ConfigFileUsed() /home/brace/.arduino15/inventory.yaml
+2021-09-03 16:02:39 daemon INFO inventory.Store.ConfigFileUsed() /home/brace/.arduino15/inventory.yaml
+2021-09-03 16:02:39 daemon INFO Searching tools required for board esp32:esp32:esp32wrover
+2021-09-03 16:02:39 daemon INFO Adding libraries dir [dir: /home/brace/Projects/robots/mbot/arduino-1.8.15/libraries, location: ide]
+2021-09-03 16:02:39 daemon INFO Adding libraries dir [dir: /home/brace/.arduino15/packages/esp32/hardware/esp32/1.0.6/libraries, location: platform]
+2021-09-03 16:02:39 daemon INFO Adding libraries dir [dir: /home/brace/Arduino/libraries, location: user]
+2021-09-03 16:02:39 daemon INFO Resolving include SPI.h for arch esp32
+2021-09-03 16:02:39 daemon INFO   found better lib [lib: SPI, prio: 5E8]
+2021-09-03 16:02:39 daemon INFO Resolving include DHT.h for arch esp32
+2021-09-03 16:02:39 daemon INFO   found better lib [lib: DHT_sensor_library, prio: 517]
+2021-09-03 16:02:39 daemon INFO Resolving include Wire.h for arch esp32
+2021-09-03 16:02:39 daemon INFO   found better lib [lib: Wire, prio: 5E8]
+2021-09-03 16:02:40 daemon INFO Resolving include WiFi.h for arch esp32
+2021-09-03 16:02:40 daemon INFO   found better lib [lib: WiFi, prio: 5DC]
+2021-09-03 16:02:40 daemon INFO   found better lib [lib: WiFi, prio: 5E8]
+2021-09-03 16:02:40 daemon INFO Resolving include Adafruit_GFX.h for arch esp32
+2021-09-03 16:02:40 daemon INFO   found better lib [lib: Adafruit_GFX_Library, prio: 517]
+2021-09-03 16:02:40 daemon INFO Resolving include Adafruit_I2CDevice.h for arch esp32
+2021-09-03 16:02:40 daemon INFO   found better lib [lib: Adafruit_BusIO, prio: 3EB]
+2021-09-03 16:02:40 daemon INFO Resolving include SSD1306.h for arch esp32
+2021-09-03 16:02:40 daemon INFO   found better lib [lib: ESP8266_and_ESP32_OLED_driver_for_SSD1306_displays, prio: 459]
+2021-09-03 16:02:41 daemon INFO Resolving include Adafruit_Sensor.h for arch esp32
+2021-09-03 16:02:41 daemon INFO   found better lib [lib: Adafruit_Unified_Sensor, prio: 3EB]
+2021-09-03 16:02:56 daemon INFO Searching tools required for board esp32:esp32:esp32wrover
+2021-09-03 16:02:56 daemon INFO Tool required for upload [tool: Version: 1.3.0 Systems: [OS: i686-linux-gnu, OS: x86_64-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: i386-apple-darwin11, OS: i686-mingw32]]
+2021-09-03 16:02:56 daemon INFO Tool required for upload [tool: Version: 1.2.1 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2021-09-03 16:02:56 daemon INFO Tool required for upload [tool: Version: 5.8-arduino11]
+2021-09-03 16:02:56 daemon INFO Tool required for upload [tool: Version: 3.0.0]
+2021-09-03 16:02:56 daemon INFO Tool required for upload [tool: Version: 0.2.3]
+2021-09-03 16:02:56 daemon INFO Tool required for upload [tool: Version: 1.22.0-97-gc752ad5-5.2.0]
+2021-09-03 16:02:56 daemon INFO Tool required for upload [tool: Version: 7.3.0-atmel3.6.1-arduino7 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin14, OS: i686-mingw32, OS: i686-linux-gnu, OS: x86_64-linux-gnu]]
+2021-09-03 16:02:56 daemon INFO Tool required for upload [tool: Version: 6.3.0-arduino17 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin12, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2021-09-03 16:03:18 monitor-service INFO >>> Creating serial monitor connection for ESP32 Wrover Module [esp32:esp32:esp32wrover] on port /dev/ttyUSB2...
+2021-09-03 16:03:18 monitor-service INFO <<< Serial monitor connection created for ESP32 Wrover Module on port /dev/ttyUSB2.
+2021-09-03 16:03:18 root INFO >>> Creating serial monitor connection for ESP32 Wrover Module [esp32:esp32:esp32wrover] on port /dev/ttyUSB2...
+2021-09-03 16:03:18 root INFO <<< Serial monitor connection created for ESP32 Wrover Module on port /dev/ttyUSB2.
+2021-09-03 16:05:11 root INFO Board config changed: 
+2021-09-03 16:05:11 monitor-service INFO >>> Disposing monitor connection...
+2021-09-03 16:05:11 monitor-service INFO <<< Disposed monitor connection for ESP32 Wrover Module on port /dev/ttyUSB2.
+2021-09-03 16:05:11 root INFO >>> Disposing existing monitor connection...
+2021-09-03 16:05:12 root INFO Starting language server: esp32:esp32:fm-devkit
+2021-09-03 16:05:12 monitor-service INFO >>> Creating serial monitor connection for ESP32 FM DevKit [esp32:esp32:fm-devkit] on port /dev/ttyUSB2...
+2021-09-03 16:05:12 monitor-service INFO <<< Serial monitor connection created for ESP32 FM DevKit on port /dev/ttyUSB2.
+2021-09-03 16:05:12 root INFO <<< Disposed connection. Was: ESP32 Wrover Module [esp32:esp32:esp32wrover] /dev/ttyUSB2
+2021-09-03 16:05:12 root INFO >>> Creating serial monitor connection for ESP32 FM DevKit [esp32:esp32:fm-devkit] on port /dev/ttyUSB2...
+2021-09-03 16:05:12 root INFO <<< Serial monitor connection created for ESP32 FM DevKit on port /dev/ttyUSB2.
+2021-09-03 16:05:32 monitor-service INFO >>> Disposing monitor connection...
+2021-09-03 16:05:32 monitor-service INFO <<< Disposed monitor connection for ESP32 FM DevKit on port /dev/ttyUSB2.
+2021-09-03 16:05:32 root INFO >>> Disposing existing monitor connection...
+2021-09-03 16:05:32 root INFO <<< Disposed connection. Was: ESP32 FM DevKit [esp32:esp32:fm-devkit] /dev/ttyUSB2
+2021-09-03 16:05:32 daemon INFO inventory.Store.ConfigFileUsed() /home/brace/.arduino15/inventory.yaml
+2021-09-03 16:05:32 daemon INFO inventory.Store.ConfigFileUsed() /home/brace/.arduino15/inventory.yaml
+2021-09-03 16:05:32 daemon INFO Searching tools required for board esp32:esp32:fm-devkit
+2021-09-03 16:05:32 daemon INFO Adding libraries dir [dir: /home/brace/Projects/robots/mbot/arduino-1.8.15/libraries, location: ide]
+2021-09-03 16:05:32 daemon INFO Adding libraries dir [dir: /home/brace/.arduino15/packages/esp32/hardware/esp32/1.0.6/libraries, location: platform]
+2021-09-03 16:05:32 daemon INFO Adding libraries dir [dir: /home/brace/Arduino/libraries, location: user]
+2021-09-03 16:05:32 daemon INFO Resolving include SPI.h for arch esp32
+2021-09-03 16:05:32 daemon INFO   found better lib [lib: SPI, prio: 5E8]
+2021-09-03 16:05:32 daemon INFO Resolving include DHT.h for arch esp32
+2021-09-03 16:05:32 daemon INFO   found better lib [lib: DHT_sensor_library, prio: 517]
+2021-09-03 16:05:32 daemon INFO Resolving include Wire.h for arch esp32
+2021-09-03 16:05:32 daemon INFO   found better lib [lib: Wire, prio: 5E8]
+2021-09-03 16:05:32 daemon INFO Resolving include WiFi.h for arch esp32
+2021-09-03 16:05:32 daemon INFO   found better lib [lib: WiFi, prio: 5DC]
+2021-09-03 16:05:32 daemon INFO   found better lib [lib: WiFi, prio: 5E8]
+2021-09-03 16:05:33 daemon INFO Resolving include Adafruit_GFX.h for arch esp32
+2021-09-03 16:05:33 daemon INFO   found better lib [lib: Adafruit_GFX_Library, prio: 517]
+2021-09-03 16:05:33 daemon INFO Resolving include Adafruit_I2CDevice.h for arch esp32
+2021-09-03 16:05:33 daemon INFO   found better lib [lib: Adafruit_BusIO, prio: 3EB]
+2021-09-03 16:05:33 daemon INFO Resolving include SSD1306.h for arch esp32
+2021-09-03 16:05:33 daemon INFO   found better lib [lib: ESP8266_and_ESP32_OLED_driver_for_SSD1306_displays, prio: 459]
+2021-09-03 16:05:33 daemon INFO Resolving include Adafruit_Sensor.h for arch esp32
+2021-09-03 16:05:33 daemon INFO   found better lib [lib: Adafruit_Unified_Sensor, prio: 3EB]
+2021-09-03 16:05:44 daemon INFO Searching tools required for board esp32:esp32:fm-devkit
+2021-09-03 16:05:44 daemon INFO Tool required for upload [tool: Version: 1.22.0-97-gc752ad5-5.2.0]
+2021-09-03 16:05:44 daemon INFO Tool required for upload [tool: Version: 7.3.0-atmel3.6.1-arduino7 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin14, OS: i686-mingw32, OS: i686-linux-gnu, OS: x86_64-linux-gnu]]
+2021-09-03 16:05:44 daemon INFO Tool required for upload [tool: Version: 6.3.0-arduino17 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin12, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2021-09-03 16:05:44 daemon INFO Tool required for upload [tool: Version: 1.3.0 Systems: [OS: i686-linux-gnu, OS: x86_64-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: i386-apple-darwin11, OS: i686-mingw32]]
+2021-09-03 16:05:44 daemon INFO Tool required for upload [tool: Version: 5.8-arduino11]
+2021-09-03 16:05:44 daemon INFO Tool required for upload [tool: Version: 1.2.1 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2021-09-03 16:05:44 daemon INFO Tool required for upload [tool: Version: 3.0.0]
+2021-09-03 16:05:44 daemon INFO Tool required for upload [tool: Version: 0.2.3]
+2021-09-03 16:05:44 root ERROR Request upload failed with error: 2 UNKNOWN: a programmer is required to upload for this board
+2021-09-03 16:05:44 monitor-service INFO >>> Creating serial monitor connection for ESP32 FM DevKit [esp32:esp32:fm-devkit] on port /dev/ttyUSB2...
+2021-09-03 16:05:44 monitor-service INFO <<< Serial monitor connection created for ESP32 FM DevKit on port /dev/ttyUSB2.
+2021-09-03 16:05:44 root INFO >>> Creating serial monitor connection for ESP32 FM DevKit [esp32:esp32:fm-devkit] on port /dev/ttyUSB2...
+2021-09-03 16:05:44 root INFO <<< Serial monitor connection created for ESP32 FM DevKit on port /dev/ttyUSB2.
+2021-09-03 16:05:53 monitor-service INFO >>> Disposing monitor connection...
+2021-09-03 16:05:53 monitor-service INFO <<< Disposed monitor connection for ESP32 FM DevKit on port /dev/ttyUSB2.
+2021-09-03 16:05:53 root INFO >>> Disposing existing monitor connection...
+2021-09-03 16:05:53 root INFO <<< Disposed connection. Was: ESP32 FM DevKit [esp32:esp32:fm-devkit] /dev/ttyUSB2
+2021-09-03 16:05:53 daemon INFO inventory.Store.ConfigFileUsed() /home/brace/.arduino15/inventory.yaml
+2021-09-03 16:05:53 daemon INFO inventory.Store.ConfigFileUsed() /home/brace/.arduino15/inventory.yaml
+2021-09-03 16:05:53 daemon INFO Searching tools required for board esp32:esp32:fm-devkit
+2021-09-03 16:05:53 daemon INFO Adding libraries dir [dir: /home/brace/Projects/robots/mbot/arduino-1.8.15/libraries, location: ide]
+2021-09-03 16:05:53 daemon INFO Adding libraries dir [dir: /home/brace/.arduino15/packages/esp32/hardware/esp32/1.0.6/libraries, location: platform]
+2021-09-03 16:05:53 daemon INFO Adding libraries dir [dir: /home/brace/Arduino/libraries, location: user]
+2021-09-03 16:05:53 daemon INFO Resolving include SPI.h for arch esp32
+2021-09-03 16:05:53 daemon INFO   found better lib [lib: SPI, prio: 5E8]
+2021-09-03 16:05:53 daemon INFO Resolving include DHT.h for arch esp32
+2021-09-03 16:05:53 daemon INFO   found better lib [lib: DHT_sensor_library, prio: 517]
+2021-09-03 16:05:53 daemon INFO Resolving include Wire.h for arch esp32
+2021-09-03 16:05:53 daemon INFO   found better lib [lib: Wire, prio: 5E8]
+2021-09-03 16:05:53 daemon INFO Resolving include WiFi.h for arch esp32
+2021-09-03 16:05:53 daemon INFO   found better lib [lib: WiFi, prio: 5DC]
+2021-09-03 16:05:53 daemon INFO   found better lib [lib: WiFi, prio: 5E8]
+2021-09-03 16:05:54 daemon INFO Resolving include Adafruit_GFX.h for arch esp32
+2021-09-03 16:05:54 daemon INFO   found better lib [lib: Adafruit_GFX_Library, prio: 517]
+2021-09-03 16:05:54 daemon INFO Resolving include Adafruit_I2CDevice.h for arch esp32
+2021-09-03 16:05:54 daemon INFO   found better lib [lib: Adafruit_BusIO, prio: 3EB]
+2021-09-03 16:05:54 daemon INFO Resolving include SSD1306.h for arch esp32
+2021-09-03 16:05:54 daemon INFO   found better lib [lib: ESP8266_and_ESP32_OLED_driver_for_SSD1306_displays, prio: 459]
+2021-09-03 16:05:54 daemon INFO Resolving include Adafruit_Sensor.h for arch esp32
+2021-09-03 16:05:54 daemon INFO   found better lib [lib: Adafruit_Unified_Sensor, prio: 3EB]
+2021-09-03 16:05:58 daemon INFO Searching tools required for board esp32:esp32:fm-devkit
+2021-09-03 16:05:58 daemon INFO Tool required for upload [tool: Version: 1.22.0-97-gc752ad5-5.2.0]
+2021-09-03 16:05:58 daemon INFO Tool required for upload [tool: Version: 7.3.0-atmel3.6.1-arduino7 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin14, OS: i686-mingw32, OS: i686-linux-gnu, OS: x86_64-linux-gnu]]
+2021-09-03 16:05:58 daemon INFO Tool required for upload [tool: Version: 6.3.0-arduino17 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin12, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2021-09-03 16:05:58 daemon INFO Tool required for upload [tool: Version: 1.3.0 Systems: [OS: i686-linux-gnu, OS: x86_64-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: i386-apple-darwin11, OS: i686-mingw32]]
+2021-09-03 16:05:58 daemon INFO Tool required for upload [tool: Version: 5.8-arduino11]
+2021-09-03 16:05:58 daemon INFO Tool required for upload [tool: Version: 1.2.1 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2021-09-03 16:05:58 daemon INFO Tool required for upload [tool: Version: 3.0.0]
+2021-09-03 16:05:58 daemon INFO Tool required for upload [tool: Version: 0.2.3]
+2021-09-03 16:05:58 root ERROR Request upload failed with error: 2 UNKNOWN: a programmer is required to upload for this board
+2021-09-03 16:05:58 monitor-service INFO >>> Creating serial monitor connection for ESP32 FM DevKit [esp32:esp32:fm-devkit] on port /dev/ttyUSB2...
+2021-09-03 16:05:58 monitor-service INFO <<< Serial monitor connection created for ESP32 FM DevKit on port /dev/ttyUSB2.
+2021-09-03 16:05:58 root INFO >>> Creating serial monitor connection for ESP32 FM DevKit [esp32:esp32:fm-devkit] on port /dev/ttyUSB2...
+2021-09-03 16:05:58 root INFO <<< Serial monitor connection created for ESP32 FM DevKit on port /dev/ttyUSB2.
+2021-09-03 16:08:05 root INFO Board config changed: 
+2021-09-03 16:08:05 monitor-service INFO >>> Disposing monitor connection...
+2021-09-03 16:08:05 monitor-service INFO <<< Disposed monitor connection for ESP32 FM DevKit on port /dev/ttyUSB2.
+2021-09-03 16:08:05 root INFO >>> Disposing existing monitor connection...
+2021-09-03 16:08:05 root INFO Starting language server: esp32:esp32:vintlabs-devkit-v1
+2021-09-03 16:08:05 monitor-service INFO >>> Creating serial monitor connection for VintLabs ESP32 Devkit [esp32:esp32:vintlabs-devkit-v1] on port /dev/ttyUSB2...
+2021-09-03 16:08:05 monitor-service INFO <<< Serial monitor connection created for VintLabs ESP32 Devkit on port /dev/ttyUSB2.
+2021-09-03 16:08:05 root INFO <<< Disposed connection. Was: ESP32 FM DevKit [esp32:esp32:fm-devkit] /dev/ttyUSB2
+2021-09-03 16:08:05 root INFO >>> Creating serial monitor connection for VintLabs ESP32 Devkit [esp32:esp32:vintlabs-devkit-v1] on port /dev/ttyUSB2...
+2021-09-03 16:08:05 root INFO <<< Serial monitor connection created for VintLabs ESP32 Devkit on port /dev/ttyUSB2.
+2021-09-03 16:08:16 monitor-service INFO >>> Disposing monitor connection...
+2021-09-03 16:08:16 monitor-service INFO <<< Disposed monitor connection for VintLabs ESP32 Devkit on port /dev/ttyUSB2.
+2021-09-03 16:08:16 root INFO >>> Disposing existing monitor connection...
+2021-09-03 16:08:16 root INFO <<< Disposed connection. Was: VintLabs ESP32 Devkit [esp32:esp32:vintlabs-devkit-v1] /dev/ttyUSB2
+2021-09-03 16:08:16 daemon INFO inventory.Store.ConfigFileUsed() /home/brace/.arduino15/inventory.yaml
+2021-09-03 16:08:16 daemon INFO inventory.Store.ConfigFileUsed() /home/brace/.arduino15/inventory.yaml
+2021-09-03 16:08:16 daemon INFO Searching tools required for board esp32:esp32:vintlabs-devkit-v1
+2021-09-03 16:08:16 daemon INFO Adding libraries dir [dir: /home/brace/Projects/robots/mbot/arduino-1.8.15/libraries, location: ide]
+2021-09-03 16:08:16 daemon INFO Adding libraries dir [dir: /home/brace/.arduino15/packages/esp32/hardware/esp32/1.0.6/libraries, location: platform]
+2021-09-03 16:08:16 daemon INFO Adding libraries dir [dir: /home/brace/Arduino/libraries, location: user]
+2021-09-03 16:08:16 daemon INFO Resolving include SPI.h for arch esp32
+2021-09-03 16:08:16 daemon INFO   found better lib [lib: SPI, prio: 5E8]
+2021-09-03 16:08:17 daemon INFO Resolving include DHT.h for arch esp32
+2021-09-03 16:08:17 daemon INFO   found better lib [lib: DHT_sensor_library, prio: 517]
+2021-09-03 16:08:17 daemon INFO Resolving include Wire.h for arch esp32
+2021-09-03 16:08:17 daemon INFO   found better lib [lib: Wire, prio: 5E8]
+2021-09-03 16:08:17 daemon INFO Resolving include WiFi.h for arch esp32
+2021-09-03 16:08:17 daemon INFO   found better lib [lib: WiFi, prio: 5DC]
+2021-09-03 16:08:17 daemon INFO   found better lib [lib: WiFi, prio: 5E8]
+2021-09-03 16:08:17 daemon INFO Resolving include Adafruit_GFX.h for arch esp32
+2021-09-03 16:08:17 daemon INFO   found better lib [lib: Adafruit_GFX_Library, prio: 517]
+2021-09-03 16:08:18 daemon INFO Resolving include Adafruit_I2CDevice.h for arch esp32
+2021-09-03 16:08:18 daemon INFO   found better lib [lib: Adafruit_BusIO, prio: 3EB]
+2021-09-03 16:08:18 daemon INFO Resolving include SSD1306.h for arch esp32
+2021-09-03 16:08:18 daemon INFO   found better lib [lib: ESP8266_and_ESP32_OLED_driver_for_SSD1306_displays, prio: 459]
+2021-09-03 16:08:19 daemon INFO Resolving include Adafruit_Sensor.h for arch esp32
+2021-09-03 16:08:19 daemon INFO   found better lib [lib: Adafruit_Unified_Sensor, prio: 3EB]
+2021-09-03 16:08:38 daemon INFO Searching tools required for board esp32:esp32:vintlabs-devkit-v1
+2021-09-03 16:08:38 daemon INFO Tool required for upload [tool: Version: 1.22.0-97-gc752ad5-5.2.0]
+2021-09-03 16:08:38 daemon INFO Tool required for upload [tool: Version: 3.0.0]
+2021-09-03 16:08:38 daemon INFO Tool required for upload [tool: Version: 5.8-arduino11]
+2021-09-03 16:08:38 daemon INFO Tool required for upload [tool: Version: 1.2.1 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2021-09-03 16:08:38 daemon INFO Tool required for upload [tool: Version: 7.3.0-atmel3.6.1-arduino7 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin14, OS: i686-mingw32, OS: i686-linux-gnu, OS: x86_64-linux-gnu]]
+2021-09-03 16:08:38 daemon INFO Tool required for upload [tool: Version: 6.3.0-arduino17 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin12, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2021-09-03 16:08:38 daemon INFO Tool required for upload [tool: Version: 1.3.0 Systems: [OS: i686-linux-gnu, OS: x86_64-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: i386-apple-darwin11, OS: i686-mingw32]]
+2021-09-03 16:08:38 daemon INFO Tool required for upload [tool: Version: 0.2.3]
+2021-09-03 16:08:54 root ERROR Request upload failed with error: 2 UNKNOWN: uploading error: uploading error: exit status 2
+2021-09-03 16:08:54 monitor-service INFO >>> Creating serial monitor connection for VintLabs ESP32 Devkit [esp32:esp32:vintlabs-devkit-v1] on port /dev/ttyUSB2...
+2021-09-03 16:08:54 monitor-service INFO <<< Serial monitor connection created for VintLabs ESP32 Devkit on port /dev/ttyUSB2.
+2021-09-03 16:08:54 root INFO >>> Creating serial monitor connection for VintLabs ESP32 Devkit [esp32:esp32:vintlabs-devkit-v1] on port /dev/ttyUSB2...
+2021-09-03 16:08:54 root INFO <<< Serial monitor connection created for VintLabs ESP32 Devkit on port /dev/ttyUSB2.
+2021-09-03 16:10:17 root WARN Frontend CommonFrontendContribution.configure is slow, took: 104.9 ms
+2021-09-03 16:10:17 root WARN Frontend EditorNavigationContribution.onStart is slow, took: 234.3 ms
+2021-09-03 16:10:17 root INFO Board config changed: 
+2021-09-03 16:10:17 root INFO Board config changed: 
+2021-09-03 16:10:18 root INFO Changed application state from 'init' to 'started_contributions'.
+2021-09-03 16:10:18 root INFO Changed application state from 'started_contributions' to 'attached_shell'.
+2021-09-03 16:10:18 root INFO >>> Restoring the layout state...
+2021-09-03 16:10:18 root INFO <<< Nothing to restore.
+2021-09-03 16:10:18 root INFO [hosted-plugin: 426769] PLUGIN_HOST(426769) starting instance
+2021-09-03 16:10:18 root INFO Board config changed: 
+2021-09-03 16:10:18 root INFO [425bd115-fdd4-4d98-abee-5bee7bd4a118] Sync of 5 plugins took: 681.7 ms
+2021-09-03 16:10:19 root INFO Changed application state from 'attached_shell' to 'initialized_layout'.
+2021-09-03 16:10:19 root INFO [425bd115-fdd4-4d98-abee-5bee7bd4a118][marus25.cortex-debug]: Loaded contributions.
+2021-09-03 16:10:19 root INFO [425bd115-fdd4-4d98-abee-5bee7bd4a118][arduino.vscode-arduino-tools]: Loaded contributions.
+2021-09-03 16:10:19 root INFO [425bd115-fdd4-4d98-abee-5bee7bd4a118][vscode.cpp]: Loaded contributions.
+2021-09-03 16:10:19 root INFO [425bd115-fdd4-4d98-abee-5bee7bd4a118][vscode.json]: Loaded contributions.
+2021-09-03 16:10:19 root INFO [425bd115-fdd4-4d98-abee-5bee7bd4a118][vscode.json-language-features]: Loaded contributions.
+2021-09-03 16:10:19 root INFO [425bd115-fdd4-4d98-abee-5bee7bd4a118] Load contributions of 5 plugins took: 43.3 ms
+2021-09-03 16:10:19 root WARN 'cpp' language is remapped from 'source.cpp.embedded.macro' to 'source.cpp' scope
+2021-09-03 16:10:19 root WARN a registered grammar configuration for 'cpp' language is overridden
+2021-09-03 16:10:20 root INFO Changed application state from 'initialized_layout' to 'ready'.
+2021-09-03 16:10:20 root INFO [hosted-plugin: 426769] PLUGIN_HOST(426769): PluginManagerExtImpl/init()
+PLUGIN_HOST(426769): initializing(cortex-debug@0.3.10 with /home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init.js)
+2021-09-03 16:10:20 root INFO [hosted-plugin: 426769] Debugger contribution has been registered: cortex-debug
+2021-09-03 16:10:20 root INFO [hosted-plugin: 426769] PLUGIN_HOST(426769): initializing(vscode-arduino-tools@0.0.1-beta.1 with /home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init.js)
+2021-09-03 16:10:20 root INFO [hosted-plugin: 426769] PLUGIN_HOST(426769): initializing(cpp@1.52.1 with /home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init.js)
+PLUGIN_HOST(426769): initializing(json@1.46.1 with /home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init.js)
+PLUGIN_HOST(426769): initializing(json-language-features@1.46.1 with /home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init.js)
+2021-09-03 16:10:20 root INFO [hosted-plugin: 426769] PLUGIN_HOST(426769): PluginManagerExtImpl/loadPlugin(/home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/plugins/vscode-builtin-json-language-features/extension/client/dist/jsonMain)
+2021-09-03 16:10:20 root INFO [425bd115-fdd4-4d98-abee-5bee7bd4a118][marus25.cortex-debug]: Started plugin.
+2021-09-03 16:10:20 root INFO [425bd115-fdd4-4d98-abee-5bee7bd4a118][arduino.vscode-arduino-tools]: Started plugin.
+2021-09-03 16:10:20 root INFO [425bd115-fdd4-4d98-abee-5bee7bd4a118][vscode.cpp]: Started plugin.
+2021-09-03 16:10:20 root INFO [425bd115-fdd4-4d98-abee-5bee7bd4a118][vscode.json]: Started plugin.
+2021-09-03 16:10:20 root INFO [425bd115-fdd4-4d98-abee-5bee7bd4a118][vscode.json-language-features]: Started plugin.
+2021-09-03 16:10:21 root INFO [425bd115-fdd4-4d98-abee-5bee7bd4a118] Start of 5 plugins took: 1929.0 ms
+2021-09-03 16:10:21 root INFO Starting language server: esp32:esp32:vintlabs-devkit-v1
+2021-09-03 16:10:21 root INFO [hosted-plugin: 426769] PLUGIN_HOST(426769): PluginManagerExtImpl/loadPlugin(/home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/plugins/vscode-arduino-tools/extension/dist/bundle)
+2021-09-03 16:10:32 daemon INFO inventory.Store.ConfigFileUsed() /home/brace/.arduino15/inventory.yaml
+2021-09-03 16:10:32 daemon INFO inventory.Store.ConfigFileUsed() /home/brace/.arduino15/inventory.yaml
+2021-09-03 16:10:32 daemon INFO Searching tools required for board esp32:esp32:vintlabs-devkit-v1
+2021-09-03 16:10:32 daemon INFO Adding libraries dir [dir: /home/brace/Projects/robots/mbot/arduino-1.8.15/libraries, location: ide]
+2021-09-03 16:10:32 daemon INFO Adding libraries dir [dir: /home/brace/.arduino15/packages/esp32/hardware/esp32/1.0.6/libraries, location: platform]
+2021-09-03 16:10:32 daemon INFO Adding libraries dir [dir: /home/brace/Arduino/libraries, location: user]
+2021-09-03 16:10:34 daemon INFO Searching tools required for board esp32:esp32:vintlabs-devkit-v1
+2021-09-03 16:10:34 daemon INFO Tool required for upload [tool: Version: 3.0.0]
+2021-09-03 16:10:34 daemon INFO Tool required for upload [tool: Version: 0.2.3]
+2021-09-03 16:10:34 daemon INFO Tool required for upload [tool: Version: 6.3.0-arduino17 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin12, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2021-09-03 16:10:34 daemon INFO Tool required for upload [tool: Version: 1.3.0 Systems: [OS: i686-linux-gnu, OS: x86_64-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: i386-apple-darwin11, OS: i686-mingw32]]
+2021-09-03 16:10:34 daemon INFO Tool required for upload [tool: Version: 7.3.0-atmel3.6.1-arduino7 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin14, OS: i686-mingw32, OS: i686-linux-gnu, OS: x86_64-linux-gnu]]
+2021-09-03 16:10:34 daemon INFO Tool required for upload [tool: Version: 5.8-arduino11]
+2021-09-03 16:10:34 daemon INFO Tool required for upload [tool: Version: 1.2.1 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2021-09-03 16:10:34 daemon INFO Tool required for upload [tool: Version: 1.22.0-97-gc752ad5-5.2.0]
+2021-09-03 16:10:39 monitor-service INFO >>> Creating serial monitor connection for VintLabs ESP32 Devkit [esp32:esp32:vintlabs-devkit-v1] on port /dev/ttyUSB2...
+2021-09-03 16:10:39 monitor-service INFO <<< Serial monitor connection created for VintLabs ESP32 Devkit on port /dev/ttyUSB2.
+2021-09-03 16:10:39 monitor-service INFO >>> Disposing monitor connection...
+2021-09-03 16:10:39 monitor-service INFO <<< Disposed monitor connection for VintLabs ESP32 Devkit on port /dev/ttyUSB2.
+2021-09-03 16:10:39 root INFO >>> Creating serial monitor connection for VintLabs ESP32 Devkit [esp32:esp32:vintlabs-devkit-v1] on port /dev/ttyUSB2...
+2021-09-03 16:10:39 root INFO <<< Serial monitor connection created for VintLabs ESP32 Devkit on port /dev/ttyUSB2.
+2021-09-03 16:10:40 monitor-service INFO >>> Creating serial monitor connection for VintLabs ESP32 Devkit [esp32:esp32:vintlabs-devkit-v1] on port /dev/ttyUSB2...
+2021-09-03 16:10:40 monitor-service INFO <<< Serial monitor connection created for VintLabs ESP32 Devkit on port /dev/ttyUSB2.
+2021-09-03 16:10:40 monitor-service INFO >>> Disposing monitor connection...
+2021-09-03 16:10:40 monitor-service INFO <<< Disposed monitor connection for VintLabs ESP32 Devkit on port /dev/ttyUSB2.
+2021-09-03 16:10:40 root INFO >>> Creating serial monitor connection for VintLabs ESP32 Devkit [esp32:esp32:vintlabs-devkit-v1] on port /dev/ttyUSB2...
+2021-09-03 16:10:40 root INFO <<< Serial monitor connection created for VintLabs ESP32 Devkit on port /dev/ttyUSB2.
+2021-09-03 16:10:42 monitor-service INFO >>> Creating serial monitor connection for VintLabs ESP32 Devkit [esp32:esp32:vintlabs-devkit-v1] on port /dev/ttyUSB2...
+2021-09-03 16:10:42 monitor-service INFO <<< Serial monitor connection created for VintLabs ESP32 Devkit on port /dev/ttyUSB2.
+2021-09-03 16:10:42 monitor-service INFO >>> Disposing monitor connection...
+2021-09-03 16:10:42 monitor-service INFO <<< Disposed monitor connection for VintLabs ESP32 Devkit on port /dev/ttyUSB2.
+2021-09-03 16:10:42 root INFO >>> Creating serial monitor connection for VintLabs ESP32 Devkit [esp32:esp32:vintlabs-devkit-v1] on port /dev/ttyUSB2...
+2021-09-03 16:10:42 root INFO <<< Serial monitor connection created for VintLabs ESP32 Devkit on port /dev/ttyUSB2.
+2021-09-03 16:10:44 root ERROR Request upload failed with error: 13 INTERNAL: transport: transport: the stream is done or WriteHeader was already called
+2021-09-03 16:10:45 monitor-service INFO >>> Creating serial monitor connection for VintLabs ESP32 Devkit [esp32:esp32:vintlabs-devkit-v1] on port /dev/ttyUSB2...
+2021-09-03 16:10:45 monitor-service INFO <<< Serial monitor connection created for VintLabs ESP32 Devkit on port /dev/ttyUSB2.
+2021-09-03 16:10:45 monitor-service INFO >>> Disposing monitor connection...
+2021-09-03 16:10:45 monitor-service INFO <<< Disposed monitor connection for VintLabs ESP32 Devkit on port /dev/ttyUSB2.
+2021-09-03 16:10:45 root INFO >>> Creating serial monitor connection for VintLabs ESP32 Devkit [esp32:esp32:vintlabs-devkit-v1] on port /dev/ttyUSB2...
+2021-09-03 16:10:45 root INFO <<< Serial monitor connection created for VintLabs ESP32 Devkit on port /dev/ttyUSB2.
+2021-09-03 16:10:49 monitor-service INFO >>> Creating serial monitor connection for VintLabs ESP32 Devkit [esp32:esp32:vintlabs-devkit-v1] on port /dev/ttyUSB2...
+2021-09-03 16:10:49 monitor-service INFO <<< Serial monitor connection created for VintLabs ESP32 Devkit on port /dev/ttyUSB2.
+2021-09-03 16:10:49 monitor-service INFO >>> Disposing monitor connection...
+2021-09-03 16:10:49 monitor-service INFO <<< Disposed monitor connection for VintLabs ESP32 Devkit on port /dev/ttyUSB2.
+2021-09-03 16:10:49 root INFO >>> Creating serial monitor connection for VintLabs ESP32 Devkit [esp32:esp32:vintlabs-devkit-v1] on port /dev/ttyUSB2...
+2021-09-03 16:10:49 root INFO <<< Serial monitor connection created for VintLabs ESP32 Devkit on port /dev/ttyUSB2.
+2021-09-03 16:10:55 monitor-service INFO >>> Creating serial monitor connection for VintLabs ESP32 Devkit [esp32:esp32:vintlabs-devkit-v1] on port /dev/ttyUSB2...
+2021-09-03 16:10:55 monitor-service INFO <<< Serial monitor connection created for VintLabs ESP32 Devkit on port /dev/ttyUSB2.
+2021-09-03 16:10:55 monitor-service INFO >>> Disposing monitor connection...
+2021-09-03 16:10:55 monitor-service INFO <<< Disposed monitor connection for VintLabs ESP32 Devkit on port /dev/ttyUSB2.
+2021-09-03 16:10:55 root INFO >>> Creating serial monitor connection for VintLabs ESP32 Devkit [esp32:esp32:vintlabs-devkit-v1] on port /dev/ttyUSB2...
+2021-09-03 16:10:55 root INFO <<< Serial monitor connection created for VintLabs ESP32 Devkit on port /dev/ttyUSB2.
+2021-09-03 16:11:01 monitor-service INFO >>> Creating serial monitor connection for VintLabs ESP32 Devkit [esp32:esp32:vintlabs-devkit-v1] on port /dev/ttyUSB2...
+2021-09-03 16:11:01 monitor-service INFO <<< Serial monitor connection created for VintLabs ESP32 Devkit on port /dev/ttyUSB2.
+2021-09-03 16:11:01 monitor-service INFO >>> Disposing monitor connection...
+2021-09-03 16:11:01 monitor-service INFO <<< Disposed monitor connection for VintLabs ESP32 Devkit on port /dev/ttyUSB2.
+2021-09-03 16:11:01 root INFO >>> Creating serial monitor connection for VintLabs ESP32 Devkit [esp32:esp32:vintlabs-devkit-v1] on port /dev/ttyUSB2...
+2021-09-03 16:11:01 root INFO <<< Serial monitor connection created for VintLabs ESP32 Devkit on port /dev/ttyUSB2.
+2021-09-03 16:11:08 monitor-service INFO >>> Creating serial monitor connection for VintLabs ESP32 Devkit [esp32:esp32:vintlabs-devkit-v1] on port /dev/ttyUSB2...
+2021-09-03 16:11:08 monitor-service INFO <<< Serial monitor connection created for VintLabs ESP32 Devkit on port /dev/ttyUSB2.
+2021-09-03 16:11:08 monitor-service INFO >>> Disposing monitor connection...
+2021-09-03 16:11:08 monitor-service INFO <<< Disposed monitor connection for VintLabs ESP32 Devkit on port /dev/ttyUSB2.
+2021-09-03 16:11:08 root INFO >>> Creating serial monitor connection for VintLabs ESP32 Devkit [esp32:esp32:vintlabs-devkit-v1] on port /dev/ttyUSB2...
+2021-09-03 16:11:08 root INFO <<< Serial monitor connection created for VintLabs ESP32 Devkit on port /dev/ttyUSB2.
+2021-09-03 16:11:16 monitor-service INFO >>> Creating serial monitor connection for VintLabs ESP32 Devkit [esp32:esp32:vintlabs-devkit-v1] on port /dev/ttyUSB2...
+2021-09-03 16:11:16 monitor-service INFO <<< Serial monitor connection created for VintLabs ESP32 Devkit on port /dev/ttyUSB2.
+2021-09-03 16:11:16 monitor-service INFO >>> Disposing monitor connection...
+2021-09-03 16:11:16 monitor-service INFO <<< Disposed monitor connection for VintLabs ESP32 Devkit on port /dev/ttyUSB2.
+2021-09-03 16:11:16 root INFO >>> Creating serial monitor connection for VintLabs ESP32 Devkit [esp32:esp32:vintlabs-devkit-v1] on port /dev/ttyUSB2...
+2021-09-03 16:11:16 root INFO <<< Serial monitor connection created for VintLabs ESP32 Devkit on port /dev/ttyUSB2.
+2021-09-03 16:11:25 monitor-service INFO >>> Creating serial monitor connection for VintLabs ESP32 Devkit [esp32:esp32:vintlabs-devkit-v1] on port /dev/ttyUSB2...
+2021-09-03 16:11:25 monitor-service INFO <<< Serial monitor connection created for VintLabs ESP32 Devkit on port /dev/ttyUSB2.
+2021-09-03 16:11:25 monitor-service INFO >>> Disposing monitor connection...
+2021-09-03 16:11:25 monitor-service INFO <<< Disposed monitor connection for VintLabs ESP32 Devkit on port /dev/ttyUSB2.
+2021-09-03 16:11:25 root INFO >>> Creating serial monitor connection for VintLabs ESP32 Devkit [esp32:esp32:vintlabs-devkit-v1] on port /dev/ttyUSB2...
+2021-09-03 16:11:25 root INFO <<< Serial monitor connection created for VintLabs ESP32 Devkit on port /dev/ttyUSB2.
+2021-09-03 16:11:36 monitor-service INFO >>> Disposing monitor service...
+2021-09-03 16:11:36 monitor-service INFO <<< Disposed monitor service.
+2021-09-03 16:11:52 root INFO Board config changed: 
+2021-09-03 16:11:52 monitor-service INFO >>> Disposing monitor connection...
+2021-09-03 16:11:52 monitor-service INFO <<< Disposed monitor connection for VintLabs ESP32 Devkit on port /dev/ttyUSB2.
+2021-09-03 16:11:52 root INFO >>> Disposing existing monitor connection...
+2021-09-03 16:11:52 monitor-service INFO >>> Creating serial monitor connection for Adafruit ESP32 Feather [esp32:esp32:featheresp32] on port /dev/ttyUSB2...
+2021-09-03 16:11:52 monitor-service INFO <<< Serial monitor connection created for Adafruit ESP32 Feather on port /dev/ttyUSB2.
+2021-09-03 16:11:52 root INFO <<< Disposed connection. Was: VintLabs ESP32 Devkit [esp32:esp32:vintlabs-devkit-v1] /dev/ttyUSB2
+2021-09-03 16:11:52 root INFO >>> Creating serial monitor connection for Adafruit ESP32 Feather [esp32:esp32:featheresp32] on port /dev/ttyUSB2...
+2021-09-03 16:11:52 root INFO Starting language server: esp32:esp32:featheresp32
+2021-09-03 16:11:52 root INFO <<< Serial monitor connection created for Adafruit ESP32 Feather on port /dev/ttyUSB2.
+2021-09-03 16:11:56 monitor-service INFO >>> Disposing monitor connection...
+2021-09-03 16:11:56 monitor-service INFO <<< Disposed monitor connection for Adafruit ESP32 Feather on port /dev/ttyUSB2.
+2021-09-03 16:11:56 root INFO >>> Disposing existing monitor connection...
+2021-09-03 16:11:56 root INFO <<< Disposed connection. Was: Adafruit ESP32 Feather [esp32:esp32:featheresp32] /dev/ttyUSB2
+2021-09-03 16:11:56 daemon INFO inventory.Store.ConfigFileUsed() /home/brace/.arduino15/inventory.yaml
+2021-09-03 16:11:56 daemon INFO inventory.Store.ConfigFileUsed() /home/brace/.arduino15/inventory.yaml
+2021-09-03 16:11:56 daemon INFO Searching tools required for board esp32:esp32:featheresp32
+2021-09-03 16:11:56 daemon INFO Adding libraries dir [dir: /home/brace/Projects/robots/mbot/arduino-1.8.15/libraries, location: ide]
+2021-09-03 16:11:56 daemon INFO Adding libraries dir [dir: /home/brace/.arduino15/packages/esp32/hardware/esp32/1.0.6/libraries, location: platform]
+2021-09-03 16:11:56 daemon INFO Adding libraries dir [dir: /home/brace/Arduino/libraries, location: user]
+2021-09-03 16:11:56 daemon INFO Resolving include SPI.h for arch esp32
+2021-09-03 16:11:56 daemon INFO   found better lib [lib: SPI, prio: 5E8]
+2021-09-03 16:11:56 daemon INFO Resolving include DHT.h for arch esp32
+2021-09-03 16:11:56 daemon INFO   found better lib [lib: DHT_sensor_library, prio: 517]
+2021-09-03 16:11:57 daemon INFO Resolving include Wire.h for arch esp32
+2021-09-03 16:11:57 daemon INFO   found better lib [lib: Wire, prio: 5E8]
+2021-09-03 16:11:57 daemon INFO Resolving include WiFi.h for arch esp32
+2021-09-03 16:11:57 daemon INFO   found better lib [lib: WiFi, prio: 5DC]
+2021-09-03 16:11:57 daemon INFO   found better lib [lib: WiFi, prio: 5E8]
+2021-09-03 16:11:57 daemon INFO Resolving include Adafruit_GFX.h for arch esp32
+2021-09-03 16:11:57 daemon INFO   found better lib [lib: Adafruit_GFX_Library, prio: 517]
+2021-09-03 16:11:57 daemon INFO Resolving include Adafruit_I2CDevice.h for arch esp32
+2021-09-03 16:11:57 daemon INFO   found better lib [lib: Adafruit_BusIO, prio: 3EB]
+2021-09-03 16:11:57 daemon INFO Resolving include SSD1306.h for arch esp32
+2021-09-03 16:11:57 daemon INFO   found better lib [lib: ESP8266_and_ESP32_OLED_driver_for_SSD1306_displays, prio: 459]
+2021-09-03 16:11:58 daemon INFO Resolving include Adafruit_Sensor.h for arch esp32
+2021-09-03 16:11:58 daemon INFO   found better lib [lib: Adafruit_Unified_Sensor, prio: 3EB]
+2021-09-03 16:12:22 daemon INFO Searching tools required for board esp32:esp32:featheresp32
+2021-09-03 16:12:22 daemon INFO Tool required for upload [tool: Version: 3.0.0]
+2021-09-03 16:12:22 daemon INFO Tool required for upload [tool: Version: 0.2.3]
+2021-09-03 16:12:22 daemon INFO Tool required for upload [tool: Version: 1.22.0-97-gc752ad5-5.2.0]
+2021-09-03 16:12:22 daemon INFO Tool required for upload [tool: Version: 1.3.0 Systems: [OS: i686-linux-gnu, OS: x86_64-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: i386-apple-darwin11, OS: i686-mingw32]]
+2021-09-03 16:12:22 daemon INFO Tool required for upload [tool: Version: 6.3.0-arduino17 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin12, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2021-09-03 16:12:22 daemon INFO Tool required for upload [tool: Version: 7.3.0-atmel3.6.1-arduino7 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin14, OS: i686-mingw32, OS: i686-linux-gnu, OS: x86_64-linux-gnu]]
+2021-09-03 16:12:22 daemon INFO Tool required for upload [tool: Version: 5.8-arduino11]
+2021-09-03 16:12:22 daemon INFO Tool required for upload [tool: Version: 1.2.1 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2021-09-03 16:12:44 monitor-service INFO >>> Creating serial monitor connection for Adafruit ESP32 Feather [esp32:esp32:featheresp32] on port /dev/ttyUSB2...
+2021-09-03 16:12:44 monitor-service INFO <<< Serial monitor connection created for Adafruit ESP32 Feather on port /dev/ttyUSB2.
+2021-09-03 16:12:44 root INFO >>> Creating serial monitor connection for Adafruit ESP32 Feather [esp32:esp32:featheresp32] on port /dev/ttyUSB2...
+2021-09-03 16:12:44 root INFO <<< Serial monitor connection created for Adafruit ESP32 Feather on port /dev/ttyUSB2.
+2021-09-03 16:13:16 root INFO >>> Starting boards package installation...
+2021-09-03 16:13:32 daemon INFO Installing tool [tool: Version: 4.8.3-2014q1 Systems: [OS: arm-linux-gnueabihf, OS: i686-mingw32, OS: x86_64-apple-darwin, OS: x86_64-pc-linux-gnu, OS: i686-pc-linux-gnu]]
+2021-09-03 16:13:35 daemon INFO Tool installed [tool: Version: 4.8.3-2014q1 Systems: [OS: arm-linux-gnueabihf, OS: i686-mingw32, OS: x86_64-apple-darwin, OS: x86_64-pc-linux-gnu, OS: i686-pc-linux-gnu]]
+2021-09-03 16:13:35 daemon INFO Installing tool [tool: Version: 1.7.0-industruino Systems: [OS: i686-mingw32, OS: x86_64-apple-darwin, OS: x86_64-pc-linux-gnu, OS: i686-pc-linux-gnu]]
+2021-09-03 16:13:35 daemon INFO Tool installed [tool: Version: 1.7.0-industruino Systems: [OS: i686-mingw32, OS: x86_64-apple-darwin, OS: x86_64-pc-linux-gnu, OS: i686-pc-linux-gnu]]
+2021-09-03 16:13:35 daemon INFO Installing tool [tool: Version: 0.9.0-arduino Systems: [OS: arm-linux-gnueabihf, OS: i686-mingw32, OS: x86_64-apple-darwin, OS: x86_64-pc-linux-gnu, OS: i686-pc-linux-gnu]]
+2021-09-03 16:13:35 daemon INFO Tool installed [tool: Version: 0.9.0-arduino Systems: [OS: arm-linux-gnueabihf, OS: i686-mingw32, OS: x86_64-apple-darwin, OS: x86_64-pc-linux-gnu, OS: i686-pc-linux-gnu]]
+2021-09-03 16:13:35 daemon INFO Installing tool [tool: Version: 6.3.0-arduino8 Systems: [OS: arm-linux-gnueabihf, OS: i386-apple-darwin11, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2021-09-03 16:13:35 daemon INFO Tool installed [tool: Version: 6.3.0-arduino8 Systems: [OS: arm-linux-gnueabihf, OS: i386-apple-darwin11, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2021-09-03 16:13:35 daemon INFO Installing tool [tool: Version: 4.5.0 Systems: [OS: i686-mingw32, OS: x86_64-apple-darwin, OS: x86_64-pc-linux-gnu, OS: i686-pc-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: all]]
+2021-09-03 16:13:48 daemon INFO Tool installed [tool: Version: 4.5.0 Systems: [OS: i686-mingw32, OS: x86_64-apple-darwin, OS: x86_64-pc-linux-gnu, OS: i686-pc-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: all]]
+2021-09-03 16:13:48 daemon INFO Installing tool [tool: Version: 1.0.0 Systems: [OS: i686-mingw32, OS: x86_64-apple-darwin, OS: x86_64-pc-linux-gnu, OS: i686-pc-linux-gnu, OS: arm-linux-gnueabihf, OS: all]]
+2021-09-03 16:13:49 daemon INFO Tool installed [tool: Version: 1.0.0 Systems: [OS: i686-mingw32, OS: x86_64-apple-darwin, OS: x86_64-pc-linux-gnu, OS: i686-pc-linux-gnu, OS: arm-linux-gnueabihf, OS: all]]
+2021-09-03 16:13:49 daemon INFO Installing platform [platform: {ID:"industruino:samd",Installed:"1.0.1",Latest:"1.0.1",Name:"Industruino SAMD Boards (32-bits ARM Cortex-M0+)"}]
+2021-09-03 16:13:49 daemon INFO Running post_install script [platform: {ID:"industruino:samd",Installed:"1.0.1",Latest:"1.0.1",Name:"Industruino SAMD Boards (32-bits ARM Cortex-M0+)"}]
+2021-09-03 16:13:49 daemon INFO Platform installed [platform: {ID:"industruino:samd",Installed:"1.0.1",Latest:"1.0.1",Name:"Industruino SAMD Boards (32-bits ARM Cortex-M0+)"}]
+2021-09-03 16:13:49 daemon INFO Checking signature [index: /home/brace/.arduino15/package_index.json, signaturefile: /home/brace/.arduino15/package_index.json.sig, trusted: true]
+2021-09-03 16:13:49 daemon INFO Loading hardware from: /home/brace/.arduino15/packages
+2021-09-03 16:13:49 daemon INFO Loading package arduino from: /home/brace/.arduino15/packages/arduino/hardware
+2021-09-03 16:13:49 daemon INFO Loaded platform [platform: {ID:"arduino:avr",Installed:"1.8.3",Latest:"1.8.3",Name:"Arduino AVR Boards"}]
+2021-09-03 16:13:49 daemon INFO Checking existence of 'tools' path: /home/brace/.arduino15/packages/arduino/tools
+2021-09-03 16:13:49 daemon INFO Loading tools from dir: /home/brace/.arduino15/packages/arduino/tools
+2021-09-03 16:13:49 daemon INFO Loaded tool [tool: Version: 4.5.0 Systems: [OS: i686-mingw32, OS: x86_64-apple-darwin, OS: x86_64-pc-linux-gnu, OS: i686-pc-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: all]]
+2021-09-03 16:13:49 daemon INFO Loaded tool [tool: Version: 1.0.0 Systems: [OS: i686-mingw32, OS: x86_64-apple-darwin, OS: x86_64-pc-linux-gnu, OS: i686-pc-linux-gnu, OS: arm-linux-gnueabihf, OS: all]]
+2021-09-03 16:13:49 daemon INFO Loaded tool [tool: Version: 1.3.0 Systems: [OS: i686-linux-gnu, OS: x86_64-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: i386-apple-darwin11, OS: i686-mingw32]]
+2021-09-03 16:13:49 daemon INFO Loaded tool [tool: Version: 4.8.3-2014q1 Systems: [OS: arm-linux-gnueabihf, OS: i686-mingw32, OS: x86_64-apple-darwin, OS: x86_64-pc-linux-gnu, OS: i686-pc-linux-gnu]]
+2021-09-03 16:13:49 daemon INFO Loaded tool [tool: Version: 7.3.0-atmel3.6.1-arduino7 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin14, OS: i686-mingw32, OS: i686-linux-gnu, OS: x86_64-linux-gnu]]
+2021-09-03 16:13:49 daemon INFO Loaded tool [tool: Version: 6.3.0-arduino17 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin12, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2021-09-03 16:13:49 daemon INFO Loaded tool [tool: Version: 6.3.0-arduino8 Systems: [OS: arm-linux-gnueabihf, OS: i386-apple-darwin11, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2021-09-03 16:13:49 daemon INFO Loaded tool [tool: Version: 0.9.0-arduino Systems: [OS: arm-linux-gnueabihf, OS: i686-mingw32, OS: x86_64-apple-darwin, OS: x86_64-pc-linux-gnu, OS: i686-pc-linux-gnu]]
+2021-09-03 16:13:49 daemon INFO Loading package builtin from: /home/brace/.arduino15/packages/builtin
+2021-09-03 16:13:49 daemon INFO Checking existence of 'tools' path: /home/brace/.arduino15/packages/builtin/tools
+2021-09-03 16:13:49 daemon INFO Loading tools from dir: /home/brace/.arduino15/packages/builtin/tools
+2021-09-03 16:13:49 daemon INFO Loaded tool [tool: Version: 5.8-arduino11]
+2021-09-03 16:13:49 daemon INFO Loaded tool [tool: Version: 1.2.1]
+2021-09-03 16:13:49 daemon INFO Loading package esp32 from: /home/brace/.arduino15/packages/esp32/hardware
+2021-09-03 16:13:49 daemon INFO Loaded platform [platform: {ID:"esp32:esp32",Installed:"1.0.6",Latest:"1.0.6",Name:"ESP32 Arduino"}]
+2021-09-03 16:13:49 daemon INFO Checking existence of 'tools' path: /home/brace/.arduino15/packages/esp32/tools
+2021-09-03 16:13:49 daemon INFO Loading tools from dir: /home/brace/.arduino15/packages/esp32/tools
+2021-09-03 16:13:49 daemon INFO Loaded tool [tool: Version: 3.0.0]
+2021-09-03 16:13:49 daemon INFO Loaded tool [tool: Version: 0.2.3]
+2021-09-03 16:13:49 daemon INFO Loaded tool [tool: Version: 1.22.0-97-gc752ad5-5.2.0]
+2021-09-03 16:13:49 daemon INFO Loading package industruino from: /home/brace/.arduino15/packages/industruino/hardware
+2021-09-03 16:13:49 daemon INFO Checking signature [error: opening signature file: open /home/brace/.arduino15/packages/industruino/hardware/samd/1.0.1/installed.json.sig: no such file or directory, index: /home/brace/.arduino15/packages/industruino/hardware/samd/1.0.1/installed.json, signaturefile: /home/brace/.arduino15/packages/industruino/hardware/samd/1.0.1/installed.json.sig]
+2021-09-03 16:13:49 daemon INFO Loaded platform [platform: {ID:"industruino:samd",Installed:"1.0.1",Latest:"1.0.1",Name:"Industruino SAMD Boards (32-bits ARM Cortex-M0+)"}]
+2021-09-03 16:13:49 daemon INFO Checking existence of 'tools' path: /home/brace/.arduino15/packages/industruino/tools
+2021-09-03 16:13:49 daemon INFO Loading tools from dir: /home/brace/.arduino15/packages/industruino/tools
+2021-09-03 16:13:49 daemon INFO Loaded tool [tool: Version: 1.7.0-industruino Systems: [OS: i686-mingw32, OS: x86_64-apple-darwin, OS: x86_64-pc-linux-gnu, OS: i686-pc-linux-gnu]]
+2021-09-03 16:13:49 daemon INFO Adding libraries dir [dir: /home/brace/Arduino/libraries, location: user]
+2021-09-03 16:13:49 daemon INFO Adding libraries dir [dir: /home/brace/.arduino15/packages/arduino/hardware/avr/1.8.3/libraries, location: platform]
+2021-09-03 16:13:49 daemon INFO Adding libraries dir [dir: /home/brace/.arduino15/packages/industruino/hardware/samd/1.0.1/libraries, location: platform]
+2021-09-03 16:13:49 daemon INFO Adding libraries dir [dir: /home/brace/.arduino15/packages/esp32/hardware/esp32/1.0.6/libraries, location: platform]
+2021-09-03 16:13:49 root ERROR Uncaught Exception: 
+2021-09-03 16:13:49 root ERROR Error: Implementation error. Neither 'download' nor 'task' is available.
+    at ClientReadableStreamImpl.<anonymous> (/home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/node_modules/arduino-ide-extension/lib/node/grpc-installable.js:16:23)
+    at ClientReadableStreamImpl.emit (events.js:223:5)
+    at addChunk (_stream_readable.js:309:12)
+    at readableAddChunk (_stream_readable.js:290:11)
+    at ClientReadableStreamImpl.Readable.push (_stream_readable.js:224:10)
+    at Object.onReceiveMessage (/home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/node_modules/@grpc/grpc-js/build/src/client.js:318:24)
+    at Object.onReceiveMessage (/home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:291:178)
+    at /home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/node_modules/@grpc/grpc-js/build/src/call-stream.js:202:74
+    at processTicksAndRejections (internal/process/task_queues.js:76:11)
+2021-09-03 16:13:49 root INFO <<< Boards package installation done.
+2021-09-03 16:13:49 root INFO Boards package installed: 
+2021-09-03 16:13:49 root INFO Board config changed: 
+2021-09-03 16:13:49 root INFO Boards package installed: 
+2021-09-03 16:13:49 root INFO Board config changed: 
+2021-09-03 16:13:50 monitor-service INFO >>> Disposing monitor connection...
+2021-09-03 16:13:50 monitor-service INFO <<< Disposed monitor connection for Adafruit ESP32 Feather on port /dev/ttyUSB2.
+2021-09-03 16:13:50 root INFO >>> Disposing existing monitor connection...
+2021-09-03 16:13:50 monitor-service INFO >>> Creating serial monitor connection for Adafruit ESP32 Feather [esp32:esp32:featheresp32] on port /dev/ttyUSB2...
+2021-09-03 16:13:50 monitor-service INFO <<< Serial monitor connection created for Adafruit ESP32 Feather on port /dev/ttyUSB2.
+2021-09-03 16:13:50 root INFO <<< Disposed connection. Was: Adafruit ESP32 Feather [esp32:esp32:featheresp32] /dev/ttyUSB2
+2021-09-03 16:13:50 root INFO >>> Creating serial monitor connection for Adafruit ESP32 Feather [esp32:esp32:featheresp32] on port /dev/ttyUSB2...
+2021-09-03 16:13:50 root INFO <<< Serial monitor connection created for Adafruit ESP32 Feather on port /dev/ttyUSB2.
+2021-09-03 16:14:25 root INFO >>> Starting boards package installation...
+2021-09-03 16:14:25 daemon WARN Platform already installed [platform: {ID:"esp32:esp32",Installed:"1.0.6",Latest:"1.0.6",Name:"ESP32 Arduino"}]
+2021-09-03 16:14:25 daemon INFO Checking signature [index: /home/brace/.arduino15/package_index.json, signaturefile: /home/brace/.arduino15/package_index.json.sig, trusted: true]
+2021-09-03 16:14:25 daemon INFO Loading hardware from: /home/brace/.arduino15/packages
+2021-09-03 16:14:25 daemon INFO Loading package arduino from: /home/brace/.arduino15/packages/arduino/hardware
+2021-09-03 16:14:25 daemon INFO Loaded platform [platform: {ID:"arduino:avr",Installed:"1.8.3",Latest:"1.8.3",Name:"Arduino AVR Boards"}]
+2021-09-03 16:14:25 daemon INFO Checking existence of 'tools' path: /home/brace/.arduino15/packages/arduino/tools
+2021-09-03 16:14:25 daemon INFO Loading tools from dir: /home/brace/.arduino15/packages/arduino/tools
+2021-09-03 16:14:25 daemon INFO Loaded tool [tool: Version: 4.5.0 Systems: [OS: i686-mingw32, OS: x86_64-apple-darwin, OS: x86_64-pc-linux-gnu, OS: i686-pc-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: all]]
+2021-09-03 16:14:25 daemon INFO Loaded tool [tool: Version: 1.0.0 Systems: [OS: i686-mingw32, OS: x86_64-apple-darwin, OS: x86_64-pc-linux-gnu, OS: i686-pc-linux-gnu, OS: arm-linux-gnueabihf, OS: all]]
+2021-09-03 16:14:25 daemon INFO Loaded tool [tool: Version: 1.3.0 Systems: [OS: i686-linux-gnu, OS: x86_64-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: i386-apple-darwin11, OS: i686-mingw32]]
+2021-09-03 16:14:25 daemon INFO Loaded tool [tool: Version: 4.8.3-2014q1 Systems: [OS: arm-linux-gnueabihf, OS: i686-mingw32, OS: x86_64-apple-darwin, OS: x86_64-pc-linux-gnu, OS: i686-pc-linux-gnu]]
+2021-09-03 16:14:25 daemon INFO Loaded tool [tool: Version: 7.3.0-atmel3.6.1-arduino7 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin14, OS: i686-mingw32, OS: i686-linux-gnu, OS: x86_64-linux-gnu]]
+2021-09-03 16:14:25 daemon INFO Loaded tool [tool: Version: 6.3.0-arduino17 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin12, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2021-09-03 16:14:25 daemon INFO Loaded tool [tool: Version: 6.3.0-arduino8 Systems: [OS: arm-linux-gnueabihf, OS: i386-apple-darwin11, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2021-09-03 16:14:25 daemon INFO Loaded tool [tool: Version: 0.9.0-arduino Systems: [OS: arm-linux-gnueabihf, OS: i686-mingw32, OS: x86_64-apple-darwin, OS: x86_64-pc-linux-gnu, OS: i686-pc-linux-gnu]]
+2021-09-03 16:14:25 daemon INFO Loading package builtin from: /home/brace/.arduino15/packages/builtin
+2021-09-03 16:14:25 daemon INFO Checking existence of 'tools' path: /home/brace/.arduino15/packages/builtin/tools
+2021-09-03 16:14:25 daemon INFO Loading tools from dir: /home/brace/.arduino15/packages/builtin/tools
+2021-09-03 16:14:25 daemon INFO Loaded tool [tool: Version: 5.8-arduino11]
+2021-09-03 16:14:25 daemon INFO Loaded tool [tool: Version: 1.2.1]
+2021-09-03 16:14:25 daemon INFO Loading package esp32 from: /home/brace/.arduino15/packages/esp32/hardware
+2021-09-03 16:14:25 daemon INFO Loaded platform [platform: {ID:"esp32:esp32",Installed:"1.0.6",Latest:"1.0.6",Name:"ESP32 Arduino"}]
+2021-09-03 16:14:25 daemon INFO Checking existence of 'tools' path: /home/brace/.arduino15/packages/esp32/tools
+2021-09-03 16:14:25 daemon INFO Loading tools from dir: /home/brace/.arduino15/packages/esp32/tools
+2021-09-03 16:14:25 daemon INFO Loaded tool [tool: Version: 3.0.0]
+2021-09-03 16:14:25 daemon INFO Loaded tool [tool: Version: 0.2.3]
+2021-09-03 16:14:25 daemon INFO Loaded tool [tool: Version: 1.22.0-97-gc752ad5-5.2.0]
+2021-09-03 16:14:25 daemon INFO Loading package industruino from: /home/brace/.arduino15/packages/industruino/hardware
+2021-09-03 16:14:25 daemon INFO Checking signature [error: opening signature file: open /home/brace/.arduino15/packages/industruino/hardware/samd/1.0.1/installed.json.sig: no such file or directory, index: /home/brace/.arduino15/packages/industruino/hardware/samd/1.0.1/installed.json, signaturefile: /home/brace/.arduino15/packages/industruino/hardware/samd/1.0.1/installed.json.sig]
+2021-09-03 16:14:25 daemon INFO Loaded platform [platform: {ID:"industruino:samd",Installed:"1.0.1",Latest:"1.0.1",Name:"Industruino SAMD Boards (32-bits ARM Cortex-M0+)"}]
+2021-09-03 16:14:25 daemon INFO Checking existence of 'tools' path: /home/brace/.arduino15/packages/industruino/tools
+2021-09-03 16:14:25 daemon INFO Loading tools from dir: /home/brace/.arduino15/packages/industruino/tools
+2021-09-03 16:14:25 daemon INFO Loaded tool [tool: Version: 1.7.0-industruino Systems: [OS: i686-mingw32, OS: x86_64-apple-darwin, OS: x86_64-pc-linux-gnu, OS: i686-pc-linux-gnu]]
+2021-09-03 16:14:25 daemon INFO Adding libraries dir [dir: /home/brace/Arduino/libraries, location: user]
+2021-09-03 16:14:25 daemon INFO Adding libraries dir [dir: /home/brace/.arduino15/packages/arduino/hardware/avr/1.8.3/libraries, location: platform]
+2021-09-03 16:14:25 daemon INFO Adding libraries dir [dir: /home/brace/.arduino15/packages/industruino/hardware/samd/1.0.1/libraries, location: platform]
+2021-09-03 16:14:25 daemon INFO Adding libraries dir [dir: /home/brace/.arduino15/packages/esp32/hardware/esp32/1.0.6/libraries, location: platform]
+2021-09-03 16:14:25 root ERROR Uncaught Exception: 
+2021-09-03 16:14:25 root ERROR Error: Implementation error. Neither 'download' nor 'task' is available.
+    at ClientReadableStreamImpl.<anonymous> (/home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/node_modules/arduino-ide-extension/lib/node/grpc-installable.js:16:23)
+    at ClientReadableStreamImpl.emit (events.js:223:5)
+    at addChunk (_stream_readable.js:309:12)
+    at readableAddChunk (_stream_readable.js:290:11)
+    at ClientReadableStreamImpl.Readable.push (_stream_readable.js:224:10)
+    at Object.onReceiveMessage (/home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/node_modules/@grpc/grpc-js/build/src/client.js:318:24)
+    at Object.onReceiveMessage (/home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:291:178)
+    at /home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/node_modules/@grpc/grpc-js/build/src/call-stream.js:202:74
+    at processTicksAndRejections (internal/process/task_queues.js:76:11)
+2021-09-03 16:14:25 root INFO <<< Boards package installation done.
+2021-09-03 16:14:25 root INFO Boards package installed: 
+2021-09-03 16:14:25 root INFO Board package esp32:esp32[1.0.6] was installed. Updating the FQBN of the currently selected Adafruit ESP32 Feather board. [FQBN: esp32:esp32:featheresp32]
+2021-09-03 16:14:25 root INFO Board config changed: 
+2021-09-03 16:14:25 root INFO Boards package installed: 
+2021-09-03 16:14:25 root INFO Board package esp32:esp32[1.0.6] was installed. Updating the FQBN of the currently selected Heltec WiFi Kit 32 board. [FQBN: esp32:esp32:heltec_wifi_kit_32]
+2021-09-03 16:14:25 root INFO Board config changed: 
+2021-09-03 16:14:25 monitor-service INFO >>> Disposing monitor connection...
+2021-09-03 16:14:25 monitor-service INFO <<< Disposed monitor connection for Adafruit ESP32 Feather on port /dev/ttyUSB2.
+2021-09-03 16:14:25 root INFO >>> Disposing existing monitor connection...
+2021-09-03 16:14:25 monitor-service INFO >>> Creating serial monitor connection for Adafruit ESP32 Feather [esp32:esp32:featheresp32] on port /dev/ttyUSB2...
+2021-09-03 16:14:25 monitor-service INFO <<< Serial monitor connection created for Adafruit ESP32 Feather on port /dev/ttyUSB2.
+2021-09-03 16:14:25 root INFO <<< Disposed connection. Was: Adafruit ESP32 Feather [esp32:esp32:featheresp32] /dev/ttyUSB2
+2021-09-03 16:14:25 root INFO >>> Creating serial monitor connection for Adafruit ESP32 Feather [esp32:esp32:featheresp32] on port /dev/ttyUSB2...
+2021-09-03 16:14:26 root INFO <<< Serial monitor connection created for Adafruit ESP32 Feather on port /dev/ttyUSB2.
+2021-09-03 16:15:19 root INFO Board config changed: 
+2021-09-03 16:15:19 monitor-service INFO >>> Disposing monitor connection...
+2021-09-03 16:15:19 monitor-service INFO <<< Disposed monitor connection for Adafruit ESP32 Feather on port /dev/ttyUSB2.
+2021-09-03 16:15:19 root INFO >>> Disposing existing monitor connection...
+2021-09-03 16:15:19 monitor-service INFO >>> Creating serial monitor connection for ESP32 Wrover Module [esp32:esp32:esp32wrover] on port /dev/ttyUSB2...
+2021-09-03 16:15:19 monitor-service INFO <<< Serial monitor connection created for ESP32 Wrover Module on port /dev/ttyUSB2.
+2021-09-03 16:15:19 root INFO <<< Disposed connection. Was: Adafruit ESP32 Feather [esp32:esp32:featheresp32] /dev/ttyUSB2
+2021-09-03 16:15:19 root INFO >>> Creating serial monitor connection for ESP32 Wrover Module [esp32:esp32:esp32wrover] on port /dev/ttyUSB2...
+2021-09-03 16:15:19 root INFO Starting language server: esp32:esp32:esp32wrover
+2021-09-03 16:15:19 root INFO <<< Serial monitor connection created for ESP32 Wrover Module on port /dev/ttyUSB2.
+2021-09-03 16:15:33 monitor-service INFO >>> Disposing monitor connection...
+2021-09-03 16:15:33 monitor-service INFO <<< Disposed monitor connection for ESP32 Wrover Module on port /dev/ttyUSB2.
+2021-09-03 16:15:33 root INFO >>> Disposing existing monitor connection...
+2021-09-03 16:15:33 root INFO <<< Disposed connection. Was: ESP32 Wrover Module [esp32:esp32:esp32wrover] /dev/ttyUSB2
+2021-09-03 16:15:33 daemon INFO inventory.Store.ConfigFileUsed() /home/brace/.arduino15/inventory.yaml
+2021-09-03 16:15:33 daemon INFO inventory.Store.ConfigFileUsed() /home/brace/.arduino15/inventory.yaml
+2021-09-03 16:15:33 daemon INFO Searching tools required for board esp32:esp32:esp32wrover
+2021-09-03 16:15:33 daemon INFO Adding libraries dir [dir: /home/brace/Projects/robots/mbot/arduino-1.8.15/libraries, location: ide]
+2021-09-03 16:15:33 daemon INFO Adding libraries dir [dir: /home/brace/.arduino15/packages/esp32/hardware/esp32/1.0.6/libraries, location: platform]
+2021-09-03 16:15:33 daemon INFO Adding libraries dir [dir: /home/brace/Arduino/libraries, location: user]
+2021-09-03 16:15:33 daemon INFO Resolving include SPI.h for arch esp32
+2021-09-03 16:15:33 daemon INFO   found better lib [lib: SPI, prio: 5E8]
+2021-09-03 16:15:34 daemon INFO Resolving include DHT.h for arch esp32
+2021-09-03 16:15:34 daemon INFO   found better lib [lib: DHT_sensor_library, prio: 517]
+2021-09-03 16:15:34 daemon INFO Resolving include Wire.h for arch esp32
+2021-09-03 16:15:34 daemon INFO   found better lib [lib: Wire, prio: 5E8]
+2021-09-03 16:15:34 daemon INFO Resolving include WiFi.h for arch esp32
+2021-09-03 16:15:34 daemon INFO   found better lib [lib: WiFi, prio: 5DC]
+2021-09-03 16:15:34 daemon INFO   found better lib [lib: WiFi, prio: 5E8]
+2021-09-03 16:15:34 daemon INFO Resolving include Adafruit_GFX.h for arch esp32
+2021-09-03 16:15:34 daemon INFO   found better lib [lib: Adafruit_GFX_Library, prio: 517]
+2021-09-03 16:15:35 daemon INFO Resolving include Adafruit_I2CDevice.h for arch esp32
+2021-09-03 16:15:35 daemon INFO   found better lib [lib: Adafruit_BusIO, prio: 3EB]
+2021-09-03 16:15:35 daemon INFO Resolving include SSD1306.h for arch esp32
+2021-09-03 16:15:35 daemon INFO   found better lib [lib: ESP8266_and_ESP32_OLED_driver_for_SSD1306_displays, prio: 459]
+2021-09-03 16:15:35 daemon INFO Resolving include Adafruit_Sensor.h for arch esp32
+2021-09-03 16:15:35 daemon INFO   found better lib [lib: Adafruit_Unified_Sensor, prio: 3EB]
+2021-09-03 16:15:46 daemon INFO Searching tools required for board esp32:esp32:esp32wrover
+2021-09-03 16:15:46 daemon INFO Tool required for upload [tool: Version: 6.3.0-arduino8 Systems: [OS: arm-linux-gnueabihf, OS: i386-apple-darwin11, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2021-09-03 16:15:46 daemon INFO Tool required for upload [tool: Version: 0.9.0-arduino Systems: [OS: arm-linux-gnueabihf, OS: i686-mingw32, OS: x86_64-apple-darwin, OS: x86_64-pc-linux-gnu, OS: i686-pc-linux-gnu]]
+2021-09-03 16:15:46 daemon INFO Tool required for upload [tool: Version: 0.2.3]
+2021-09-03 16:15:46 daemon INFO Tool required for upload [tool: Version: 5.8-arduino11]
+2021-09-03 16:15:46 daemon INFO Tool required for upload [tool: Version: 1.3.0 Systems: [OS: i686-linux-gnu, OS: x86_64-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: i386-apple-darwin11, OS: i686-mingw32]]
+2021-09-03 16:15:46 daemon INFO Tool required for upload [tool: Version: 4.8.3-2014q1 Systems: [OS: arm-linux-gnueabihf, OS: i686-mingw32, OS: x86_64-apple-darwin, OS: x86_64-pc-linux-gnu, OS: i686-pc-linux-gnu]]
+2021-09-03 16:15:46 daemon INFO Tool required for upload [tool: Version: 7.3.0-atmel3.6.1-arduino7 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin14, OS: i686-mingw32, OS: i686-linux-gnu, OS: x86_64-linux-gnu]]
+2021-09-03 16:15:46 daemon INFO Tool required for upload [tool: Version: 4.5.0 Systems: [OS: i686-mingw32, OS: x86_64-apple-darwin, OS: x86_64-pc-linux-gnu, OS: i686-pc-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: all]]
+2021-09-03 16:15:46 daemon INFO Tool required for upload [tool: Version: 1.0.0 Systems: [OS: i686-mingw32, OS: x86_64-apple-darwin, OS: x86_64-pc-linux-gnu, OS: i686-pc-linux-gnu, OS: arm-linux-gnueabihf, OS: all]]
+2021-09-03 16:15:46 daemon INFO Tool required for upload [tool: Version: 1.7.0-industruino Systems: [OS: i686-mingw32, OS: x86_64-apple-darwin, OS: x86_64-pc-linux-gnu, OS: i686-pc-linux-gnu]]
+2021-09-03 16:15:46 daemon INFO Tool required for upload [tool: Version: 1.22.0-97-gc752ad5-5.2.0]
+2021-09-03 16:15:46 daemon INFO Tool required for upload [tool: Version: 1.2.1]
+2021-09-03 16:15:46 daemon INFO Tool required for upload [tool: Version: 3.0.0]
+2021-09-03 16:16:08 monitor-service INFO >>> Creating serial monitor connection for ESP32 Wrover Module [esp32:esp32:esp32wrover] on port /dev/ttyUSB2...
+2021-09-03 16:16:08 monitor-service INFO <<< Serial monitor connection created for ESP32 Wrover Module on port /dev/ttyUSB2.
+2021-09-03 16:16:08 root INFO >>> Creating serial monitor connection for ESP32 Wrover Module [esp32:esp32:esp32wrover] on port /dev/ttyUSB2...
+2021-09-03 16:16:08 root INFO <<< Serial monitor connection created for ESP32 Wrover Module on port /dev/ttyUSB2.
+2021-09-03 16:24:59 daemon INFO inventory.Store.ConfigFileUsed() /home/brace/.arduino15/inventory.yaml
+2021-09-03 16:24:59 daemon INFO inventory.Store.ConfigFileUsed() /home/brace/.arduino15/inventory.yaml
+2021-09-03 16:24:59 daemon INFO Searching tools required for board esp32:esp32:esp32wrover
+2021-09-03 16:24:59 daemon INFO Adding libraries dir [dir: /home/brace/Projects/robots/mbot/arduino-1.8.15/libraries, location: ide]
+2021-09-03 16:24:59 daemon INFO Adding libraries dir [dir: /home/brace/.arduino15/packages/esp32/hardware/esp32/1.0.6/libraries, location: platform]
+2021-09-03 16:24:59 daemon INFO Adding libraries dir [dir: /home/brace/Arduino/libraries, location: user]
+2021-09-03 16:24:59 daemon INFO Resolving include SPI.h for arch esp32
+2021-09-03 16:24:59 daemon INFO   found better lib [lib: SPI, prio: 5E8]
+2021-09-03 16:24:59 daemon INFO Resolving include DHT.h for arch esp32
+2021-09-03 16:24:59 daemon INFO   found better lib [lib: DHT_sensor_library, prio: 517]
+2021-09-03 16:24:59 daemon INFO Resolving include Wire.h for arch esp32
+2021-09-03 16:24:59 daemon INFO   found better lib [lib: Wire, prio: 5E8]
+2021-09-03 16:25:00 daemon INFO Resolving include WiFi.h for arch esp32
+2021-09-03 16:25:00 daemon INFO   found better lib [lib: WiFi, prio: 5DC]
+2021-09-03 16:25:00 daemon INFO   found better lib [lib: WiFi, prio: 5E8]
+2021-09-03 16:25:00 daemon INFO Resolving include Adafruit_GFX.h for arch esp32
+2021-09-03 16:25:00 daemon INFO   found better lib [lib: Adafruit_GFX_Library, prio: 517]
+2021-09-03 16:25:00 daemon INFO Resolving include Adafruit_I2CDevice.h for arch esp32
+2021-09-03 16:25:00 daemon INFO   found better lib [lib: Adafruit_BusIO, prio: 3EB]
+2021-09-03 16:25:00 daemon INFO Resolving include SSD1306.h for arch esp32
+2021-09-03 16:25:00 daemon INFO   found better lib [lib: ESP8266_and_ESP32_OLED_driver_for_SSD1306_displays, prio: 459]
+2021-09-03 16:25:00 daemon INFO Resolving include Adafruit_Sensor.h for arch esp32
+2021-09-03 16:25:00 daemon INFO   found better lib [lib: Adafruit_Unified_Sensor, prio: 3EB]
+2021-09-03 16:25:46 monitor-service INFO >>> Disposing monitor connection...
+2021-09-03 16:25:46 monitor-service INFO <<< Disposed monitor connection for ESP32 Wrover Module on port /dev/ttyUSB2.
+2021-09-03 16:25:46 root INFO >>> Disposing existing monitor connection...
+2021-09-03 16:25:46 root INFO <<< Disposed connection. Was: ESP32 Wrover Module [esp32:esp32:esp32wrover] /dev/ttyUSB2
+2021-09-03 16:25:46 daemon INFO inventory.Store.ConfigFileUsed() /home/brace/.arduino15/inventory.yaml
+2021-09-03 16:25:46 daemon INFO inventory.Store.ConfigFileUsed() /home/brace/.arduino15/inventory.yaml
+2021-09-03 16:25:46 daemon INFO Searching tools required for board esp32:esp32:esp32wrover
+2021-09-03 16:25:46 daemon INFO Adding libraries dir [dir: /home/brace/Projects/robots/mbot/arduino-1.8.15/libraries, location: ide]
+2021-09-03 16:25:46 daemon INFO Adding libraries dir [dir: /home/brace/.arduino15/packages/esp32/hardware/esp32/1.0.6/libraries, location: platform]
+2021-09-03 16:25:46 daemon INFO Adding libraries dir [dir: /home/brace/Arduino/libraries, location: user]
+2021-09-03 16:25:46 daemon INFO Resolving include SPI.h for arch esp32
+2021-09-03 16:25:46 daemon INFO   found better lib [lib: SPI, prio: 5E8]
+2021-09-03 16:25:46 daemon INFO Resolving include DHT.h for arch esp32
+2021-09-03 16:25:46 daemon INFO   found better lib [lib: DHT_sensor_library, prio: 517]
+2021-09-03 16:25:46 daemon INFO Resolving include Wire.h for arch esp32
+2021-09-03 16:25:46 daemon INFO   found better lib [lib: Wire, prio: 5E8]
+2021-09-03 16:25:46 daemon INFO Resolving include WiFi.h for arch esp32
+2021-09-03 16:25:46 daemon INFO   found better lib [lib: WiFi, prio: 5DC]
+2021-09-03 16:25:46 daemon INFO   found better lib [lib: WiFi, prio: 5E8]
+2021-09-03 16:25:46 daemon INFO Resolving include Adafruit_GFX.h for arch esp32
+2021-09-03 16:25:46 daemon INFO   found better lib [lib: Adafruit_GFX_Library, prio: 517]
+2021-09-03 16:25:47 daemon INFO Resolving include Adafruit_I2CDevice.h for arch esp32
+2021-09-03 16:25:47 daemon INFO   found better lib [lib: Adafruit_BusIO, prio: 3EB]
+2021-09-03 16:25:47 daemon INFO Resolving include SSD1306.h for arch esp32
+2021-09-03 16:25:47 daemon INFO   found better lib [lib: ESP8266_and_ESP32_OLED_driver_for_SSD1306_displays, prio: 459]
+2021-09-03 16:25:47 daemon INFO Resolving include Adafruit_Sensor.h for arch esp32
+2021-09-03 16:25:47 daemon INFO   found better lib [lib: Adafruit_Unified_Sensor, prio: 3EB]
+2021-09-03 16:25:51 daemon INFO Searching tools required for board esp32:esp32:esp32wrover
+2021-09-03 16:25:51 daemon INFO Tool required for upload [tool: Version: 4.5.0 Systems: [OS: i686-mingw32, OS: x86_64-apple-darwin, OS: x86_64-pc-linux-gnu, OS: i686-pc-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: all]]
+2021-09-03 16:25:51 daemon INFO Tool required for upload [tool: Version: 1.3.0 Systems: [OS: i686-linux-gnu, OS: x86_64-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: i386-apple-darwin11, OS: i686-mingw32]]
+2021-09-03 16:25:51 daemon INFO Tool required for upload [tool: Version: 1.22.0-97-gc752ad5-5.2.0]
+2021-09-03 16:25:51 daemon INFO Tool required for upload [tool: Version: 1.2.1]
+2021-09-03 16:25:51 daemon INFO Tool required for upload [tool: Version: 0.9.0-arduino Systems: [OS: arm-linux-gnueabihf, OS: i686-mingw32, OS: x86_64-apple-darwin, OS: x86_64-pc-linux-gnu, OS: i686-pc-linux-gnu]]
+2021-09-03 16:25:51 daemon INFO Tool required for upload [tool: Version: 5.8-arduino11]
+2021-09-03 16:25:51 daemon INFO Tool required for upload [tool: Version: 4.8.3-2014q1 Systems: [OS: arm-linux-gnueabihf, OS: i686-mingw32, OS: x86_64-apple-darwin, OS: x86_64-pc-linux-gnu, OS: i686-pc-linux-gnu]]
+2021-09-03 16:25:51 daemon INFO Tool required for upload [tool: Version: 7.3.0-atmel3.6.1-arduino7 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin14, OS: i686-mingw32, OS: i686-linux-gnu, OS: x86_64-linux-gnu]]
+2021-09-03 16:25:51 daemon INFO Tool required for upload [tool: Version: 1.0.0 Systems: [OS: i686-mingw32, OS: x86_64-apple-darwin, OS: x86_64-pc-linux-gnu, OS: i686-pc-linux-gnu, OS: arm-linux-gnueabihf, OS: all]]
+2021-09-03 16:25:51 daemon INFO Tool required for upload [tool: Version: 6.3.0-arduino8 Systems: [OS: arm-linux-gnueabihf, OS: i386-apple-darwin11, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2021-09-03 16:25:51 daemon INFO Tool required for upload [tool: Version: 1.7.0-industruino Systems: [OS: i686-mingw32, OS: x86_64-apple-darwin, OS: x86_64-pc-linux-gnu, OS: i686-pc-linux-gnu]]
+2021-09-03 16:25:51 daemon INFO Tool required for upload [tool: Version: 3.0.0]
+2021-09-03 16:25:51 daemon INFO Tool required for upload [tool: Version: 0.2.3]
+2021-09-03 16:26:10 monitor-service INFO >>> Creating serial monitor connection for ESP32 Wrover Module [esp32:esp32:esp32wrover] on port /dev/ttyUSB2...
+2021-09-03 16:26:10 monitor-service INFO <<< Serial monitor connection created for ESP32 Wrover Module on port /dev/ttyUSB2.
+2021-09-03 16:26:11 root INFO >>> Creating serial monitor connection for ESP32 Wrover Module [esp32:esp32:esp32wrover] on port /dev/ttyUSB2...
+2021-09-03 16:26:11 root INFO <<< Serial monitor connection created for ESP32 Wrover Module on port /dev/ttyUSB2.
+2021-09-03 16:27:23 monitor-service INFO >>> Disposing monitor connection...
+2021-09-03 16:27:23 monitor-service INFO <<< Disposed monitor connection for ESP32 Wrover Module on port /dev/ttyUSB2.
+2021-09-03 16:27:23 root INFO >>> Disposing existing monitor connection...
+2021-09-03 16:27:23 root INFO <<< Disposed connection. Was: ESP32 Wrover Module [esp32:esp32:esp32wrover] /dev/ttyUSB2
+2021-09-03 16:27:23 daemon INFO inventory.Store.ConfigFileUsed() /home/brace/.arduino15/inventory.yaml
+2021-09-03 16:27:23 daemon INFO inventory.Store.ConfigFileUsed() /home/brace/.arduino15/inventory.yaml
+2021-09-03 16:27:23 daemon INFO Searching tools required for board esp32:esp32:esp32wrover
+2021-09-03 16:27:23 daemon INFO Adding libraries dir [dir: /home/brace/Projects/robots/mbot/arduino-1.8.15/libraries, location: ide]
+2021-09-03 16:27:23 daemon INFO Adding libraries dir [dir: /home/brace/.arduino15/packages/esp32/hardware/esp32/1.0.6/libraries, location: platform]
+2021-09-03 16:27:23 daemon INFO Adding libraries dir [dir: /home/brace/Arduino/libraries, location: user]
+2021-09-03 16:27:23 daemon INFO Resolving include SPI.h for arch esp32
+2021-09-03 16:27:23 daemon INFO   found better lib [lib: SPI, prio: 5E8]
+2021-09-03 16:27:23 daemon INFO Resolving include DHT.h for arch esp32
+2021-09-03 16:27:23 daemon INFO   found better lib [lib: DHT_sensor_library, prio: 517]
+2021-09-03 16:27:23 daemon INFO Resolving include Wire.h for arch esp32
+2021-09-03 16:27:23 daemon INFO   found better lib [lib: Wire, prio: 5E8]
+2021-09-03 16:27:23 daemon INFO Resolving include WiFi.h for arch esp32
+2021-09-03 16:27:23 daemon INFO   found better lib [lib: WiFi, prio: 5DC]
+2021-09-03 16:27:23 daemon INFO   found better lib [lib: WiFi, prio: 5E8]
+2021-09-03 16:27:23 daemon INFO Resolving include Adafruit_GFX.h for arch esp32
+2021-09-03 16:27:23 daemon INFO   found better lib [lib: Adafruit_GFX_Library, prio: 517]
+2021-09-03 16:27:24 daemon INFO Resolving include Adafruit_I2CDevice.h for arch esp32
+2021-09-03 16:27:24 daemon INFO   found better lib [lib: Adafruit_BusIO, prio: 3EB]
+2021-09-03 16:27:24 daemon INFO Resolving include SSD1306.h for arch esp32
+2021-09-03 16:27:24 daemon INFO   found better lib [lib: ESP8266_and_ESP32_OLED_driver_for_SSD1306_displays, prio: 459]
+2021-09-03 16:27:24 daemon INFO Resolving include Adafruit_Sensor.h for arch esp32
+2021-09-03 16:27:24 daemon INFO   found better lib [lib: Adafruit_Unified_Sensor, prio: 3EB]
+2021-09-03 16:27:28 daemon INFO Searching tools required for board esp32:esp32:esp32wrover
+2021-09-03 16:27:28 daemon INFO Tool required for upload [tool: Version: 1.7.0-industruino Systems: [OS: i686-mingw32, OS: x86_64-apple-darwin, OS: x86_64-pc-linux-gnu, OS: i686-pc-linux-gnu]]
+2021-09-03 16:27:28 daemon INFO Tool required for upload [tool: Version: 6.3.0-arduino8 Systems: [OS: arm-linux-gnueabihf, OS: i386-apple-darwin11, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2021-09-03 16:27:28 daemon INFO Tool required for upload [tool: Version: 4.8.3-2014q1 Systems: [OS: arm-linux-gnueabihf, OS: i686-mingw32, OS: x86_64-apple-darwin, OS: x86_64-pc-linux-gnu, OS: i686-pc-linux-gnu]]
+2021-09-03 16:27:28 daemon INFO Tool required for upload [tool: Version: 1.2.1]
+2021-09-03 16:27:28 daemon INFO Tool required for upload [tool: Version: 4.5.0 Systems: [OS: i686-mingw32, OS: x86_64-apple-darwin, OS: x86_64-pc-linux-gnu, OS: i686-pc-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: all]]
+2021-09-03 16:27:28 daemon INFO Tool required for upload [tool: Version: 1.0.0 Systems: [OS: i686-mingw32, OS: x86_64-apple-darwin, OS: x86_64-pc-linux-gnu, OS: i686-pc-linux-gnu, OS: arm-linux-gnueabihf, OS: all]]
+2021-09-03 16:27:28 daemon INFO Tool required for upload [tool: Version: 1.3.0 Systems: [OS: i686-linux-gnu, OS: x86_64-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: i386-apple-darwin11, OS: i686-mingw32]]
+2021-09-03 16:27:28 daemon INFO Tool required for upload [tool: Version: 7.3.0-atmel3.6.1-arduino7 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin14, OS: i686-mingw32, OS: i686-linux-gnu, OS: x86_64-linux-gnu]]
+2021-09-03 16:27:28 daemon INFO Tool required for upload [tool: Version: 1.22.0-97-gc752ad5-5.2.0]
+2021-09-03 16:27:28 daemon INFO Tool required for upload [tool: Version: 3.0.0]
+2021-09-03 16:27:28 daemon INFO Tool required for upload [tool: Version: 0.2.3]
+2021-09-03 16:27:28 daemon INFO Tool required for upload [tool: Version: 0.9.0-arduino Systems: [OS: arm-linux-gnueabihf, OS: i686-mingw32, OS: x86_64-apple-darwin, OS: x86_64-pc-linux-gnu, OS: i686-pc-linux-gnu]]
+2021-09-03 16:27:28 daemon INFO Tool required for upload [tool: Version: 5.8-arduino11]
+2021-09-03 16:27:48 monitor-service INFO >>> Creating serial monitor connection for ESP32 Wrover Module [esp32:esp32:esp32wrover] on port /dev/ttyUSB2...
+2021-09-03 16:27:48 monitor-service INFO <<< Serial monitor connection created for ESP32 Wrover Module on port /dev/ttyUSB2.
+2021-09-03 16:27:48 root INFO >>> Creating serial monitor connection for ESP32 Wrover Module [esp32:esp32:esp32wrover] on port /dev/ttyUSB2...
+2021-09-03 16:27:48 root INFO <<< Serial monitor connection created for ESP32 Wrover Module on port /dev/ttyUSB2.
+2021-09-03 16:28:20 monitor-service INFO >>> Disposing monitor service...
+2021-09-03 16:28:20 monitor-service INFO <<< Disposed monitor service.
+2021-09-03 16:43:31 monitor-service INFO >>> Disposing monitor service...
+2021-09-03 16:43:31 monitor-service INFO >>> Disposing monitor connection...
+2021-09-03 16:43:31 monitor-service INFO <<< Disposed monitor connection for ESP32 Wrover Module on port /dev/ttyUSB2.
+2021-09-03 16:43:31 monitor-service INFO <<< Disposed monitor service.
+2021-09-03 16:43:31 root ERROR Uncaught Exception: 
+2021-09-03 16:43:31 root ERROR Error: Connection got disposed.
+    at Object.dispose (/home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/node_modules/vscode-jsonrpc/lib/main.js:904:25)
+    at /home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/node_modules/vscode-ws-jsonrpc/lib/socket/connection.js:14:41
+    at CallbackList.invoke (/home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/node_modules/vscode-jsonrpc/lib/events.js:62:39)
+    at Emitter.fire (/home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/node_modules/vscode-jsonrpc/lib/events.js:121:36)
+    at closeHandler (/home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/node_modules/vscode-jsonrpc/lib/main.js:240:26)
+    at CallbackList.invoke (/home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/node_modules/vscode-jsonrpc/lib/events.js:62:39)
+    at Emitter.fire (/home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/node_modules/vscode-jsonrpc/lib/events.js:121:36)
+    at WebSocketMessageReader.fireClose (/home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/node_modules/vscode-jsonrpc/lib/messageReader.js:111:27)
+    at WebSocketMessageReader.fireClose (/home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/node_modules/vscode-ws-jsonrpc/lib/socket/reader.js:67:19)
+    at /home/brace/Projects/robots/mbot/arduino-ide_2.0.0-beta.10_Linux_64bit/resources/app/node_modules/vscode-ws-jsonrpc/lib/socket/reader.js:24:18
